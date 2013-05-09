@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  local: MyString
+  coordX: 1
+  coordY: 1
+
+two:
+  local: MyString
+  coordX: 1
+  coordY: 1

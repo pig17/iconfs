@@ -1,4 +1,10 @@
 Iconfs::Application.routes.draw do
+  resources :rooms
+
+
+  resources :sessions
+
+
   resources :events
 
 
