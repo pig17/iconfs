@@ -1,0 +1,35 @@
+<h1>Listing pis</h1>
+
+<table>
+  <tr>
+    <th>Coordx</th>
+    <th>Coordy</th>
+    <th>Type</th>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Contact</th>
+    <th>Description</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @pis.each do |pi| %>
+  <tr>
+    <td><%= pi.coordX %></td>
+    <td><%= pi.coordY %></td>
+    <td><%= pi.type %></td>
+    <td><%= pi.name %></td>
+    <td><%= pi.address %></td>
+    <td><%= pi.contact %></td>
+    <td><%= pi.description %></td>
+    <td><%= link_to 'Show', pi %></td>
+    <td><%= link_to 'Edit', edit_pi_path(pi) %></td>
+    <td><%= link_to 'Destroy', pi, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Pi', new_pi_path %>

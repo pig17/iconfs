@@ -1,4 +1,7 @@
 Iconfs::Application.routes.draw do
+  resources :pis
+
+
   resources :rooms
 
 

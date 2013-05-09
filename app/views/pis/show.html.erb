@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Coordx:</b>
+  <%= @pi.coordX %>
+</p>
+
+<p>
+  <b>Coordy:</b>
+  <%= @pi.coordY %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%= @pi.type %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @pi.name %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%= @pi.address %>
+</p>
+
+<p>
+  <b>Contact:</b>
+  <%= @pi.contact %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @pi.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_pi_path(@pi) %> |
+<%= link_to 'Back', pis_path %>
