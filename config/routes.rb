@@ -1,4 +1,13 @@
 Iconfs::Application.routes.draw do
+  resources :events
+
+
+  resources :documents
+
+
+  resources :users
+
+
   resources :notes
 
 
