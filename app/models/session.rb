@@ -1,5 +1,7 @@
-class Session < ActiveRecord::Base
-  attr_accessible :time, :title, :track
+class Session < Event
+  attr_accessible :track
 
-  belongs_to :room_id
+  has_one :room
+  has_one :document
+  has_many :users, :dependent => :destroy
 end
