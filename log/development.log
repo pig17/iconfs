@@ -1168,3 +1168,25 @@ Migrating to CreateRooms (20130509214808)
 Migrating to CreatePis (20130509215029)
   [1m[35m (1.0ms)[0m  select sqlite_version(*)
   [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateNotes (20130509210642)
+Migrating to CreateUsers (20130509214322)
+Migrating to CreateDocuments (20130509214414)
+Migrating to CreateEvents (20130509214508)
+Migrating to CreateSessions (20130509214729)
+Migrating to CreateRooms (20130509214808)
+Migrating to CreatePis (20130509215029)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateNotes (20130509210642)
+Migrating to CreateUsers (20130509214322)
+Migrating to CreateDocuments (20130509214414)
+Migrating to CreateEvents (20130509214508)
+Migrating to CreateSessions (20130509214729)
+Migrating to CreateRooms (20130509214808)
+Migrating to CreatePis (20130509215029)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m

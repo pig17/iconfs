@@ -1,5 +1,5 @@
 class Note < ActiveRecord::Base
   attr_accessible :shared, :text, :title
 
-  belongs_to :user, :foreign_key => :user_id
+  belongs_to :user, :foreign_key => :user_id, :dependent => :destroy
 end

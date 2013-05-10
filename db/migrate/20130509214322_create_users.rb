@@ -7,7 +7,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :facebook
       t.string :twitter
       t.string :linkedin
-      t.string :instituition
+      t.string :institution
       t.integer :contact
       t.boolean :available
       t.string :homepage
