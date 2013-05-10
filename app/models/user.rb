@@ -3,5 +3,9 @@ class User < ActiveRecord::Base
                   :institution, :linkedin, :name, :sex, :twitter
 
   has_many :notes
-  has_many :documents
+  has_and_belongs_to_many :documents
+  has_one :schedule
+  has_many :favourites
+  has_many :meetings
+
 end

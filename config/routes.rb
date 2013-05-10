@@ -1,4 +1,25 @@
 Iconfs::Application.routes.draw do
+  resources :days
+
+
+  resources :tracks
+
+
+  resources :buildings
+
+
+  resources :floors
+
+
+  resources :meetings
+
+
+  resources :favourites
+
+
+  resources :schedules
+
+
   get 'admin/inipage'
 
   resources :pis

@@ -21,7 +21,10 @@
   </div>
   <div class="field">
     <%= f.label :sex %><br />
-    <%= f.text_field :sex %>
+    <%= f.radio_button :sex, "male" %>
+    <%= f.label :sex, "Male", :value => "male" %>
+    <%= f.radio_button :sex, "female" %>
+    <%= f.label :sex, "Female", :value => "female" %>
   </div>
   <div class="field">
     <%= f.label :facebook %><br />
@@ -36,8 +39,8 @@
     <%= f.text_field :linkedin %>
   </div>
   <div class="field">
-    <%= f.label :instituition %><br />
-    <%= f.text_field :instituition %>
+    <%= f.label :institution %><br />
+    <%= f.text_field :institution %>
   </div>
   <div class="field">
     <%= f.label :contact %><br />

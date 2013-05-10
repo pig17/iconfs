@@ -11,7 +11,19 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130509215029) do
+ActiveRecord::Schema.define(:version => 20130510163056) do
+
+  create_table "buildings", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "days", :force => true do |t|
+    t.date     "date"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "documents", :force => true do |t|
     t.string   "title"
@@ -27,6 +39,25 @@ ActiveRecord::Schema.define(:version => 20130509215029) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "favourites", :force => true do |t|
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "floors", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "meetings", :force => true do |t|
+    t.datetime "time"
+    t.string   "local"
+    t.text     "message"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "notes", :force => true do |t|
     t.string   "title"
     t.boolean  "shared"
@@ -38,7 +69,7 @@ ActiveRecord::Schema.define(:version => 20130509215029) do
   create_table "pis", :force => true do |t|
     t.integer  "coordX"
     t.integer  "coordY"
-    t.string   "type"
+    t.string   "typePI"
     t.string   "name"
     t.string   "address"
     t.integer  "contact"
@@ -53,12 +84,23 @@ ActiveRecord::Schema.define(:version => 20130509215029) do
     t.integer  "coordY"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "capacity"
+  end
+
+  create_table "schedules", :force => true do |t|
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "sessions", :force => true do |t|
     t.string   "title"
     t.time     "time"
-    t.string   "track"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "tracks", :force => true do |t|
+    t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -70,13 +112,13 @@ ActiveRecord::Schema.define(:version => 20130509215029) do
     t.string   "facebook"
     t.string   "twitter"
     t.string   "linkedin"
-    t.string   "instituition"
+    t.string   "institution"
     t.integer  "contact"
-    t.boolean  "available"
     t.string   "homepage"
     t.text     "aboutme"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.boolean  "available"
   end
 
 end

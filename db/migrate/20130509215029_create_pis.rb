@@ -3,7 +3,7 @@ class CreatePis < ActiveRecord::Migration
     create_table :pis do |t|
       t.integer :coordX
       t.integer :coordY
-      t.string :type
+      t.string :typePI
       t.string :name
       t.string :address
       t.integer :contact
