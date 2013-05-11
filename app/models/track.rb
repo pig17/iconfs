@@ -1,6 +1,6 @@
 class Track < ActiveRecord::Base
   attr_accessible :name
 
-  has_many :sessions
-  belongs_to :days
+  has_many :events
+  belongs_to :day
 end

@@ -12,6 +12,9 @@ class CreateUsers < ActiveRecord::Migration
       t.boolean :available
       t.string :homepage
       t.text :aboutme
+      t.integer :note_id
+      t.integer :document_id
+      t.integer :meeting_id
 
       t.timestamps
     end

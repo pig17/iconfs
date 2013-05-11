@@ -3,6 +3,7 @@ class CreateEvents < ActiveRecord::Migration
     create_table :events do |t|
       t.string :title
       t.time :time
+      t.integer :schedule_id
 
       t.timestamps
     end

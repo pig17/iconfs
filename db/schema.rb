@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130510163056) do
+ActiveRecord::Schema.define(:version => 20130510161941) do
 
   create_table "buildings", :force => true do |t|
     t.string   "name"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(:version => 20130510163056) do
 
   create_table "days", :force => true do |t|
     t.date     "date"
+    t.integer  "event_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -28,6 +29,7 @@ ActiveRecord::Schema.define(:version => 20130510163056) do
   create_table "documents", :force => true do |t|
     t.string   "title"
     t.string   "link"
+    t.integer  "user_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -35,8 +37,9 @@ ActiveRecord::Schema.define(:version => 20130510163056) do
   create_table "events", :force => true do |t|
     t.string   "title"
     t.time     "time"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.integer  "schedule_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "favourites", :force => true do |t|
@@ -46,14 +49,16 @@ ActiveRecord::Schema.define(:version => 20130510163056) do
 
   create_table "floors", :force => true do |t|
     t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.integer  "building_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "meetings", :force => true do |t|
     t.datetime "time"
     t.string   "local"
     t.text     "message"
+    t.integer  "user_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -82,19 +87,14 @@ ActiveRecord::Schema.define(:version => 20130510163056) do
     t.string   "local"
     t.integer  "coordX"
     t.integer  "coordY"
+    t.integer  "event_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-    t.integer  "capacity"
   end
 
   create_table "schedules", :force => true do |t|
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  create_table "sessions", :force => true do |t|
-    t.string   "title"
-    t.time     "time"
+    t.integer  "day_id"
+    t.integer  "event_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -114,11 +114,14 @@ ActiveRecord::Schema.define(:version => 20130510163056) do
     t.string   "linkedin"
     t.string   "institution"
     t.integer  "contact"
+    t.boolean  "available"
     t.string   "homepage"
     t.text     "aboutme"
+    t.integer  "note_id"
+    t.integer  "document_id"
+    t.integer  "meeting_id"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
-    t.boolean  "available"
   end
 
 end

@@ -4,6 +4,7 @@ class CreateRooms < ActiveRecord::Migration
       t.string :local
       t.integer :coordX
       t.integer :coordY
+      t.integer :event_id
 
       t.timestamps
     end

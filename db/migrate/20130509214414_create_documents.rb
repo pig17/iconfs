@@ -3,6 +3,7 @@ class CreateDocuments < ActiveRecord::Migration
     create_table :documents do |t|
       t.string :title
       t.string :link
+      t.integer :user_id
 
       t.timestamps
     end
