@@ -2,48 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccba1e2c-b80f-4938-8024-f68222cee28c" name="Default" comment="ligações base de dados">
-      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\Gemfile.lock" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\javascripts\sessions.js.coffee" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\stylesheets\sessions.css.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\controllers\sessions_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\helpers\sessions_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\models\session.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\sessions\_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\sessions\edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\sessions\index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\sessions\new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\sessions\show.html.erb" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\db\development.sqlite3" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\db\migrate\20130509214729_create_sessions.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\db\migrate\20130510151814_alter_rooms.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\db\migrate\20130510163056_alter_session.rb" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\db\test.sqlite3" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\fixtures\sessions.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\functional\sessions_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\helpers\sessions_helper_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\session_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\pids\server.pid" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/iconfs.iml" afterPath="$PROJECT_DIR$/.idea/iconfs.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/CD8/370/sprockets%2F357970feca3ac29060c1e3861e2c0953" afterPath="$PROJECT_DIR$/tmp/cache/assets/CD8/370/sprockets%2F357970feca3ac29060c1e3861e2c0953" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D32/A10/sprockets%2F13fe41fee1fe35b49d145bcc06610705" afterPath="$PROJECT_DIR$/tmp/cache/assets/D32/A10/sprockets%2F13fe41fee1fe35b49d145bcc06610705" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D4E/1B0/sprockets%2Ff7cbd26ba1d28d48de824f0e94586655" afterPath="$PROJECT_DIR$/tmp/cache/assets/D4E/1B0/sprockets%2Ff7cbd26ba1d28d48de824f0e94586655" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D5A/EA0/sprockets%2Fd771ace226fc8215a3572e0aa35bb0d6" afterPath="$PROJECT_DIR$/tmp/cache/assets/D5A/EA0/sprockets%2Fd771ace226fc8215a3572e0aa35bb0d6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/DDC/400/sprockets%2Fcffd775d018f68ce5dba1ee0d951a994" afterPath="$PROJECT_DIR$/tmp/cache/assets/DDC/400/sprockets%2Fcffd775d018f68ce5dba1ee0d951a994" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/E04/890/sprockets%2F2f5173deea6c795b8fdde723bb4b63af" afterPath="$PROJECT_DIR$/tmp/cache/assets/E04/890/sprockets%2F2f5173deea6c795b8fdde723bb4b63af" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/pids/server.pid" afterPath="$PROJECT_DIR$/tmp/pids/server.pid" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/day.rb" afterPath="$PROJECT_DIR$/app/models/day.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/document.rb" afterPath="$PROJECT_DIR$/app/models/document.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/event.rb" afterPath="$PROJECT_DIR$/app/models/event.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/room.rb" afterPath="$PROJECT_DIR$/app/models/room.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/schedule.rb" afterPath="$PROJECT_DIR$/app/models/schedule.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/track.rb" afterPath="$PROJECT_DIR$/app/models/track.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/events/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/events/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/events/show.html.erb" afterPath="$PROJECT_DIR$/app/views/events/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/users/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130509214322_create_users.rb" afterPath="$PROJECT_DIR$/db/migrate/20130509214322_create_users.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130509214414_create_documents.rb" afterPath="$PROJECT_DIR$/db/migrate/20130509214414_create_documents.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130509214508_create_events.rb" afterPath="$PROJECT_DIR$/db/migrate/20130509214508_create_events.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130509214808_create_rooms.rb" afterPath="$PROJECT_DIR$/db/migrate/20130509214808_create_rooms.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130510154743_create_schedules.rb" afterPath="$PROJECT_DIR$/db/migrate/20130510154743_create_schedules.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130510161009_create_meetings.rb" afterPath="$PROJECT_DIR$/db/migrate/20130510161009_create_meetings.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130510161504_create_floors.rb" afterPath="$PROJECT_DIR$/db/migrate/20130510161504_create_floors.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130510161941_create_days.rb" afterPath="$PROJECT_DIR$/db/migrate/20130510161941_create_days.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
     </list>
@@ -102,16 +78,7 @@
       <file leaf-file-name="event.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/event.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schedule.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/schedule.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="31" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
+            <state line="10" column="62" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,122 +100,109 @@
               <ID>RailsDependency</ID>
               <OriginalElement>#iconfs</OriginalElement>
               <nodes>
-                <node x="1180.0" y="92.00000000000006">User</node>
-                <node x="944.0" y="10.500000000000057">Document</node>
-                <node x="708.0" y="38.21739130434787">Event</node>
-                <node x="0.0" y="63.21739130434787">Building</node>
-                <node x="1418.0" y="252.00000000000006">Note</node>
-                <node x="0.0" y="744.0">Pi</node>
-                <node x="1654.0" y="455.61231884057975">Day</node>
-                <node x="472.0" y="549.0">Track</node>
-                <node x="236.0" y="43.21739130434787">Floor</node>
-                <node x="472.0" y="23.21739130434787">Room</node>
-                <node x="1418.0" y="30.750000000000057">Favourite</node>
-                <node x="1418.0" y="462.00000000000006">Schedule</node>
-                <node x="944.0" y="264.1884057971015">Meeting</node>
+                <node x="1176.8824531516184" y="9.355195911413972">User</node>
+                <node x="944.0" y="442.2771739130435">Document</node>
+                <node x="709.5587734241908" y="65.32984285114676">Event</node>
+                <node x="0.0" y="81.36050724637678">Building</node>
+                <node x="1418.0" y="239.5">Note</node>
+                <node x="0.0" y="745.2771739130435">Pi</node>
+                <node x="1058.5485519591143" y="-169.85552922005783">Day</node>
+                <node x="740.1090289608178" y="-194.81652285015923">Track</node>
+                <node x="236.0" y="61.360507246376756">Floor</node>
+                <node x="472.0" y="41.360507246376756">Room</node>
+                <node x="1418.0" y="503.0271739130435">Favourite</node>
+                <node x="1418.0" y="10.5">Schedule</node>
+                <node x="944.0" y="201.86050724637678">Meeting</node>
               </nodes>
               <notes />
               <edges>
                 <edge source="Document" target="User">
-                  <point x="78.0" y="52.5" />
-                  <point x="-79.0" y="-163.33333333333337" />
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
                 </edge>
                 <edge source="Track" target="Event">
-                  <point x="78.0" y="-37.5" />
-                  <point x="-78.0" y="90.0" />
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
                 </edge>
                 <edge source="User" target="Favourite">
-                  <point x="79.0" y="-163.33333333333334" />
-                  <point x="-78.0" y="32.25" />
-                </edge>
-                <edge source="Day" target="Event">
-                  <point x="-78.0" y="-50.0" />
-                  <point x="1574.0" y="0.0" />
-                  <point x="944.0" y="0.0" />
-                  <point x="78.0" y="-108.0" />
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
                 </edge>
                 <edge source="Event" target="Document">
-                  <point x="78.0" y="-0.0" />
-                  <point x="-78.0" y="52.5" />
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
                 </edge>
-                <edge source="Meeting" target="User">
-                  <point x="78.0" y="-0.0" />
-                  <point x="-79.0" y="-0.0" />
-                </edge>
-                <edge source="Event" target="User">
-                  <point x="78.0" y="54.0" />
-                  <point x="944.0" y="476.63405797101456" />
-                  <point x="1100.0" y="476.63405797101456" />
-                  <point x="-79.0" y="163.33333333333337" />
+                <edge source="Day" target="Event">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
                 </edge>
                 <edge source="User" target="Note">
-                  <point x="79.0" y="-0.0" />
-                  <point x="-78.0" y="-0.0" />
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="Event" target="User">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="Meeting" target="User">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
                 </edge>
                 <edge source="Floor" target="Room">
-                  <point x="78.0" y="-0.0" />
-                  <point x="-78.0" y="-0.0" />
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
                 </edge>
                 <edge source="Favourite" target="Document">
-                  <point x="-78.0" y="-32.25" />
-                  <point x="78.0" y="-52.5" />
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
                 </edge>
                 <edge source="Room" target="Event">
-                  <point x="78.0" y="52.5" />
-                  <point x="-78.0" y="-0.0" />
-                </edge>
-                <edge source="User" target="Schedule">
-                  <point x="79.0" y="163.33333333333337" />
-                  <point x="-78.0" y="-47.25" />
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
                 </edge>
                 <edge source="Event" target="Room">
-                  <point x="-78.0" y="-90.0" />
-                  <point x="78.0" y="-52.5" />
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="User" target="Schedule">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
                 </edge>
                 <edge source="Track" target="Day">
-                  <point x="78.0" y="37.5" />
-                  <point x="1574.0" y="661.5" />
-                  <point x="-78.0" y="50.0" />
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
                 </edge>
                 <edge source="Building" target="Floor">
-                  <point x="78.0" y="-0.0" />
-                  <point x="-78.0" y="-0.0" />
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
                 </edge>
                 <edge source="Schedule" target="Day">
-                  <point x="78.0" y="-0.0" />
-                  <point x="-78.0" y="-0.0" />
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
                 </edge>
                 <edge source="Event" target="Schedule">
-                  <point x="78.0" y="108.0" />
-                  <point x="944.0" y="603.75" />
-                  <point x="-78.0" y="47.25" />
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="0.6994535519125682" x="333.12500000000006" y="305.2928640992345" />
-              <SelectedNodes />
+              <settings layout="Hierarchic Group" zoom="0.6415300546448087" x="895.0" y="252.0" />
+              <SelectedNodes>
+                <node>Event</node>
+              </SelectedNodes>
               <Categories>
-                <Category>Association fields</Category>
                 <Category>Migration fields</Category>
-                <Category>System DB fields</Category>
                 <Category>Own fields</Category>
+                <Category>System DB fields</Category>
+                <Category>Association fields</Category>
               </Categories>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="track.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/track.rb">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/events/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="94" selection-end="94" vertical-scroll-proportion="0.11584327">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="room.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/room.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="18" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+            <state line="18" column="30" selection-start="488" selection-end="488" vertical-scroll-proportion="-5.8846154">
               <folding />
             </state>
           </provider>
@@ -263,30 +217,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="24" selection-start="637" selection-end="637" vertical-scroll-proportion="-6.269231">
-              <folding>
-                <marker date="1368301402254" expanded="true" signature="20:1744" placeholder="do ... end" />
-                <marker date="1368301402254" expanded="true" signature="35:332" placeholder="if ... end" />
-                <marker date="1368301402254" expanded="true" signature="90:322" placeholder="..." />
-                <marker date="1368301402254" expanded="true" signature="202:311" placeholder="..." />
-                <marker date="1368301402254" expanded="true" signature="245:297" placeholder="do ... end" />
-                <marker date="1368301402254" expanded="true" signature="357:427" placeholder="..." />
-                <marker date="1368301402254" expanded="true" signature="449:521" placeholder="..." />
-                <marker date="1368301402254" expanded="true" signature="552:636" placeholder="..." />
-                <marker date="1368301402254" expanded="true" signature="658:881" placeholder="..." />
-                <marker date="1368301402254" expanded="true" signature="903:981" placeholder="..." />
-                <marker date="1368301402254" expanded="true" signature="1003:1079" placeholder="..." />
-                <marker date="1368301402254" expanded="true" signature="1101:1179" placeholder="..." />
-                <marker date="1368301402254" expanded="true" signature="1201:1285" placeholder="..." />
-                <marker date="1368301402254" expanded="true" signature="1307:1385" placeholder="..." />
-                <marker date="1368301402254" expanded="true" signature="1407:1486" placeholder="..." />
-                <marker date="1368301402254" expanded="true" signature="1508:1586" placeholder="..." />
-                <marker date="1368301402254" expanded="true" signature="1608:1683" placeholder="..." />
-                <marker date="1368301402254" expanded="true" signature="1707:1736" placeholder="..." />
-              </folding>
+            <state line="50" column="16" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.2521994">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="room.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/room.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="18" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="track.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/track.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20130509214508_create_events.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130509214508_create_events.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="32" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -311,22 +273,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/session.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130511203759_alter_sesuion.rb" />
-        <option value="$PROJECT_DIR$/app/models/document.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130509214322_create_users.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130509214414_create_documents.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130509214508_create_events.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130509214808_create_rooms.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130510154743_create_schedules.rb" />
         <option value="$PROJECT_DIR$/app/models/schedule.rb" />
-        <option value="$PROJECT_DIR$/app/models/event.rb" />
         <option value="$PROJECT_DIR$/app/models/day.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130510161009_create_meetings.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130510161504_create_floors.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130510161941_create_days.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130509214508_create_events.rb" />
         <option value="$PROJECT_DIR$/app/models/track.rb" />
+        <option value="$PROJECT_DIR$/app/models/event.rb" />
+        <option value="$PROJECT_DIR$/app/views/events/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/events/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/users/_form.html.erb" />
       </list>
     </option>
   </component>
@@ -488,6 +450,68 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iconfs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iconfs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iconfs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iconfs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iconfs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iconfs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -513,7 +537,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="C:" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Dropbox/PI/diagram_ruby(DB)_unfinished.png" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
@@ -794,16 +818,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="0" width="1301" height="768" extended-state="1" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32626426" sideWeight="0.49959645" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.49959645" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14366424" sideWeight="0.67246836" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24939467" sideWeight="0.6829653" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26634383" sideWeight="0.67246836" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26069412" sideWeight="0.67246836" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32753164" sideWeight="0.5004035" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32753164" sideWeight="0.5004035" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3170347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -875,53 +899,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130509214322_create_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="24" selection-start="430" selection-end="430" vertical-scroll-proportion="0.4633731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130509214414_create_documents.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="24" selection-start="163" selection-end="163" vertical-scroll-proportion="0.14480409">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130509214508_create_events.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="28" selection-start="159" selection-end="159" vertical-scroll-proportion="0.14480409">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130509214808_create_rooms.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="25" selection-start="183" selection-end="183" vertical-scroll-proportion="0.1737649">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/schedule.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="31" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/event.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130510154743_create_schedules.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="32" selection-start="145" selection-end="145" vertical-scroll-proportion="0.11584327">
-          <folding />
-        </state>
+        <state line="4" column="32" selection-start="145" selection-end="145" vertical-scroll-proportion="0.11584327" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/day.rb">
@@ -933,35 +913,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130510160617_create_favourites.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130510161504_create_floors.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="28" selection-start="139" selection-end="139" vertical-scroll-proportion="0.11584327">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130510161859_create_tracks.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="28" selection-start="139" selection-end="139" vertical-scroll-proportion="0.11584327" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130510161941_create_days.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="25" selection-start="130" selection-end="130" vertical-scroll-proportion="0.11584327">
-          <folding />
-        </state>
+        <state line="4" column="25" selection-start="130" selection-end="130" vertical-scroll-proportion="0.11584327" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/document.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="0" selection-end="274" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130510161009_create_meetings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="21" selection-start="183" selection-end="183" vertical-scroll-proportion="0.1737649" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130510161859_create_tracks.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="21" selection-start="110" selection-end="110" vertical-scroll-proportion="0.08688245" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130509214508_create_events.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="32" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/track.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/schedule.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="31" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -972,118 +970,128 @@
           <ID>RailsDependency</ID>
           <OriginalElement>#iconfs</OriginalElement>
           <nodes>
-            <node x="1180.0" y="92.00000000000006">User</node>
-            <node x="944.0" y="10.500000000000057">Document</node>
-            <node x="708.0" y="38.21739130434787">Event</node>
-            <node x="0.0" y="63.21739130434787">Building</node>
-            <node x="1418.0" y="252.00000000000006">Note</node>
-            <node x="0.0" y="744.0">Pi</node>
-            <node x="1654.0" y="455.61231884057975">Day</node>
-            <node x="472.0" y="549.0">Track</node>
-            <node x="236.0" y="43.21739130434787">Floor</node>
-            <node x="472.0" y="23.21739130434787">Room</node>
-            <node x="1418.0" y="30.750000000000057">Favourite</node>
-            <node x="1418.0" y="462.00000000000006">Schedule</node>
-            <node x="944.0" y="264.1884057971015">Meeting</node>
+            <node x="1176.8824531516184" y="9.355195911413972">User</node>
+            <node x="944.0" y="442.2771739130435">Document</node>
+            <node x="709.5587734241908" y="65.32984285114676">Event</node>
+            <node x="0.0" y="81.36050724637678">Building</node>
+            <node x="1418.0" y="239.5">Note</node>
+            <node x="0.0" y="745.2771739130435">Pi</node>
+            <node x="1058.5485519591143" y="-169.85552922005783">Day</node>
+            <node x="740.1090289608178" y="-194.81652285015923">Track</node>
+            <node x="236.0" y="61.360507246376756">Floor</node>
+            <node x="472.0" y="41.360507246376756">Room</node>
+            <node x="1418.0" y="503.0271739130435">Favourite</node>
+            <node x="1418.0" y="10.5">Schedule</node>
+            <node x="944.0" y="201.86050724637678">Meeting</node>
           </nodes>
           <notes />
           <edges>
             <edge source="Document" target="User">
-              <point x="78.0" y="52.5" />
-              <point x="-79.0" y="-163.33333333333337" />
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
             </edge>
             <edge source="Track" target="Event">
-              <point x="78.0" y="-37.5" />
-              <point x="-78.0" y="90.0" />
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
             </edge>
             <edge source="User" target="Favourite">
-              <point x="79.0" y="-163.33333333333334" />
-              <point x="-78.0" y="32.25" />
-            </edge>
-            <edge source="Day" target="Event">
-              <point x="-78.0" y="-50.0" />
-              <point x="1574.0" y="0.0" />
-              <point x="944.0" y="0.0" />
-              <point x="78.0" y="-108.0" />
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
             </edge>
             <edge source="Event" target="Document">
-              <point x="78.0" y="-0.0" />
-              <point x="-78.0" y="52.5" />
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
             </edge>
-            <edge source="Meeting" target="User">
-              <point x="78.0" y="-0.0" />
-              <point x="-79.0" y="-0.0" />
-            </edge>
-            <edge source="Event" target="User">
-              <point x="78.0" y="54.0" />
-              <point x="944.0" y="476.63405797101456" />
-              <point x="1100.0" y="476.63405797101456" />
-              <point x="-79.0" y="163.33333333333337" />
+            <edge source="Day" target="Event">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
             </edge>
             <edge source="User" target="Note">
-              <point x="79.0" y="-0.0" />
-              <point x="-78.0" y="-0.0" />
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Event" target="User">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Meeting" target="User">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
             </edge>
             <edge source="Floor" target="Room">
-              <point x="78.0" y="-0.0" />
-              <point x="-78.0" y="-0.0" />
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
             </edge>
             <edge source="Favourite" target="Document">
-              <point x="-78.0" y="-32.25" />
-              <point x="78.0" y="-52.5" />
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
             </edge>
             <edge source="Room" target="Event">
-              <point x="78.0" y="52.5" />
-              <point x="-78.0" y="-0.0" />
-            </edge>
-            <edge source="User" target="Schedule">
-              <point x="79.0" y="163.33333333333337" />
-              <point x="-78.0" y="-47.25" />
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
             </edge>
             <edge source="Event" target="Room">
-              <point x="-78.0" y="-90.0" />
-              <point x="78.0" y="-52.5" />
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="User" target="Schedule">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
             </edge>
             <edge source="Track" target="Day">
-              <point x="78.0" y="37.5" />
-              <point x="1574.0" y="661.5" />
-              <point x="-78.0" y="50.0" />
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
             </edge>
             <edge source="Building" target="Floor">
-              <point x="78.0" y="-0.0" />
-              <point x="-78.0" y="-0.0" />
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
             </edge>
             <edge source="Schedule" target="Day">
-              <point x="78.0" y="-0.0" />
-              <point x="-78.0" y="-0.0" />
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
             </edge>
             <edge source="Event" target="Schedule">
-              <point x="78.0" y="108.0" />
-              <point x="944.0" y="603.75" />
-              <point x="-78.0" y="47.25" />
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.6994535519125682" x="333.12500000000006" y="305.2928640992345" />
-          <SelectedNodes />
+          <settings layout="Hierarchic Group" zoom="0.6415300546448087" x="895.0" y="252.0" />
+          <SelectedNodes>
+            <node>Event</node>
+          </SelectedNodes>
           <Categories>
-            <Category>Association fields</Category>
             <Category>Migration fields</Category>
-            <Category>System DB fields</Category>
             <Category>Own fields</Category>
+            <Category>System DB fields</Category>
+            <Category>Association fields</Category>
           </Categories>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130510161009_create_meetings.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/event.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="21" selection-start="183" selection-end="183" vertical-scroll-proportion="0.1737649">
+        <state line="10" column="62" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/track.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/events/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="94" selection-end="94" vertical-scroll-proportion="0.11584327">
+        <state line="9" column="22" selection-start="121" selection-end="121" vertical-scroll-proportion="0.43220338">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="30" selection-start="488" selection-end="488" vertical-scroll-proportion="-5.8846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="16" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.2521994">
           <folding />
         </state>
       </provider>

@@ -38,6 +38,9 @@ ActiveRecord::Schema.define(:version => 20130510161941) do
     t.string   "title"
     t.time     "time"
     t.integer  "schedule_id"
+    t.integer  "track_id"
+    t.integer  "room_id"
+    t.integer  "day_id"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
   end

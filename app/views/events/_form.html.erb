@@ -19,6 +19,22 @@
     <%= f.label :time %><br />
     <%= f.time_select :time %>
   </div>
+   <div class="field">
+    <% @bla = [] %>
+    <% Track.all.each do |tra| %>
+        <% @bla.append [tra.name ,tra.id] %>
+    <%end%>
+    <%= f.label :track_id %><br />
+    <%= f.select :track_id, @bla%>
+   </div>
+    <div class="field">
+      <% @blaR = [] %>
+      <% Room.all.each do |ro| %>
+          <% @blaR.append [ro.name ,ro.id] %>
+      <%end%>
+      <%= f.label :room_id %><br />
+      <%= f.select :room_id, @blaR%>
+    </div>
   <div class="actions">
     <%= f.submit %>
   </div>
