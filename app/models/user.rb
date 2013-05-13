@@ -3,10 +3,10 @@ class User < ActiveRecord::Base
                   :institution, :linkedin, :name, :sex, :twitter, :password, :image
 
   has_many :notes
+  has_many :favourites
   has_and_belongs_to_many :documents
   has_one :schedule
-  has_many :favourites
   has_and_belongs_to_many :meetings
-  belongs_to :event
+  #belongs_to :event
 
 end
