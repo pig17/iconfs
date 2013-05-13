@@ -3,6 +3,7 @@ class Track < ActiveRecord::Base
 
   validates :name, :colour , :presence => true
 
-  has_many :events, :dependent => :destroy
-  belongs_to :day
+  has_many :events
+  has_many :days, :through => :events
+
 end

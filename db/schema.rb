@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130513113153) do
+ActiveRecord::Schema.define(:version => 20130510161941) do
 
   create_table "buildings", :force => true do |t|
     t.string   "name"
@@ -22,7 +22,6 @@ ActiveRecord::Schema.define(:version => 20130513113153) do
 
   create_table "days", :force => true do |t|
     t.date     "date"
-    t.integer  "event_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -37,7 +36,7 @@ ActiveRecord::Schema.define(:version => 20130513113153) do
 
   create_table "events", :force => true do |t|
     t.string   "title"
-    t.datetime "time"
+    t.time     "time"
     t.text     "description"
     t.integer  "schedule_id"
     t.integer  "track_id"
@@ -46,9 +45,9 @@ ActiveRecord::Schema.define(:version => 20130513113153) do
     t.integer  "user_id"
     t.integer  "document_id"
     t.boolean  "session"
+    t.integer  "duration"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
-    t.integer  "durationMin"
   end
 
   create_table "favourites", :force => true do |t|

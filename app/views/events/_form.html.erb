@@ -10,7 +10,6 @@
       </ul>
     </div>
   <% end %>
-
   <div class="field">
     <%= f.label :title %><br />
     <%= f.text_field :title %>
@@ -20,8 +19,12 @@
     <%= f.check_box :session %>
   </div>
   <div class="field">
+    <%= f.label :day_id %><br />
+    <%= f.select :date_id, Day.all.map{|d| [d.title, d.document_id]} %>
+  </div>
+  <div class="field">
     <%= f.label :time %><br />
-    <%= f.datetime_select :time %>
+    <%= f.time_select :time %>
   </div>
   <div class="field">
     <%= f.label :track_id %><br />
@@ -39,10 +42,6 @@
     <%= f.label :document_id %><br />
     <%= f.select :document_id, Document.all.map{|d| [d.title, d.document_id]} %>
   </div>
-  <div class="field">
-    <%= f.label :document_id %><br />
-    <%= f.select :document_id, Document.all.map{|d| [d.title, d.document_id]} %>
-   </div>
   <div class="actions">
     <%= f.submit %>
   </div>
