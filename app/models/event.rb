@@ -1,5 +1,5 @@
 class Event < ActiveRecord::Base
-  attr_accessible :time, :title, :document_id, :user_id, :room_id, :day_id
+  attr_accessible :day_id, :time, :title, :duration, :document_id, :user_id, :room_id
 
   belongs_to :room
   belongs_to :document
