@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
   attr_accessible :aboutme, :available, :contact, :email, :facebook, :homepage,
-                  :institution, :linkedin, :name, :sex, :twitter, :password, :imageurl
+                  :institution, :linkedin, :name, :sex, :twitter, :password, :image
 
   has_many :notes
   has_and_belongs_to_many :documents

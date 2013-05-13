@@ -38,6 +38,7 @@ ActiveRecord::Schema.define(:version => 20130510161941) do
   create_table "events", :force => true do |t|
     t.string   "title"
     t.datetime "time"
+    t.text     "description"
     t.integer  "schedule_id"
     t.integer  "track_id"
     t.integer  "room_id"
@@ -122,7 +123,7 @@ ActiveRecord::Schema.define(:version => 20130510161941) do
     t.string   "email"
     t.string   "password"
     t.string   "sex"
-    t.string   "imageurl"
+    t.binary   "image"
     t.string   "facebook"
     t.string   "twitter"
     t.string   "linkedin"

@@ -5,7 +5,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :email
       t.string :password
       t.string :sex
-      t :imageurl
+      t.binary :image
       t.string :facebook
       t.string :twitter
       t.string :linkedin

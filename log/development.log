@@ -12631,3 +12631,74 @@ NoMethodError (undefined method `key?' for nil:NilClass):
   Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
   Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
   Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (130.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (90.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateNotes (20130509210642)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "notes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "shared" boolean, "text" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (5.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130509210642')[0m
+  [1m[35m (97.0ms)[0m  commit transaction
+Migrating to CreateUsers (20130509214322)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "password" varchar(255), "sex" varchar(255), "image" blob, "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "note_id" integer, "document_id" integer, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130509214322')[0m
+  [1m[35m (205.0ms)[0m  commit transaction
+Migrating to CreateDocuments (20130509214414)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (5.0ms)[0m  CREATE TABLE "documents" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "link" varchar(255), "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130509214414')[0m
+  [1m[35m (180.0ms)[0m  commit transaction
+Migrating to CreateEvents (20130509214508)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (5.0ms)[0m  CREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "time" datetime, "description" text, "schedule_id" integer, "track_id" integer, "room_id" integer, "day_id" integer, "user_id" integer, "document_id" integer, "session" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130509214508')[0m
+  [1m[35m (180.0ms)[0m  commit transaction
+Migrating to CreateRooms (20130509214808)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "rooms" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "local" varchar(255), "coordX" integer, "coordY" integer, "event_id" integer, "floor_id" integer, "capacity" integer, "plan" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130509214808')[0m
+  [1m[35m (130.0ms)[0m  commit transaction
+Migrating to CreatePis (20130509215029)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (5.0ms)[0m  CREATE TABLE "pis" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "coordX" integer, "coordY" integer, "typePI" varchar(255), "name" varchar(255), "address" varchar(255), "contact" integer, "description" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130509215029')[0m
+  [1m[35m (115.0ms)[0m  commit transaction
+Migrating to CreateSchedules (20130510154743)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "schedules" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "day_id" integer, "event_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130510154743')[0m
+  [1m[35m (130.0ms)[0m  commit transaction
+Migrating to CreateFavourites (20130510160617)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "favourites" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130510160617')[0m
+  [1m[35m (100.0ms)[0m  commit transaction
+Migrating to CreateMeetings (20130510161009)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "meetings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "time" datetime, "local" varchar(255), "message" text, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130510161009')[0m
+  [1m[35m (120.0ms)[0m  commit transaction
+Migrating to CreateFloors (20130510161504)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "floors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "building_id" integer, "plan" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130510161504')[0m
+  [1m[35m (295.0ms)[0m  commit transaction
+Migrating to CreateBuildings (20130510161523)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "buildings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "plan" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130510161523')[0m
+  [1m[35m (150.0ms)[0m  commit transaction
+Migrating to CreateTracks (20130510161859)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "tracks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "colour" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (5.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130510161859')[0m
+  [1m[35m (140.0ms)[0m  commit transaction
+Migrating to CreateDays (20130510161941)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "days" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "date" date, "event_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130510161941')[0m
+  [1m[35m (110.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
