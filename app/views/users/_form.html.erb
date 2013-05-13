@@ -10,10 +10,13 @@
       </ul>
     </div>
   <% end %>
-
   <div class="field">
     <%= f.label :name %><br />
     <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label "Picture" %><br />
+    <%= f.file_field :imageurl %>
   </div>
   <div class="field">
     <%= f.label :email %><br />
@@ -52,7 +55,7 @@
   </div>
   <div class="field">
     <%= f.label :available %><br />
-    <%= f.check_box :available %>
+    <%= f.check_box :available ,{checked: true} %>
   </div>
   <div class="field">
     <%= f.label :homepage %><br />

@@ -16,25 +16,33 @@
     <%= f.text_field :title %>
   </div>
   <div class="field">
-    <%= f.label :time %><br />
-    <%= f.time_select :time %>
+    <%= f.label :session %><br />
+    <%= f.check_box :session %>
   </div>
-   <div class="field">
-    <% @bla = [] %>
-    <% Track.all.each do |tra| %>
-        <% @bla.append [tra.name ,tra.id] %>
-    <%end%>
+  <div class="field">
+    <%= f.label :time %><br />
+    <%= f.datetime_select :time %>
+  </div>
+  <div class="field">
     <%= f.label :track_id %><br />
-    <%= f.select :track_id, @bla%>
+    <%= f.select :track_id, Track.all.map{|t| [t.name, t.track_id]} %>
+  </div>
+  <div class="field">
+    <%= f.label :room_id %><br />
+    <%= f.select :room_id, Room.all.map{|r| [r.local, r.room_id]} %>
+  </div>
+  <div class="field">
+    <%= f.label :user_id %><br />
+    <%= f.select :user_id, User.all.map{|u| [u.name, u.user_id]} %>
+  </div>
+  <div class="field">
+    <%= f.label :document_id %><br />
+    <%= f.select :document_id, Document.all.map{|d| [d.title, d.document_id]} %>
+  </div>
+  <div class="field">
+    <%= f.label :document_id %><br />
+    <%= f.select :document_id, Document.all.map{|d| [d.title, d.document_id]} %>
    </div>
-    <div class="field">
-      <% @blaR = [] %>
-      <% Room.all.each do |ro| %>
-          <% @blaR.append [ro.name ,ro.id] %>
-      <%end%>
-      <%= f.label :room_id %><br />
-      <%= f.select :room_id, @blaR%>
-    </div>
   <div class="actions">
     <%= f.submit %>
   </div>

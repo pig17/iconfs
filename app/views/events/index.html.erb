@@ -3,16 +3,18 @@
 <table>
   <tr>
     <th>Title</th>
-    <th>Time</th>
-    <th></th>
-    <th></th>
+    <th>Time - Local</th>
+    <th>Track</th>
+    <th>Speaker</th>
     <th></th>
   </tr>
 
 <% @events.each do |event| %>
   <tr>
     <td><%= event.title %></td>
-    <td><%= event.time %></td>
+    <td><%= event.time %> - <%= Track.find(@event.room_id) %> </td>
+    <td><% if track_id != nil %> <%= Track.find(@event.track_id) %><% else %> --- <% end %></td>
+    <td><% if user_id != nil %> <%= Track.find(@event.user_id) %><% else %> --- <% end %></td>
     <td><%= link_to 'Show', event %></td>
     <td><%= link_to 'Edit', edit_event_path(event) %></td>
     <td><%= link_to 'Destroy', event, method: :delete, data: { confirm: 'Are you sure?' } %></td>

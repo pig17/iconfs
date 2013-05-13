@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(:version => 20130510161941) do
 
   create_table "buildings", :force => true do |t|
     t.string   "name"
+    t.string   "plan"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -36,11 +37,14 @@ ActiveRecord::Schema.define(:version => 20130510161941) do
 
   create_table "events", :force => true do |t|
     t.string   "title"
-    t.time     "time"
+    t.datetime "time"
     t.integer  "schedule_id"
     t.integer  "track_id"
     t.integer  "room_id"
     t.integer  "day_id"
+    t.integer  "user_id"
+    t.integer  "document_id"
+    t.boolean  "session"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
   end
@@ -53,6 +57,7 @@ ActiveRecord::Schema.define(:version => 20130510161941) do
   create_table "floors", :force => true do |t|
     t.string   "name"
     t.integer  "building_id"
+    t.string   "plan"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
   end
@@ -91,6 +96,9 @@ ActiveRecord::Schema.define(:version => 20130510161941) do
     t.integer  "coordX"
     t.integer  "coordY"
     t.integer  "event_id"
+    t.integer  "floor_id"
+    t.integer  "capacity"
+    t.string   "plan"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -104,6 +112,7 @@ ActiveRecord::Schema.define(:version => 20130510161941) do
 
   create_table "tracks", :force => true do |t|
     t.string   "name"
+    t.integer  "colour"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -111,7 +120,9 @@ ActiveRecord::Schema.define(:version => 20130510161941) do
   create_table "users", :force => true do |t|
     t.string   "name"
     t.string   "email"
+    t.string   "password"
     t.string   "sex"
+    t.string   "imageurl"
     t.string   "facebook"
     t.string   "twitter"
     t.string   "linkedin"

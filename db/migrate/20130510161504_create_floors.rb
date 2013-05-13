@@ -3,6 +3,7 @@ class CreateFloors < ActiveRecord::Migration
     create_table :floors do |t|
       t.string :name
       t.integer :building_id
+      t.string :plan
 
       t.timestamps
     end
