@@ -5,16 +5,11 @@ class Document < ActiveRecord::Base
   has_many :favourite
   has_and_belongs_to_many :users
 
-  validates :link , :presence => true , :uniqueness => true
-  validates :title , :user_id, :presence => true
+  validates :link, :presence => true
+  validates :title, :presence => true
+  #validates :user_id, :presence => true      ALTERAR CASO NAO HAJA DOCUMENTOS SOCIAIS(docs sem autores)
 
-
-  def self.save(upload)
-    directory = 'public/data'
-    # create the file path
-    path = File.join(directory,:title)
-    # write the file
-    File.open(path, 'wp') { |f| f.write(upload['datafile'].read)}
-  end
+  # Each title appears only one time per user
+  validates_uniqueness_of :title, :scope => :user_id
 
 end

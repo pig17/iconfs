@@ -11,11 +11,10 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130510161941) do
+ActiveRecord::Schema.define(:version => 20130516152324) do
 
   create_table "buildings", :force => true do |t|
     t.string   "name"
-    t.string   "plan"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -28,9 +27,10 @@ ActiveRecord::Schema.define(:version => 20130510161941) do
 
   create_table "documents", :force => true do |t|
     t.string   "title"
-    t.binary   "link"
+    t.integer  "user_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "link"
   end
 
   create_table "events", :force => true do |t|
@@ -47,17 +47,19 @@ ActiveRecord::Schema.define(:version => 20130510161941) do
     t.integer  "duration"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+    t.string   "type"
   end
 
   create_table "favourites", :force => true do |t|
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "title"
   end
 
   create_table "floors", :force => true do |t|
     t.string   "name"
     t.integer  "building_id"
-    t.string   "plan"
+    t.string   "plan_photo"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
   end
@@ -92,13 +94,12 @@ ActiveRecord::Schema.define(:version => 20130510161941) do
   end
 
   create_table "rooms", :force => true do |t|
-    t.string   "local"
+    t.string   "name"
     t.integer  "coordX"
     t.integer  "coordY"
     t.integer  "event_id"
     t.integer  "floor_id"
     t.integer  "capacity"
-    t.string   "plan"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -112,7 +113,6 @@ ActiveRecord::Schema.define(:version => 20130510161941) do
 
   create_table "tracks", :force => true do |t|
     t.string   "name"
-    t.integer  "colour"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end

@@ -7,6 +7,6 @@ class User < ActiveRecord::Base
   has_and_belongs_to_many :documents
   has_one :schedule
   has_and_belongs_to_many :meetings
-  #belongs_to :event
+  has_many :events
 
 end

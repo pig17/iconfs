@@ -2,51 +2,111 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccba1e2c-b80f-4938-8024-f68222cee28c" name="Default" comment="ligações base de dados">
-      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\db\development.sqlite3" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\db\test.sqlite3" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/building.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/building_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/floor.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/floor_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/room.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/room_spec.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130509210642_create_notes.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130509214322_create_users.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130509214414_create_documents.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130509214508_create_events.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130509214808_create_rooms.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130509215029_create_pis.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130510154743_create_schedules.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130510160617_create_favourites.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130510161009_create_meetings.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130510161504_create_floors.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130510161523_create_buildings.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130510161859_create_tracks.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130510161941_create_days.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/pids/server.pid" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130509214414_create_documents.rb" afterPath="$PROJECT_DIR$/db/migrate/20130509214414_create_documents.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/documents/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/documents/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/events/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/events/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tracks/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/tracks/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D32/A10/sprockets%2F13fe41fee1fe35b49d145bcc06610705" afterPath="$PROJECT_DIR$/tmp/cache/assets/D32/A10/sprockets%2F13fe41fee1fe35b49d145bcc06610705" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D5A/EA0/sprockets%2Fd771ace226fc8215a3572e0aa35bb0d6" afterPath="$PROJECT_DIR$/tmp/cache/assets/D5A/EA0/sprockets%2Fd771ace226fc8215a3572e0aa35bb0d6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/test.sqlite3" afterPath="$PROJECT_DIR$/db/test.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/floors/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/floors/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/rooms/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/rooms/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/building.rb" afterPath="$PROJECT_DIR$/app/models/building.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/day.rb" afterPath="$PROJECT_DIR$/app/models/day.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/document.rb" afterPath="$PROJECT_DIR$/app/models/document.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/event.rb" afterPath="$PROJECT_DIR$/app/models/event.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/event_test.rb" afterPath="$PROJECT_DIR$/test/unit/event_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/favourite.rb" afterPath="$PROJECT_DIR$/app/models/favourite.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/floor.rb" afterPath="$PROJECT_DIR$/app/models/floor.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/iconfs.iml" afterPath="$PROJECT_DIR$/.idea/iconfs.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/rooms/index.html.erb" afterPath="$PROJECT_DIR$/app/views/rooms/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/meeting.rb" afterPath="$PROJECT_DIR$/app/models/meeting.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/note.rb" afterPath="$PROJECT_DIR$/app/models/note.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/pi.rb" afterPath="$PROJECT_DIR$/app/models/pi.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/room.rb" afterPath="$PROJECT_DIR$/app/models/room.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/rooms_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/rooms_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/schedule.rb" afterPath="$PROJECT_DIR$/app/models/schedule.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/pids/server.pid" afterPath="$PROJECT_DIR$/tmp/pids/server.pid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/rooms/show.html.erb" afterPath="$PROJECT_DIR$/app/views/rooms/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/E04/890/sprockets%2F2f5173deea6c795b8fdde723bb4b63af" afterPath="$PROJECT_DIR$/tmp/cache/assets/E04/890/sprockets%2F2f5173deea6c795b8fdde723bb4b63af" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/D4E/1B0/sprockets%2Ff7cbd26ba1d28d48de824f0e94586655" afterPath="$PROJECT_DIR$/tmp/cache/assets/D4E/1B0/sprockets%2Ff7cbd26ba1d28d48de824f0e94586655" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/test.log" afterPath="$PROJECT_DIR$/log/test.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/track.rb" afterPath="$PROJECT_DIR$/app/models/track.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/user_test.rb" afterPath="$PROJECT_DIR$/test/unit/user_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="iconfs.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368455832129" ignored="false" />
-    <file path="/user.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368203320452" ignored="false" />
+    <file path="/Dummy.txt" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368534732991" ignored="false" />
+    <file path="/user.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368626831099" ignored="false" />
     <file path="/20130509214322_create_users.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368195234738" ignored="false" />
     <file path="/session.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368284541517" ignored="false" />
-    <file path="/room.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368202635676" ignored="false" />
-    <file path="/note.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368183577029" ignored="false" />
-    <file path="/event.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368463399158" ignored="false" />
-    <file path="/document.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368467140558" ignored="false" />
+    <file path="/room.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368718628347" ignored="false" />
+    <file path="/note.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368530209230" ignored="false" />
+    <file path="/event.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368636131613" ignored="false" />
+    <file path="/document.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368636308762" ignored="false" />
     <file path="/inipage.html.erb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368457829822" ignored="false" />
-    <file path="/_form.html.erb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368467729235" ignored="false" />
-    <file path="/pi.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368197287102" ignored="false" />
+    <file path="/_form.html.erb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368616133736" ignored="false" />
+    <file path="/pi.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368530215091" ignored="false" />
     <file path="/20130509215029_create_pis.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368197297093" ignored="false" />
-    <file path="/index.html.erb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368456184086" ignored="false" />
-    <file path="/show.html.erb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368199226440" ignored="false" />
+    <file path="/index.html.erb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368542439307" ignored="false" />
+    <file path="/show.html.erb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368541411567" ignored="false" />
     <file path="/dummy.sql" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368198299378" ignored="false" />
     <file path="/a.sql" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368198299378" ignored="false" />
     <file path="/20130510150640_alter_user.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368198586713" ignored="false" />
     <file path="/20130510151814_alter_rooms.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368199126447" ignored="false" />
-    <file path="/schedule.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368201727740" ignored="false" />
-    <file path="/favourite.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368202028292" ignored="false" />
-    <file path="/meeting.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368202235944" ignored="false" />
-    <file path="/floor.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368202592443" ignored="false" />
-    <file path="/building.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368202572562" ignored="false" />
-    <file path="/day.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368458674317" ignored="false" />
-    <file path="/track.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368459833777" ignored="false" />
+    <file path="/schedule.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368485307026" ignored="false" />
+    <file path="/favourite.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368530198551" ignored="false" />
+    <file path="/meeting.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368530203384" ignored="false" />
+    <file path="/floor.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368715360001" ignored="false" />
+    <file path="/building.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368667560708" ignored="false" />
+    <file path="/day.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368530291290" ignored="false" />
+    <file path="/track.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368615423744" ignored="false" />
     <file path="/20130510163056_alter_session.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368284636289" ignored="false" />
     <file path="/20130510161941_create_days.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368290654652" ignored="false" />
-    <file path="/20130509214414_create_documents.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368463332315" ignored="false" />
+    <file path="/20130509214414_create_documents.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368464303785" ignored="false" />
+    <file path="/schema.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368467944758" ignored="false" />
+    <file path="/20130513192014_alterar_events.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368472872339" ignored="false" />
+    <file path="/20130509214508_create_events.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368473024957" ignored="false" />
+    <file path="/20130513222156_alt_fav.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368483846927" ignored="false" />
+    <file path="/20130514113303_change_floor.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368531524118" ignored="false" />
+    <file path="/20130514120335_change_room.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368533167005" ignored="false" />
+    <file path="/rooms_controller.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368543850067" ignored="false" />
+    <file path="/20130515100141_change_floors.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368612188405" ignored="false" />
+    <file path="/20130515105451_change_track.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368615349547" ignored="false" />
+    <file path="/20130515140445_change_event.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368626738259" ignored="false" />
+    <file path="/Gemfile" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368634277652" ignored="false" />
+    <file path="/20130515162430_change_document.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368635186924" ignored="false" />
+    <file path="/building_spec.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368714521244" ignored="false" />
+    <file path="/20130515175312_alt_building.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368640432648" ignored="false" />
+    <file path="/floor_spec.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368717142759" ignored="false" />
+    <file path="/room_spec.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368718803967" ignored="false" />
+    <file path="/20130516152324_alt_rooms.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368717857703" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,208 +131,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RailsDependency/#iconfs" pinned="false" current="false" current-in-tab="false">
-        <entry file="uml://RailsDependency/#iconfs">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>RailsDependency</ID>
-              <OriginalElement>#iconfs</OriginalElement>
-              <nodes>
-                <node x="954.0" y="97.4407051282052">User</node>
-                <node x="626.5" y="230.44230769230768">Document</node>
-                <node x="999.0" y="558.6858974358975">Event</node>
-                <node x="0.0" y="532.1875">Building</node>
-                <node x="1516.0" y="128.0">Note</node>
-                <node x="0.0" y="1094.1875">Pi</node>
-                <node x="744.661971830986" y="1003.5396126760565">Day</node>
-                <node x="600.9366197183098" y="739.356514084507">Track</node>
-                <node x="271.0" y="522.1875">Floor</node>
-                <node x="567.9154929577466" y="475.08890845070425">Room</node>
-                <node x="1534.0" y="0.0">Favourite</node>
-                <node x="1514.0" y="617.1858974358975">Schedule</node>
-                <node x="1517.5" y="317.0">Meeting</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="Day" target="Track">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Document" target="User">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Track" target="Event">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="User" target="Favourite">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Document" target="Event">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Day" target="Event">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="User" target="Meeting">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="User" target="Note">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Document" target="Favourite">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Floor" target="Room">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Room" target="Event">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="User" target="Schedule">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Track" target="Day">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Building" target="Floor">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Event" target="Schedule">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.8452380952380951" x="602.943661971831" y="218.94366197183103" />
-              <SelectedNodes>
-                <node>Document</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Association fields</Category>
-                <Category>Migration fields</Category>
-                <Category>System DB fields</Category>
-                <Category>Own fields</Category>
-              </Categories>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/documents/_form.html.erb">
+      <file leaf-file-name="favourite.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/favourite.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="26" selection-start="530" selection-end="530" vertical-scroll-proportion="-12.423077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DATABASE/1594e067-c33b-48ec-8ce8-382dc30bdf1b" pinned="false" current="false" current-in-tab="false">
-        <entry file="uml://DATABASE/1594e067-c33b-48ec-8ce8-382dc30bdf1b">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>DATABASE</ID>
-              <OriginalElement>1594e067-c33b-48ec-8ce8-382dc30bdf1b</OriginalElement>
-              <nodes>
-                <node x="433.0" y="0.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:pis</node>
-                <node x="466.0" y="414.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:notes</node>
-                <node x="10.0" y="638.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:days</node>
-                <node x="679.0" y="414.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:documents</node>
-                <node x="205.87086747668832" y="629.7161156635585">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:schedules</node>
-                <node x="324.0" y="802.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:schema_migrations</node>
-                <node x="569.0" y="618.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:tracks</node>
-                <node x="696.0" y="-30.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:rooms</node>
-                <node x="376.0" y="618.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:floors</node>
-                <node x="-138.3638430926663" y="301.5315520181921">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:events</node>
-                <node x="233.0" y="414.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:meetings</node>
-                <node x="0.0" y="802.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:favourites</node>
-                <node x="-129.79647527003976" y="-151.54860716316085">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:users</node>
-                <node x="742.0" y="618.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:buildings</node>
-                <node x="153.0" y="802.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:sqlite_sequence</node>
-              </nodes>
-              <notes />
-              <edges />
-              <settings layout="Hierarchic Group" zoom="0.9654226125137214" x="-21.40420693575902" y="498.595793064241" />
-              <SelectedNodes>
-                <node>1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:users</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Key columns</Category>
-                <Category>Columns</Category>
-              </Categories>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inipage.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/inipage.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="35" selection-start="70" selection-end="70" vertical-scroll-proportion="-1.3076923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/tracks/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="14" selection-start="448" selection-end="448" vertical-scroll-proportion="-8.153846">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="25" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="document.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/document.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="90" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/events/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="38" selection-start="745" selection-end="745" vertical-scroll-proportion="0.22666667">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="4" selection-start="489" selection-end="515" vertical-scroll-proportion="12.923077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="25" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+            <state line="14" column="78" selection-start="333" selection-end="333" vertical-scroll-proportion="0.34941763">
               <folding />
             </state>
           </provider>
@@ -305,29 +167,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/app/views/users/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/events/index.html.erb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130509214508_create_events.rb" />
-        <option value="dbtable:/45edd2b2/1594e067-c33b-48ec-8ce8-382dc30bdf1b/..days" />
-        <option value="$PROJECT_DIR$/app/views/admin/inipage.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/day.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130510161941_create_days.rb" />
-        <option value="$PROJECT_DIR$/app/models/track.rb" />
-        <option value="$PROJECT_DIR$/app/models/event.rb" />
-        <option value="$PROJECT_DIR$/app/views/tracks/_form.html.erb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130509214414_create_documents.rb" />
-        <option value="dbtable:/45edd2b2/1594e067-c33b-48ec-8ce8-382dc30bdf1b/..documents" />
-        <option value="$PROJECT_DIR$/app/views/documents/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/favourite.rb" />
         <option value="$PROJECT_DIR$/app/models/document.rb" />
-        <option value="$PROJECT_DIR$/app/views/events/_form.html.erb" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/spec/models/building.rb" />
+        <option value="$PROJECT_DIR$/spec/factories/building.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130515175312_alt_building.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/building.rb" />
+        <option value="dbtable:/46c0f340/1594e067-c33b-48ec-8ce8-382dc30bdf1b/..buildings" />
+        <option value="$PROJECT_DIR$/spec/models/building_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/factories/floor.rb" />
+        <option value="$PROJECT_DIR$/spec/models/floor_spec.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130516152324_alt_rooms.rb" />
+        <option value="$PROJECT_DIR$/spec/factories/room.rb" />
+        <option value="$PROJECT_DIR$/spec/models/room_spec.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="width" value="1301" />
-    <option name="height" value="768" />
+    <option name="x" value="-1" />
+    <option name="y" value="24" />
+    <option name="width" value="1282" />
+    <option name="height" value="752" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -336,10 +199,13 @@
           <State>
             <id />
           </State>
+          <State>
+            <id>Ruby</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>CoffeeScript</id>
+            <id>RubyArgCount</id>
           </State>
         </selected-state>
       </profile-state>
@@ -371,6 +237,20 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iconfs" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iconfs" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Default">
           <PATH>
@@ -447,7 +327,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iconfs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iconfs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iconfs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iconfs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factories" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -464,10 +380,6 @@
               <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -480,120 +392,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iconfs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iconfs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tracks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iconfs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iconfs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iconfs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iconfs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="events" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iconfs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iconfs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="documents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iconfs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iconfs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -615,45 +413,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iconfs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iconfs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="RailsProjectView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iconfs" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iconfs" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="Database.TableEditor.Splitter" value="0.8999999" />
+    <property name="Database.TableEditor.Splitter" value="0.9" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Andrei@/UNL/Licenciatura/3º ano 1º semestre/Desenvolvimento de Aplicações WEB/Tp3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
@@ -681,7 +451,11 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
@@ -702,7 +476,11 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
@@ -724,7 +502,11 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
@@ -749,7 +531,11 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
@@ -766,7 +552,11 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
@@ -801,7 +591,11 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
@@ -824,7 +618,11 @@
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
@@ -844,7 +642,11 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
@@ -854,7 +656,7 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="building" type="RubyRunConfigurationType" factoryName="Ruby">
+    <configuration default="false" name="building_spec" type="RubyRunConfigurationType" factoryName="Ruby">
       <module name="iconfs" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/app/models" />
@@ -864,7 +666,11 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/app/models/building.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
@@ -874,7 +680,7 @@
       <item index="0" class="java.lang.String" itemvalue="Rails.Development: iconfs" />
       <item index="1" class="java.lang.String" itemvalue="Rake.test" />
       <item index="2" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.building" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.building_spec" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -933,25 +739,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="0" width="1301" height="768" extended-state="1" />
+    <frame x="-1" y="24" width="1282" height="752" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32594937" sideWeight="0.49313962" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.49959645" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14366424" sideWeight="0.84542584" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292978" sideWeight="0.65905386" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24939467" sideWeight="0.6829653" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23002422" sideWeight="0.84542584" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14343598" sideWeight="0.67145133" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24878444" sideWeight="0.8455882" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13776337" sideWeight="0.67145133" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15457413" sideWeight="0.50121063" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.4943274" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3170347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32753164" sideWeight="0.49717513" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2753846" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292978" sideWeight="0.65905386" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292978" sideWeight="0.6710311" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1015,101 +821,12 @@
     <MESSAGE value="ligações base de dados" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="34" selection-start="3420" selection-end="3420" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/track.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="34" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/1594e067-c33b-48ec-8ce8-382dc30bdf1b">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>1594e067-c33b-48ec-8ce8-382dc30bdf1b</OriginalElement>
-          <nodes>
-            <node x="433.0" y="0.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:pis</node>
-            <node x="466.0" y="414.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:notes</node>
-            <node x="10.0" y="638.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:days</node>
-            <node x="679.0" y="414.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:documents</node>
-            <node x="205.87086747668832" y="629.7161156635585">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:schedules</node>
-            <node x="324.0" y="802.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:schema_migrations</node>
-            <node x="569.0" y="618.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:tracks</node>
-            <node x="696.0" y="-30.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:rooms</node>
-            <node x="376.0" y="618.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:floors</node>
-            <node x="-138.3638430926663" y="301.5315520181921">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:events</node>
-            <node x="233.0" y="414.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:meetings</node>
-            <node x="0.0" y="802.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:favourites</node>
-            <node x="-129.79647527003976" y="-151.54860716316085">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:users</node>
-            <node x="742.0" y="618.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:buildings</node>
-            <node x="153.0" y="802.0">1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:sqlite_sequence</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.9654226125137214" x="-21.40420693575902" y="498.595793064241" />
-          <SelectedNodes>
-            <node>1594e067-c33b-48ec-8ce8-382dc30bdf1b.table:users</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="25" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/inipage.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="35" selection-start="70" selection-end="70" vertical-scroll-proportion="-1.3076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/event.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="161" selection-end="161" vertical-scroll-proportion="0.1390593">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="46" selection-start="162" selection-end="162" vertical-scroll-proportion="-3.2692308">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tracks/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="14" selection-start="448" selection-end="448" vertical-scroll-proportion="-8.153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/45edd2b2/1594e067-c33b-48ec-8ce8-382dc30bdf1b/..documents">
+    <entry file="dbDummy://dbtable:/46c0f340/1594e067-c33b-48ec-8ce8-382dc30bdf1b/..buildings">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -1119,133 +836,107 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130509214414_create_documents.rb">
+    <entry file="file://$PROJECT_DIR$/spec/factories/building.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="177" selection-end="177" vertical-scroll-proportion="0.34764826">
+        <state line="6" column="66" selection-start="132" selection-end="132" vertical-scroll-proportion="0.14975041">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="uml://RailsDependency/#iconfs">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>RailsDependency</ID>
-          <OriginalElement>#iconfs</OriginalElement>
-          <nodes>
-            <node x="954.0" y="97.4407051282052">User</node>
-            <node x="626.5" y="230.44230769230768">Document</node>
-            <node x="999.0" y="558.6858974358975">Event</node>
-            <node x="0.0" y="532.1875">Building</node>
-            <node x="1516.0" y="128.0">Note</node>
-            <node x="0.0" y="1094.1875">Pi</node>
-            <node x="744.661971830986" y="1003.5396126760565">Day</node>
-            <node x="600.9366197183098" y="739.356514084507">Track</node>
-            <node x="271.0" y="522.1875">Floor</node>
-            <node x="567.9154929577466" y="475.08890845070425">Room</node>
-            <node x="1534.0" y="0.0">Favourite</node>
-            <node x="1514.0" y="617.1858974358975">Schedule</node>
-            <node x="1517.5" y="317.0">Meeting</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="Day" target="Track">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="Document" target="User">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="Track" target="Event">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="User" target="Favourite">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="Document" target="Event">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="Day" target="Event">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="User" target="Meeting">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="User" target="Note">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="Document" target="Favourite">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="Floor" target="Room">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="Room" target="Event">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="User" target="Schedule">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="Track" target="Day">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="Building" target="Floor">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="Event" target="Schedule">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.8452380952380951" x="602.943661971831" y="218.94366197183103" />
-          <SelectedNodes>
-            <node>Document</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Association fields</Category>
-            <Category>Migration fields</Category>
-            <Category>System DB fields</Category>
-            <Category>Own fields</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/documents/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="26" selection-start="530" selection-end="530" vertical-scroll-proportion="-12.423077">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.8452579">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/document.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/documents_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="90" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="4" selection-start="489" selection-end="515" vertical-scroll-proportion="12.923077">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/events/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="38" selection-start="745" selection-end="745" vertical-scroll-proportion="0.22666667">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/building.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="38" selection-start="119" selection-end="119" vertical-scroll-proportion="0.12479201">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/building_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="346" selection-end="346" vertical-scroll-proportion="0.29950082">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/floor.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories/floor.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="189" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/floor_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="57" selection-start="535" selection-end="535" vertical-scroll-proportion="0.44925123">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="23" selection-start="3134" selection-end="3134" vertical-scroll-proportion="0.74875206">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/room_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="79" selection-start="438" selection-end="438" vertical-scroll-proportion="0.39933443">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories/room.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="14" selection-start="101" selection-end="101" vertical-scroll-proportion="0.12479201">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/room.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/favourite.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="78" selection-start="333" selection-end="333" vertical-scroll-proportion="0.34941763">
           <folding />
         </state>
       </provider>

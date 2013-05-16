@@ -4,4 +4,6 @@ class Day < ActiveRecord::Base
  has_many :events
  has_many :tracks, :through => :events
 
+  validates :date, :presence => true, :uniqueness => true
+
 end
