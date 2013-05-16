@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  coordX: 1
+  coordY: 1
+  type: 
+  name: MyString
+  address: MyString
+  contact: 1
+  description: MyText
+
+two:
+  coordX: 1
+  coordY: 1
+  type: 
+  name: MyString
+  address: MyString
+  contact: 1
+  description: MyText
