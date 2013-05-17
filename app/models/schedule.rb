@@ -9,13 +9,33 @@ class Schedule < ActiveRecord::Base
   def as_json(options)
     {
         :events =>{
-            :event => name,
-            :duration => duration,
-            :track  => {:name => track.name},
-            :day => day,
-            :time => time}
+            :event => events_name,
+            :duration => events_duration,
+            :track  => {:name => track_name},
+            :day => { :date => day_of_events},
+            :time => time_of_events}
 
     }
+  end
+
+  def events_name
+    self.events.name
+  end
+
+  def day_of_events
+    self.events.day.date
+  end
+
+  def time_of_events
+    self.events.time
+  end
+
+  def events_duration
+    self.events.duration
+  end
+
+  def track_name
+    self.events.track.name
   end
 
 

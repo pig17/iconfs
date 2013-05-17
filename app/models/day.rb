@@ -9,12 +9,24 @@ class Day < ActiveRecord::Base
   def as_json(options)
     {
         :day => date,
-        :weekday => date.wday,
-        :events => { :title => events.name,
+        :weekday => day_of_week,
+        :events => { :title => nome_dos_eventos,
                      :duration => duration,
-                     :track  => {:name => track.name},
+                     :track  => {:name => nome_da_track},
                      :time => time }
     }
+  end
+
+  def day_of_week
+    self.date.wday
+  end
+
+  def nome_dos_eventos
+    self.events.name
+  end
+
+  def nome_da_track
+    self.events.track.name
   end
 
 end

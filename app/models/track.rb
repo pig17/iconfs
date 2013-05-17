@@ -9,14 +9,39 @@ class Track < ActiveRecord::Base
   def as_json(options)
     {
         :track => name,
-        :events =>{:name => name,
-                   :duration => duration,
-                   :day => day,
-                   :time => time,
-                   :users => {:name => nome_dos_autores},
-                   :description => description}
+        :events =>{:name => events_name,
+                   :duration => events_duration,
+                   :day => day_of_events,
+                   :time => time_of_events,
+                   :users => {:name => authors_name},
+                   :description => events_description}
 
     }
   end
+
+  def events_name
+    self.events.name
+  end
+
+  def day_of_events
+    self.events.day.date
+  end
+
+  def time_of_events
+    self.events.time
+  end
+
+  def events_duration
+    self.events.duration
+  end
+
+  def events_description
+    self.events.description
+  end
+
+  def authors_name
+    self.document.users.name
+  end
+
 
 end

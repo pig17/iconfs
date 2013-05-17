@@ -38,16 +38,20 @@ class Event < ActiveRecord::Base
     {
         :event => name,
         :duration => duration,
-        :track  => {:name => track.name},
+        :track  => {:name => nome_da_track},
         :day => day,
         :time => time,
-        :users => {:name => nome_dos_autores},
+        :users => {:name => authors_name},
         :description => description
 
     }
   end
 
-  def nome_dos_autores
+  def nome_da_track
+    self.track.name
+  end
+
+  def authors_name
     self.document.users.name
   end
 

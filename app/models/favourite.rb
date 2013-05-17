@@ -14,9 +14,21 @@ class Favourite < ActiveRecord::Base
   def as_json(options)
     {
         :title => title,
-        :user => {:name => user.name},
-        :document => {:titleDoc => document.title}
+        :user => {:name => name_user},
+        :document => {:titleDoc => title_document}
     }
+  end
+
+  def name_user
+    self.user.name
+  end
+
+  def title_document
+    self.document.title
+  end
+
+  def nome_dos_autores
+    self.document.users.name
   end
 
 end

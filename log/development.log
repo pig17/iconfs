@@ -27883,3 +27883,235 @@ Served asset /application.js - 304 Not Modified (1ms)
 
 Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-17 14:50:48 +0100
 Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/buildings.json" for 127.0.0.1 at 2013-05-17 15:08:48 +0100
+Processing by BuildingsController#index as JSON
+  [1m[36mBuilding Load (0.0ms)[0m  [1mSELECT "buildings".* FROM "buildings" [0m
+Completed 200 OK in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/floors.json" for 127.0.0.1 at 2013-05-17 15:09:02 +0100
+Processing by FloorsController#index as JSON
+  [1m[35mFloor Load (0.0ms)[0m  SELECT "floors".* FROM "floors" 
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/floors.json" for 127.0.0.1 at 2013-05-17 15:09:37 +0100
+Processing by FloorsController#index as JSON
+  [1m[36mFloor Load (1.0ms)[0m  [1mSELECT "floors".* FROM "floors" [0m
+  [1m[35mBuilding Load (1.0ms)[0m  SELECT "buildings".* FROM "buildings" WHERE "buildings"."id" = 1 LIMIT 1
+  [1m[36mBuilding Load (0.0ms)[0m  [1mSELECT "buildings".* FROM "buildings" WHERE "buildings"."id" = 3 LIMIT 1[0m
+Completed 200 OK in 37ms (Views: 21.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/floor/1.json" for 127.0.0.1 at 2013-05-17 15:12:27 +0100
+
+ActionController::RoutingError (No route matches [GET] "/floor/1.json"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/floor/1" for 127.0.0.1 at 2013-05-17 15:12:30 +0100
+
+ActionController::RoutingError (No route matches [GET] "/floor/1"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/floors/1" for 127.0.0.1 at 2013-05-17 15:12:34 +0100
+Processing by FloorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mFloor Load (1.0ms)[0m  SELECT "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered floors/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 44ms (Views: 28.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /buildings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /days.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /favourites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /floors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /notes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /p_is.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /schedules.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /buildings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /days.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /favourites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /floors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /notes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /p_is.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /schedules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-17 15:12:35 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/floors/1.json" for 127.0.0.1 at 2013-05-17 15:12:45 +0100
+Processing by FloorsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mFloor Load (1.0ms)[0m  [1mSELECT "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mBuilding Load (1.0ms)[0m  SELECT "buildings".* FROM "buildings" WHERE "buildings"."id" = 1 LIMIT 1
+Completed 200 OK in 27ms (Views: 23.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/floors/1.json" for 127.0.0.1 at 2013-05-17 15:21:23 +0100
+Processing by FloorsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mFloor Load (0.0ms)[0m  [1mSELECT "floors".* FROM "floors" WHERE "floors"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mBuilding Load (0.0ms)[0m  SELECT "buildings".* FROM "buildings" WHERE "buildings"."id" = 1 LIMIT 1
+Completed 200 OK in 34ms (Views: 19.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/floors.json" for 127.0.0.1 at 2013-05-17 15:21:29 +0100
+Processing by FloorsController#index as JSON
+  [1m[36mFloor Load (1.0ms)[0m  [1mSELECT "floors".* FROM "floors" [0m
+  [1m[35mBuilding Load (0.0ms)[0m  SELECT "buildings".* FROM "buildings" WHERE "buildings"."id" = 1 LIMIT 1
+  [1m[36mBuilding Load (0.0ms)[0m  [1mSELECT "buildings".* FROM "buildings" WHERE "buildings"."id" = 3 LIMIT 1[0m
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 1.0ms)
