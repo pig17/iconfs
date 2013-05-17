@@ -11,7 +11,7 @@ class Schedule < ActiveRecord::Base
         :events =>{
             :event => name,
             :duration => duration,
-            :track  => {:name => name},
+            :track  => {:name => track.name},
             :day => day,
             :time => time}
 

@@ -10,7 +10,7 @@ class Meeting < ActiveRecord::Base
     {
         :local => local,
         :time => time,
-        :users => {:name => name},
+        :users => {:name => users.name},
         :message => message
 
     }

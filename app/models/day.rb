@@ -10,9 +10,9 @@ class Day < ActiveRecord::Base
     {
         :day => date,
         :weekday => date.wday,
-        :events => { :title => name,
+        :events => { :title => events.name,
                      :duration => duration,
-                     :track  => {:name => name},
+                     :track  => {:name => track.name},
                      :time => time }
     }
   end

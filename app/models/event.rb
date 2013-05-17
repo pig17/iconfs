@@ -38,7 +38,7 @@ class Event < ActiveRecord::Base
     {
         :event => name,
         :duration => duration,
-        :track  => {:name => name},
+        :track  => {:name => track.name},
         :day => day,
         :time => time,
         :users => {:name => nome_dos_autores},

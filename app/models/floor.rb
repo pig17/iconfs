@@ -13,7 +13,7 @@ class Floor < ActiveRecord::Base
   def as_json(options)
     {
         :floor => name,
-        :building => {:name => name},
+        :building => {:name => building.name},
         :plan_photo => plan_photo
     }
   end
