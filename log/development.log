@@ -28115,3 +28115,11 @@ Processing by FloorsController#index as JSON
   [1m[35mBuilding Load (0.0ms)[0m  SELECT "buildings".* FROM "buildings" WHERE "buildings"."id" = 1 LIMIT 1
   [1m[36mBuilding Load (0.0ms)[0m  [1mSELECT "buildings".* FROM "buildings" WHERE "buildings"."id" = 3 LIMIT 1[0m
 Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/floors.json" for 127.0.0.1 at 2013-05-17 15:42:03 +0100
+Processing by FloorsController#index as JSON
+  [1m[35mFloor Load (0.0ms)[0m  SELECT "floors".* FROM "floors" 
+  [1m[36mBuilding Load (0.0ms)[0m  [1mSELECT "buildings".* FROM "buildings" WHERE "buildings"."id" = 1 LIMIT 1[0m
+  [1m[35mBuilding Load (0.0ms)[0m  SELECT "buildings".* FROM "buildings" WHERE "buildings"."id" = 3 LIMIT 1
+Completed 200 OK in 42ms (Views: 26.0ms | ActiveRecord: 0.0ms)
