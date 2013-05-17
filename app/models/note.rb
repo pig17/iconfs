@@ -5,4 +5,13 @@ class Note < ActiveRecord::Base
 
   #validates :title , :user_id, :presence=>true, :uniqueness=>true
   #validates :shared, :text, :presence=>true
+
+  def as_json(options)
+    {
+        :title => title,
+        :shared => shared,
+        :text  => text
+    }
+  end
+
 end

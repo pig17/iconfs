@@ -6,4 +6,17 @@ class Schedule < ActiveRecord::Base
   #has_many :days, :through => :events
 
 
+  def as_json(options)
+    {
+        :events =>{
+            :event => name,
+            :duration => duration,
+            :track  => {:name => name},
+            :day => day,
+            :time => time}
+
+    }
+  end
+
+
 end

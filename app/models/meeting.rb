@@ -6,4 +6,14 @@ class Meeting < ActiveRecord::Base
   #validates_presence_of :local, :time, :user_id
   #validates :message, :allow_blank => true
 
+  def as_json(options)
+    {
+        :local => local,
+        :time => time,
+        :users => {:name => name},
+        :message => message
+
+    }
+  end
+
 end
