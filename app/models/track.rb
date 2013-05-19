@@ -15,7 +15,6 @@ class Track < ActiveRecord::Base
                    :time => time_of_events,
                    :users => {:name => authors_name},
                    :description => events_description}
-
     }
   end
 

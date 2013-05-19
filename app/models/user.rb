@@ -16,6 +16,7 @@ class User < ActiveRecord::Base
         :password => password,
         :sex => sex,
         :image => image,
+
         :available => available,
         :email => email,
         :facebook => facebook,
@@ -25,6 +26,10 @@ class User < ActiveRecord::Base
         :institution => institution,
         :contact =>  contact,
         :aboutme => aboutme,
+        :notes => { :title => notes.title},
+        :documents => { :title => documents.title,
+                        :link => documents.link}
+
     }
   end
 

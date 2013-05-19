@@ -42,7 +42,8 @@ class Event < ActiveRecord::Base
         :day => day,
         :time => time,
         :users => {:name => authors_name},
-        :description => description
+        :description => description,
+        :document => { :link => document.link }
 
     }
   end
