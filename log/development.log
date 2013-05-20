@@ -25688,3 +25688,802 @@ Served asset /users.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:29 +0100
 Served asset /application.js - 304 Not Modified (4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/users" for 127.0.0.1 at 2013-05-20 17:43:13 +0100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/index.html.erb within layouts/application (13.0ms)
+Compiled application.js  (74ms)  (pid 6100)
+Completed 200 OK in 498ms (Views: 387.0ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:14 +0100
+Served asset /buildings.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:14 +0100
+Served asset /application.css - 304 Not Modified (50ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:14 +0100
+Served asset /documents.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:14 +0100
+Served asset /days.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:14 +0100
+Served asset /events.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:14 +0100
+Served asset /favourites.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:14 +0100
+Served asset /floors.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:14 +0100
+Served asset /meetings.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:14 +0100
+Served asset /notes.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:14 +0100
+Served asset /p_is.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:14 +0100
+Served asset /rooms.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /schedules.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/schedules_events.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /schedules_events.css - 200 OK (3ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /tracks.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /users.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users_documents.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /users_documents.css - 200 OK (5ms)
+
+
+Started GET "/assets/users_meetings.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /users_meetings.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (37ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /buildings.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /days.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /documents.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /events.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /favourites.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /floors.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /notes.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /meetings.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /p_is.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /rooms.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /schedules.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/schedules_events.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /schedules_events.js - 200 OK (6ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /tracks.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /users.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users_documents.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /users_documents.js - 200 OK (3ms)
+
+
+Started GET "/assets/users_meetings.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /users_meetings.js - 200 OK (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:15 +0100
+Served asset /application.js - 304 Not Modified (40ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-05-20 17:43:21 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/devise-2.2.4/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/devise-2.2.4/app/views/devise/registrations/new.html.erb within layouts/application (401.0ms)
+Completed 200 OK in 489ms (Views: 447.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /buildings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /application.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /days.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /floors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /documents.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /favourites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /notes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /p_is.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /schedules.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /schedules_events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /users_documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /users_meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /buildings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /days.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:22 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:23 +0100
+Served asset /floors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:23 +0100
+Served asset /favourites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:23 +0100
+Served asset /meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:23 +0100
+Served asset /notes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/schedules_events.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:23 +0100
+Served asset /schedules_events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:23 +0100
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:23 +0100
+Served asset /schedules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:23 +0100
+Served asset /p_is.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:23 +0100
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:23 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:23 +0100
+Served asset /users_meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:23 +0100
+Served asset /users_documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:23 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-05-20 17:43:52 +0100
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Wz+JqUmxCDi59xk8SV7hGExyokrtR+++QU6VUQVwSjA=", "user"=>{"email"=>"me@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'me@gmail.com' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'me@gmail.com' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/devise-2.2.4/app/views/devise/shared/_links.erb (3.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/devise-2.2.4/app/views/devise/registrations/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 347ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /application.css - 304 Not Modified (56ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /buildings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /days.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /favourites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /floors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /notes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /p_is.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /schedules_events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /schedules.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /users_documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.css?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /users_meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /buildings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /days.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:53 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:54 +0100
+Served asset /favourites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:54 +0100
+Served asset /floors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:54 +0100
+Served asset /meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:54 +0100
+Served asset /notes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:54 +0100
+Served asset /p_is.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:54 +0100
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:54 +0100
+Served asset /schedules.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/schedules_events.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:54 +0100
+Served asset /schedules_events.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:54 +0100
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:54 +0100
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users_documents.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:54 +0100
+Served asset /users_documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:54 +0100
+Served asset /users_meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 17:43:54 +0100
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-05-20 17:44:21 +0100
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Wz+JqUmxCDi59xk8SV7hGExyokrtR+++QU6VUQVwSjA=", "user"=>{"email"=>"me@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (2.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'me@gmail.com' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'me@gmail.com' LIMIT 1
+  [1m[36m (1.0ms)[0m  [1mrollback transaction[0m
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/devise-2.2.4/app/views/devise/shared/_links.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/devise-2.2.4/app/views/devise/registrations/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 230ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 17:44:22 +0100
+Served asset /application.css - 304 Not Modified (58ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-05-20 17:44:22 +0100
+Served asset /buildings.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-05-20 17:44:22 +0100
+Served asset /days.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-05-20 17:44:22 +0100
+Served asset /documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-05-20 17:44:22 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-05-20 17:44:22 +0100
+Served asset /favourites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-05-20 17:44:22 +0100
+Served asset /floors.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-05-20 17:44:22 +0100
+Served asset /meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-05-20 17:44:22 +0100
+Served asset /notes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-05-20 17:44:22 +0100
+Served asset /p_is.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-05-20 17:44:22 +0100
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-20 17:44:22 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-05-20 17:44:22 +0100
+Served asset /schedules.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.css?body=1" for 127.0.0.1 at 2013-05-20 17:44:22 +0100
+Served asset /schedules_events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-05-20 17:44:22 +0100
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-20 17:44:22 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.css?body=1" for 127.0.0.1 at 2013-05-20 17:44:22 +0100
+Served asset /users_documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.css?body=1" for 127.0.0.1 at 2013-05-20 17:44:22 +0100
+Served asset /users_meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-20 17:44:22 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-20 17:44:22 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-05-20 17:44:23 +0100
+Served asset /buildings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-05-20 17:44:23 +0100
+Served asset /days.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-05-20 17:44:23 +0100
+Served asset /documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-05-20 17:44:23 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-05-20 17:44:23 +0100
+Served asset /favourites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-05-20 17:44:23 +0100
+Served asset /floors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-05-20 17:44:23 +0100
+Served asset /meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-05-20 17:44:23 +0100
+Served asset /notes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-05-20 17:44:23 +0100
+Served asset /p_is.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-05-20 17:44:23 +0100
+Served asset /rooms.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-05-20 17:44:23 +0100
+Served asset /schedules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.js?body=1" for 127.0.0.1 at 2013-05-20 17:44:23 +0100
+Served asset /schedules_events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-05-20 17:44:23 +0100
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-20 17:44:23 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.js?body=1" for 127.0.0.1 at 2013-05-20 17:44:23 +0100
+Served asset /users_documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.js?body=1" for 127.0.0.1 at 2013-05-20 17:44:23 +0100
+Served asset /users_meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 17:44:23 +0100
+Served asset /application.js - 304 Not Modified (2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-05-20 21:03:12 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/devise-2.2.4/app/views/devise/shared/_links.erb (3.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/devise-2.2.4/app/views/devise/registrations/new.html.erb within layouts/application (672.0ms)
+Completed 200 OK in 1703ms (Views: 1530.1ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /application.css - 200 OK (46ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /buildings.css - 200 OK (6ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /days.css - 200 OK (5ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /documents.css - 200 OK (3ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /favourites.css - 200 OK (5ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /events.css - 200 OK (3ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /floors.css - 200 OK (4ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /meetings.css - 200 OK (4ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /notes.css - 200 OK (36ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /p_is.css - 200 OK (3ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /rooms.css - 200 OK (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /scaffolds.css - 200 OK (3ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /schedules.css - 200 OK (4ms)
+
+
+Started GET "/assets/schedules_events.css?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /schedules_events.css - 200 OK (4ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /tracks.css - 200 OK (7ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /users.css - 200 OK (4ms)
+
+
+Started GET "/assets/users_documents.css?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /users_documents.css - 200 OK (10ms)
+
+
+Started GET "/assets/users_meetings.css?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /users_meetings.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /jquery.js - 200 OK (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /jquery_ujs.js - 200 OK (12ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /buildings.js - 200 OK (6ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /days.js - 200 OK (2ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /documents.js - 200 OK (5ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-05-20 21:03:15 +0100
+Served asset /events.js - 200 OK (7ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-05-20 21:03:16 +0100
+Served asset /favourites.js - 200 OK (4ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-05-20 21:03:16 +0100
+Served asset /floors.js - 200 OK (2ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-05-20 21:03:16 +0100
+Served asset /meetings.js - 200 OK (3ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-05-20 21:03:16 +0100
+Served asset /notes.js - 200 OK (5ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-05-20 21:03:16 +0100
+Served asset /p_is.js - 200 OK (5ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-05-20 21:03:16 +0100
+Served asset /rooms.js - 200 OK (6ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-05-20 21:03:16 +0100
+Served asset /schedules.js - 200 OK (3ms)
+
+
+Started GET "/assets/schedules_events.js?body=1" for 127.0.0.1 at 2013-05-20 21:03:16 +0100
+Served asset /schedules_events.js - 200 OK (3ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-05-20 21:03:16 +0100
+Served asset /tracks.js - 200 OK (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-20 21:03:16 +0100
+Served asset /users.js - 200 OK (2ms)
+
+
+Started GET "/assets/users_documents.js?body=1" for 127.0.0.1 at 2013-05-20 21:03:16 +0100
+Served asset /users_documents.js - 200 OK (3ms)
+
+
+Started GET "/assets/users_meetings.js?body=1" for 127.0.0.1 at 2013-05-20 21:03:16 +0100
+Served asset /users_meetings.js - 200 OK (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 21:03:16 +0100
+Served asset /application.js - 200 OK (48ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/users/sign_up.json" for 127.0.0.1 at 2013-05-20 21:14:06 +0100
+Processing by Devise::RegistrationsController#new as JSON
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in.json" for 127.0.0.1 at 2013-05-20 21:14:14 +0100
+Processing by Devise::SessionsController#new as JSON
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms)
