@@ -3,8 +3,10 @@ class Note < ActiveRecord::Base
 
   belongs_to :user
 
-  #validates :title , :user_id, :presence=>true, :uniqueness=>true
-  #validates :shared, :text, :presence=>true
+  validates :title, :presence=>true, :uniqueness=>true
+  validates :user_id, :presence=>true, :uniqueness=>true
+  validates :shared, :presence=>true
+  validates :text, :presence=>true
 
   def as_json(options)
     {

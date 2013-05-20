@@ -6,7 +6,7 @@ class Event < ActiveRecord::Base
   belongs_to :track
   belongs_to :day
   belongs_to :user
-  has_and_belongs_to_many :schedules
+  has_many :schedules, :through => :schedules_events
 
   validates :time, :presence => true
   validates :title, :presence => true
@@ -33,6 +33,7 @@ class Event < ActiveRecord::Base
       errors.add(:user_id, "speaker must be an author")
     end
   end
+
 
   def as_json(options)
     {

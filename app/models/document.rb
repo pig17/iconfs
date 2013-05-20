@@ -2,11 +2,11 @@ class Document < ActiveRecord::Base
   attr_accessible :link, :title
 
   has_one :event
-  has_many :favourite
-  has_and_belongs_to_many :users
+  has_many :favourites
+  has_many :users, :through => :users_documents
 
   validates :link, :presence => true
-  validates :title, :presence => true
+  validates :title, :presence => true, :uniqueness => true
   #validates :user_id, :presence => true      ALTERAR CASO NAO HAJA DOCUMENTOS SOCIAIS(docs sem autores)
 
   # Each title appears only one time per user
@@ -18,5 +18,15 @@ class Document < ActiveRecord::Base
         :link => link
     }
   end
+
+  def self.save(upload)
+    name =  upload['datafile'].original_filename
+    directory = "public/data"
+    # create the file path
+    path = File.join(directory, name)
+    # write the file
+    File.open(path, "wb") { |f| f.write(upload['datafile'].read) }
+  end
+
 
 end

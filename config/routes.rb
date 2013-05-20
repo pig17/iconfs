@@ -1,4 +1,13 @@
 Iconfs::Application.routes.draw do
+  resources :schedules_events
+
+
+  resources :users_documents
+
+
+  resources :users_meetings
+
+
   resources :days
 
 

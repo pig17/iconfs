@@ -11,6 +11,9 @@ class Favourite < ActiveRecord::Base
   # Each title appears only one time per user
   validates_uniqueness_of :title, :scope => :user_id
 
+  # Each document appears only one time per user
+  validates_uniqueness_of :document_id, :scope => :user_id
+
   def as_json(options)
     {
         :title => title,

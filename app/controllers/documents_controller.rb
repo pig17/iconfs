@@ -10,6 +10,11 @@ class DocumentsController < ApplicationController
     end
   end
 
+  def uploadFile
+    post = Document.save(params[:upload])
+    render :text => "File has been uploaded successfully"
+  end
+
   # GET /documents/1
   # GET /documents/1.json
   def show
