@@ -14,6 +14,8 @@ class User < ActiveRecord::Base
   has_many :notes
   has_many :favourites
   has_many :events
+  has_many :users_meetings
+  has_many :users_documents
   has_many :documents, :through => :users_documents
   has_many :meetings, :through => :users_meetings
 

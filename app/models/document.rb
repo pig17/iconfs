@@ -3,6 +3,7 @@ class Document < ActiveRecord::Base
 
   has_one :event
   has_many :favourites
+  has_many :users_documents
   has_many :users, :through => :users_documents
 
   validates :link, :presence => true,

@@ -2,6 +2,7 @@ class Schedule < ActiveRecord::Base
   attr_accessible :user_id
 
   belongs_to :user
+  has_many :schedules_events
   has_many :events, :through => :schedules_events
 
 

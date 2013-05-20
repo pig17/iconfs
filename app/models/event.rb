@@ -6,6 +6,7 @@ class Event < ActiveRecord::Base
   belongs_to :track
   belongs_to :day
   belongs_to :user
+  has_many :schedules_events
   has_many :schedules, :through => :schedules_events
 
   validates :time, :presence => true
