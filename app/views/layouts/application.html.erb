@@ -8,14 +8,23 @@
 </head>
 <body>
 
-<% if notice %>
-    <p class="alert alert-notice"><%= notice %></p>
-<% end %>
-<% if alert %>
-    <p class="alert alert-error"><%= alert %></p>
-<% end %>
+<div class="header">
 
-<%= yield %>
+</div>
+<div class="main">
 
+    <% if notice %>
+        <p class="alert alert-notice"><%= notice %></p>
+    <% end %>
+    <% if alert %>
+        <p class="alert alert-error"><%= alert %></p>
+    <% end %>
+
+    <%= yield %>
+
+</div>
+<div class="footer">
+
+</div>
 </body>
 </html>
