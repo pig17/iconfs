@@ -1,12 +1,51 @@
 class User < ActiveRecord::Base
-  attr_accessible :aboutme, :available, :contact, :email, :facebook, :homepage,
-                  :institution, :linkedin, :name, :sex, :twitter, :password, :image
+  # Include default devise modules. Others available are:
+  # :token_authenticatable, :confirmable,
+  # :lockable, :timeoutable and :omniauthable
+  devise :database_authenticatable, :registerable,
+         :recoverable, :rememberable, :trackable, :validatable
 
+  # Setup accessible (or protected) attributes for your model
+  attr_accessible :email, :password, :password_confirmation, :remember_me
+  attr_accessible :aboutme, :available, :contact, :email, :facebook, :homepage,
+                  :institution, :linkedin, :name, :sex, :twitter, :user_photo
+
+  has_one :schedule
   has_many :notes
   has_many :favourites
-  has_and_belongs_to_many :documents
-  has_one :schedule
-  has_and_belongs_to_many :meetings
   has_many :events
+  has_many :documents, :through => :users_documents
+  has_many :meetings, :through => :users_meetings
 
+  EMAIL_REGEX = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}$/i
+
+  validates :available, :presence => true
+  validates :email, :presence => true, :uniqueness =>true, :format => EMAIL_REGEX
+  validates :name, :presence => true
+  validates :sex, :presence => true
+
+def as_json(options)
+    {
+        :name => name,
+        :password => password,
+        :sex => sex,
+        :image => image,
+
+        :available => available,
+        :email => email,
+        :facebook => facebook,
+        :twitter => twitter,
+        :linkedin => linkedin,
+        :homepage => homepage,
+        :institution => institution,
+        :contact =>  contact,
+        :aboutme => aboutme,
+        :notes => { :title => notes.title,
+                    :shared => notes.shared},
+        :documents => { :title => documents.title,
+                        :link => documents.link}
+
+    }
+  end
+  
 end

@@ -2,12 +2,371 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf8551c7-fd1f-4670-bb2d-9e3ccc142d31" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/event.rb" afterPath="$PROJECT_DIR$/app/models/event.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlite-jdbc-3.7.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.rspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xerial-sqlite-license.txt" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\images\rails.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\javascripts\application.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\javascripts\buildings.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\javascripts\days.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\javascripts\documents.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\javascripts\events.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\javascripts\favourites.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\javascripts\floors.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\javascripts\meetings.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\javascripts\notes.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\javascripts\p_is.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\javascripts\rooms.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\javascripts\schedules.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\javascripts\tracks.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\javascripts\users.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\stylesheets\application.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\stylesheets\buildings.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\stylesheets\days.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\stylesheets\documents.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\stylesheets\events.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\stylesheets\favourites.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\stylesheets\floors.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\stylesheets\meetings.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\stylesheets\notes.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\stylesheets\p_is.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\stylesheets\rooms.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\stylesheets\scaffolds.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\stylesheets\schedules.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\stylesheets\tracks.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\assets\stylesheets\users.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\controllers\admin_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\controllers\application_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\controllers\buildings_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\controllers\days_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\controllers\documents_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\controllers\events_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\controllers\favourites_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\controllers\floors_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\controllers\meetings_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\controllers\notes_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\controllers\pis_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\controllers\rooms_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\controllers\schedules_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\controllers\tracks_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\controllers\users_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\helpers\admin_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\helpers\application_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\helpers\buildings_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\helpers\days_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\helpers\documents_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\helpers\events_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\helpers\favourites_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\helpers\floors_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\helpers\meetings_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\helpers\notes_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\helpers\p_is_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\helpers\rooms_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\helpers\schedules_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\helpers\tracks_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\helpers\users_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\mailers\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\models\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\models\building.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\models\day.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\models\document.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\models\event.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\models\favourite.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\models\floor.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\models\meeting.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\models\note.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\models\pi.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\models\room.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\models\schedule.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\models\track.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\models\user.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\admin\inipage.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\buildings\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\buildings\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\buildings\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\buildings\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\buildings\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\days\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\days\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\days\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\days\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\days\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\documents\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\documents\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\documents\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\documents\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\documents\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\events\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\events\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\events\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\events\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\events\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\favourites\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\favourites\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\favourites\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\favourites\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\favourites\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\floors\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\floors\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\floors\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\floors\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\floors\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\layouts\application.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\meetings\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\meetings\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\meetings\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\meetings\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\meetings\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\notes\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\notes\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\notes\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\notes\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\notes\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\pis\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\pis\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\pis\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\pis\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\pis\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\rooms\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\rooms\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\rooms\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\rooms\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\rooms\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\schedules\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\schedules\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\schedules\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\schedules\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\schedules\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\tracks\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\tracks\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\tracks\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\tracks\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\tracks\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\users\_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\users\edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\users\index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\users\new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\app\views\users\show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\config\application.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\config\boot.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\config\database.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\config\environment.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\config\environments\development.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\config\environments\production.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\config\environments\test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\config\initializers\backtrace_silencers.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\config\initializers\inflections.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\config\initializers\mime_types.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\config\initializers\secret_token.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\config\initializers\session_store.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\config\initializers\wrap_parameters.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\config\locales\en.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\config\routes.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\db\development.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\db\schema.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\db\seeds.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\db\test.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\doc\README_FOR_APP" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\lib\assets\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\lib\tasks\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\log\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\log\development.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\log\test.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\public\404.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\public\422.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\public\500.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\public\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\public\robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\script\rails" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\spec\factories\building.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\spec\factories\floor.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\spec\factories\room.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\spec\models\building_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\spec\models\floor_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\spec\models\room_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\fixtures\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\fixtures\buildings.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\fixtures\days.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\fixtures\documents.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\fixtures\events.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\fixtures\favourites.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\fixtures\floors.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\fixtures\meetings.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\fixtures\notes.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\fixtures\pis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\fixtures\rooms.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\fixtures\schedules.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\fixtures\tracks.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\fixtures\users.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\functional\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\functional\buildings_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\functional\days_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\functional\documents_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\functional\events_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\functional\favourites_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\functional\floors_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\functional\meetings_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\functional\notes_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\functional\pis_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\functional\rooms_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\functional\schedules_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\functional\tracks_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\functional\users_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\integration\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\performance\browsing_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\test_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\building_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\day_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\document_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\event_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\favourite_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\floor_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\helpers\buildings_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\helpers\days_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\helpers\documents_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\helpers\events_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\helpers\favourites_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\helpers\floors_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\helpers\meetings_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\helpers\notes_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\helpers\p_is_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\helpers\rooms_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\helpers\schedules_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\helpers\tracks_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\helpers\users_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\meeting_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\note_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\pi_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\room_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\schedule_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\track_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\test\unit\user_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\C21\180\sprockets%2F392375a39574200580e18c6c85d5613b" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\C22\F20\sprockets%2F3dd8527c5273b0722b676907144d4734" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\C2B\8C0\sprockets%2F88224f26c865999a021178a7e049b026" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\C4F\340\sprockets%2Fa6b9e4385400e53d78b1083704385a73" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\C59\FC0\sprockets%2Ff806376e5357b5560ba0d268296d4068" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\C69\2E0\sprockets%2F9f78d3a022433cd22f27d155533010c1" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\C6B\B10\sprockets%2F12341b3a37af0156b17374176ef413e3" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\C83\750\sprockets%2F6a25c7727b266107e741d05d7739e62b" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\C86\050\sprockets%2Ff33d942c5729c351830c0a72e495e368" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\C88\FD0\sprockets%2F3995c644e71179c6c4825436a2b255ae" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\C8A\460\sprockets%2F939b46e5901f9af4185002de7267073f" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\C98\5A0\sprockets%2F15113fd61c05438239c31026f33ead5a" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\CB0\D60\sprockets%2F0335d87ebd93523744c2fec4426f4432" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\CB2\6C0\sprockets%2Fd897b5d61f8d4e9a94829e7599945491" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\CB5\9E0\sprockets%2Fe459168835a5f27b832ace20874f7c10" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\CB7\080\sprockets%2F048a8a1d855e7125e520ed9e5438d357" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\CD4\B00\sprockets%2F882e40f019405a360ccb90ba99b69b10" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\CD7\6F0\sprockets%2Fbd3936370d0f952ada5774e2230046ed" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\CD8\370\sprockets%2F357970feca3ac29060c1e3861e2c0953" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\CDC\F00\sprockets%2F89371b36e6129b36ea43ff31266bb41c" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\CDF\860\sprockets%2F5d9d5937708e0313f4030b9ed5055ecb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\CDF\8B0\sprockets%2F3b30d51c851486dd4f7257e0e85b05e4" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\CE2\050\sprockets%2Ff79f08e0936b648bb76cd32208c3340c" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\CE4\A50\sprockets%2Fe893445a5557338979bea41d20f00bde" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\CE5\5C0\sprockets%2Faafc1736e0159938156d150dff06985c" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\CE8\840\sprockets%2F67eb859757910e1082d8534cbce75a2a" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\CF0\DA0\sprockets%2Fd7d5b37686831d37c4dd75e645f5e016" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\CF2\040\sprockets%2Fdfd500df4094979a9c1ff207e7197429" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\CF5\180\sprockets%2F625ddf58d023639633fa8e786a0e98a9" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D02\0A0\sprockets%2F4ad413f3e3326481d2f5f9327bbd0e12" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D03\670\sprockets%2F6c0f2a2c7346b84a92e2cb81473e251b" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D0A\480\sprockets%2Fe6ac0456092c5382d2c646eace496b13" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D0E\D60\sprockets%2F80c4aefe033b9314d2e7622b967039cf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D0F\070\sprockets%2F394263497ed63cb54aac1b6f55f3602e" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D0F\300\sprockets%2F66de159b07f199c14448083c0b5c2deb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D17\FB0\sprockets%2Fd66d6f2d59877aed04b0a2818f53162f" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D1E\020\sprockets%2F3b6dcd003fc0345f0451081fc42b30fa" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D1F\2B0\sprockets%2F6977d8e13b7e4584d23cca54074fcb69" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D2A\090\sprockets%2F981fdf59c6c819da5a85424ee749e704" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D2C\FE0\sprockets%2F4b3d0831df0e01fb8c354167af2b319b" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D32\A10\sprockets%2F13fe41fee1fe35b49d145bcc06610705" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D37\7B0\sprockets%2F8ab81b81b910e4444f33c1a45f0ec8d7" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D38\420\sprockets%2F8f940ed20fb9cde43d61cbc019157314" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D3A\BE0\sprockets%2F73d5b3d4a4584cbe9dfa3937b134c007" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D3B\240\sprockets%2F526e1c2c8a736112e0557c7bf6e6cee1" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D3C\4C0\sprockets%2F18e01d4621bb8cd3767edd0dd816781b" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D4C\660\sprockets%2F3753b39aa6ace6d89fd8fe8241e41194" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D4E\1B0\sprockets%2Ff7cbd26ba1d28d48de824f0e94586655" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D4E\D10\sprockets%2F3d2cce1bfa25337c0a0351824dca51c4" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D50\1C0\sprockets%2Fe74fb357f5e1d6e96358414ec52fa63f" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D54\430\sprockets%2F93de1e7e64af59f6a6c8b346e84a7408" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D55\050\sprockets%2F7466fae06521c393998d1fa95fefe60f" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D5A\EA0\sprockets%2Fd771ace226fc8215a3572e0aa35bb0d6" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D60\160\sprockets%2Fd162282cb1ffa9ea0e1813dd6025e6e2" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D66\E60\sprockets%2F85ae64edf528ce6e981889f3f3c285d9" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D6B\550\sprockets%2F36392eefc3cfe54ce6bb4252b453172d" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D6C\B10\sprockets%2F0ad9a8d25fd4aa7b58b162cca8615936" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D72\180\sprockets%2F7d8249b2e7e4dc8ea40feb32482116ee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D76\B10\sprockets%2F6b7f56de5e4025f91de7da269f24a26a" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D7D\B70\sprockets%2Fd1a7e1058d75d77fed640d71c858bfd6" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D7E\200\sprockets%2Fc568d577bf952fcc37778a6cea1c17a4" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D8B\330\sprockets%2Fdb5e5e9d6b51a46120bc50b33fdb19d0" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D8C\670\sprockets%2F0513c51fa95a60a5bcc94e2ba7ad15c8" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D8C\AF0\sprockets%2F17665c552fdea90e8d5fd49f9f0f57c8" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D8C\EC0\sprockets%2F447dba752930305bdbb80bb2cc1f6e7a" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D96\EA0\sprockets%2F280e1ab04f64cfa2cb7b6935ff4125df" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D9A\960\sprockets%2Fed2bcace641924f04873f0b81fb85de0" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D9D\200\sprockets%2F685f0f61426b98eae00e3fbb55ccfc42" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\D9D\490\sprockets%2F7c1eec78198b0c4b424ce2d34dc47f0f" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\DA4\460\sprockets%2F977ead1d20bc9f7e1c191bd4348f9e3a" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\DA5\5E0\sprockets%2F27b7b7bd9f7c1826bb8152aeffe82a35" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\DA8\380\sprockets%2Fd911b2d2ffb947699b9c7db82ab525da" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\DA9\1D0\sprockets%2F5ff3b957f737f1b2bd51ad5b9a0297ff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\DAE\2C0\sprockets%2Ffa1e031352bf8c88df3ed899e4a4f8c5" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\DC6\110\sprockets%2F24650f0fcbb3b93acda8927408ecbef1" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\DC6\B70\sprockets%2F7cd5e1a82a034b1fda49437d7dcba59b" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\DC7\5F0\sprockets%2Fe8ea4c635c01d22786bbdb2fe72a5cc6" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\DC7\D00\sprockets%2F7dffc456004edc6ea8b3fdc1d233a905" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\DD1\740\sprockets%2Fe2e8f7f4c2e46b20bbaa95d67e83c41e" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\DD7\190\sprockets%2F3ea5bb256ff6a9f28ef3d19f7d1273ae" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\DDC\400\sprockets%2Fcffd775d018f68ce5dba1ee0d951a994" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\DF1\710\sprockets%2F0f8aa08bcb16235a9f63bb55b7cdaad8" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\DF6\560\sprockets%2Fdc48c62f4bd6c7502329126ebaaecebf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\DF8\DE0\sprockets%2F91fa61a56adfb0f7b2ffc35725b3a6cf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\DFC\470\sprockets%2F8a0e7cc1ca5e1af0b1a30ac42ea00e1a" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\DFF\9F0\sprockets%2F4dfd6b1a62f617cf11bddfd582f7f0b8" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\E04\890\sprockets%2F2f5173deea6c795b8fdde723bb4b63af" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\E07\4D0\sprockets%2Fae4a94e6658ba8f6078eebde0c31df4e" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\E08\B00\sprockets%2F842fd3fc1213feedbc1cbc66f94966fe" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\E08\E90\sprockets%2Fc3f26dfd0ce79bb4dc33ceef4e796461" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\E0B\A20\sprockets%2F0dcccf3cf5085ef5fb5e5a857889dad0" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\E19\2A0\sprockets%2F10fcfbe6ebae11a40c8eac41939a1b9a" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\E1B\F50\sprockets%2F580a30cb1d1bc7e93fdadd23cc5cc7c3" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\E23\A60\sprockets%2Fd7fe8fdc2fef8bfe71d8b0993728cd89" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\E25\4C0\sprockets%2Fde2fd9fd11c04a582cdbbe3d84a35ae6" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\E3A\A10\sprockets%2Fd21dc0c7e3fecfeb97f02ded9df59292" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\E5C\B10\sprockets%2Fcb37bcc74bebb8ae9ec6364b9e4a0f2d" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\E71\4A0\sprockets%2Ffe5ae73de9a94ca3fb4dc98d95ee7be0" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\assets\EBC\AE0\sprockets%2F51cbfa7bb36affe599f4fcd3ac05afeb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\sass\42c8bc966b38a457174fda7a88517353f95b22eb\buildings.css.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\sass\42c8bc966b38a457174fda7a88517353f95b22eb\days.css.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\sass\42c8bc966b38a457174fda7a88517353f95b22eb\documents.css.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\sass\42c8bc966b38a457174fda7a88517353f95b22eb\events.css.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\sass\42c8bc966b38a457174fda7a88517353f95b22eb\favourites.css.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\sass\42c8bc966b38a457174fda7a88517353f95b22eb\floors.css.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\sass\42c8bc966b38a457174fda7a88517353f95b22eb\meetings.css.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\sass\42c8bc966b38a457174fda7a88517353f95b22eb\notes.css.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\sass\42c8bc966b38a457174fda7a88517353f95b22eb\p_is.css.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\sass\42c8bc966b38a457174fda7a88517353f95b22eb\rooms.css.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\sass\42c8bc966b38a457174fda7a88517353f95b22eb\scaffolds.css.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\sass\42c8bc966b38a457174fda7a88517353f95b22eb\schedules.css.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\sass\42c8bc966b38a457174fda7a88517353f95b22eb\sessions.css.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\sass\42c8bc966b38a457174fda7a88517353f95b22eb\tracks.css.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\tmp\cache\sass\42c8bc966b38a457174fda7a88517353f95b22eb\users.css.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\vendor\assets\javascripts\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\vendor\assets\stylesheets\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anabela\RubymineProjects\iconfs\vendor\plugins\.gitkeep" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/iconfs.iml" afterPath="$PROJECT_DIR$/.idea/iconfs.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="iconfs.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bf8551c7-fd1f-4670-bb2d-9e3ccc142d31" time="1368719312310" ignored="false" />
+    <file path="/Dummy.txt" changelist="bf8551c7-fd1f-4670-bb2d-9e3ccc142d31" time="1369067579782" ignored="false" />
     <file path="/user.rb" changelist="bf8551c7-fd1f-4670-bb2d-9e3ccc142d31" time="1368126307872" ignored="false" />
     <file path="/20130509185951_create_users.rb" changelist="bf8551c7-fd1f-4670-bb2d-9e3ccc142d31" time="1368127040975" ignored="false" />
     <file path="/20130509192421_change_data_type_for_fieldname.rb" changelist="bf8551c7-fd1f-4670-bb2d-9e3ccc142d31" time="1368127706253" ignored="false" />
@@ -36,44 +395,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="event.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/event.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="73" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="track.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/track.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="day.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/day.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="18" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="favourite.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/favourite.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -105,7 +427,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
+    <option name="x" value="61" />
+    <option name="y" value="8" />
     <option name="width" value="1280" />
     <option name="height" value="752" />
   </component>
@@ -154,38 +477,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iconfs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iconfs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iconfs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iconfs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -194,12 +485,17 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Anabela\RubymineProjects\iconfs" />
+    </key>
   </component>
   <component name="RunManager" selected="Rails.Development: iconfs">
     <configuration default="false" name="user" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
@@ -485,12 +781,12 @@
       <method />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.user" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="2" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="3" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="4" class="java.lang.String" itemvalue="Rails.Production: iconfs" />
-      <item index="5" class="java.lang.String" itemvalue="Rails.Development: iconfs" />
+      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="2" class="java.lang.String" itemvalue="Rails.Production: iconfs" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Development: iconfs" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.user" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.db:migrate" />
     </list>
     <recent_temporary>
       <list size="4">
@@ -562,14 +858,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1280" height="752" extended-state="6" />
-    <editor active="true" />
+    <frame x="61" y="8" width="1280" height="752" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.06836248" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.06774194" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901135" sideWeight="0.9316375" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.93225807" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16207455" sideWeight="0.9316375" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26026273" sideWeight="0.93225807" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3431085" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -644,36 +941,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="11" selection-start="434" selection-end="434" vertical-scroll-proportion="-19.375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="14" selection-start="218" selection-end="218" vertical-scroll-proportion="-7.5" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="53" selection-start="818" selection-end="818" vertical-scroll-proportion="0.3591772" />
-      </provider>
-    </entry>
     <entry file="uml://DATABASE/2b8f7b16-4ab8-45d4-9c67-d8ffa666e184">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -714,10 +981,10 @@
           <OriginalElement>#iconfs</OriginalElement>
           <nodes>
             <node x="" y="">User</node>
-            <node x="" y="">Document</node>
             <node x="" y="">Room</node>
-            <node x="" y="">Event</node>
+            <node x="" y="">Document</node>
             <node x="" y="">Session</node>
+            <node x="" y="">Event</node>
             <node x="" y="">Note</node>
             <node x="" y="">Pi</node>
           </nodes>
@@ -730,55 +997,6 @@
             <Category>Association fields</Category>
           </Categories>
           <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/event.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="73" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/document.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/track.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/day.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/room.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/favourite.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>

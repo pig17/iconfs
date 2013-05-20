@@ -24271,3 +24271,1420 @@ Connecting to database specified by database.yml
   [1m[35m (110.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
   [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
   [1m[35m (120.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130516152324')
+
+
+Started GET "/rooms.json" for 127.0.0.1 at 2013-05-16 17:14:01 +0100
+Connecting to database specified by database.yml
+Processing by RoomsController#index as JSON
+  [1m[36mRoom Load (0.3ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  [1m[35mFloor Load (0.3ms)[0m  SELECT "floors".* FROM "floors" WHERE "floors"."id" = 1 LIMIT 1
+  [1m[36mBuilding Load (0.3ms)[0m  [1mSELECT "buildings".* FROM "buildings" WHERE "buildings"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 353ms (Views: 0.2ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/rooms.json" for 127.0.0.1 at 2013-05-16 17:14:28 +0100
+Processing by RoomsController#index as JSON
+  [1m[35mRoom Load (0.3ms)[0m  SELECT "rooms".* FROM "rooms" 
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT "floors".* FROM "floors" WHERE "floors"."id" = 1 LIMIT 1[0m
+  [1m[35mBuilding Load (0.3ms)[0m  SELECT "buildings".* FROM "buildings" WHERE "buildings"."id" = 1 LIMIT 1
+Completed 200 OK in 123ms (Views: 98.8ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/rooms.json" for 127.0.0.1 at 2013-05-16 17:14:29 +0100
+Processing by RoomsController#index as JSON
+  [1m[36mRoom Load (0.4ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  [1m[35mFloor Load (0.3ms)[0m  SELECT "floors".* FROM "floors" WHERE "floors"."id" = 1 LIMIT 1
+  [1m[36mBuilding Load (0.3ms)[0m  [1mSELECT "buildings".* FROM "buildings" WHERE "buildings"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 8ms (Views: 4.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/rooms.json" for 127.0.0.1 at 2013-05-16 17:14:30 +0100
+Processing by RoomsController#index as JSON
+  [1m[35mRoom Load (0.3ms)[0m  SELECT "rooms".* FROM "rooms" 
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT "floors".* FROM "floors" WHERE "floors"."id" = 1 LIMIT 1[0m
+  [1m[35mBuilding Load (0.5ms)[0m  SELECT "buildings".* FROM "buildings" WHERE "buildings"."id" = 1 LIMIT 1
+Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/rooms.json" for 127.0.0.1 at 2013-05-16 17:14:30 +0100
+Processing by RoomsController#index as JSON
+  [1m[36mRoom Load (0.4ms)[0m  [1mSELECT "rooms".* FROM "rooms" [0m
+  [1m[35mFloor Load (0.3ms)[0m  SELECT "floors".* FROM "floors" WHERE "floors"."id" = 1 LIMIT 1
+  [1m[36mBuilding Load (0.4ms)[0m  [1mSELECT "buildings".* FROM "buildings" WHERE "buildings"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 7ms (Views: 3.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-16 17:14:34 +0100
+Processing by AdminController#inipage as HTML
+  Rendered admin/inipage.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 920ms (Views: 919.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-05-16 17:14:35 +0100
+Served asset /buildings.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-05-16 17:14:35 +0100
+Served asset /events.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-05-16 17:14:35 +0100
+Served asset /notes.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-05-16 17:14:35 +0100
+Served asset /rooms.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-05-16 17:14:35 +0100
+Served asset /meetings.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-16 17:14:35 +0100
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-05-16 17:14:35 +0100
+Served asset /tracks.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-05-16 17:14:35 +0100
+Served asset /schedules.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-05-16 17:14:35 +0100
+Served asset /days.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-16 17:14:35 +0100
+Served asset /application.css - 304 Not Modified (95ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-16 17:14:36 +0100
+Served asset /users.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-05-16 17:14:36 +0100
+Served asset /favourites.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-05-16 17:14:36 +0100
+Served asset /floors.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-05-16 17:14:36 +0100
+Served asset /documents.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-05-16 17:14:36 +0100
+Served asset /p_is.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-16 17:14:36 +0100
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-05-16 17:14:36 +0100
+Served asset /favourites.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-05-16 17:14:36 +0100
+Served asset /p_is.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-05-16 17:14:36 +0100
+Served asset /meetings.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-16 17:14:36 +0100
+Served asset /application.js - 304 Not Modified (42ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-05-16 17:14:36 +0100
+Served asset /schedules.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-05-16 17:14:36 +0100
+Served asset /rooms.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-05-16 17:14:36 +0100
+Served asset /floors.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-05-16 17:14:36 +0100
+Served asset /documents.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-05-16 17:14:36 +0100
+Served asset /events.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-16 17:14:36 +0100
+Served asset /users.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-05-16 17:14:36 +0100
+Served asset /buildings.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-05-16 17:14:36 +0100
+Served asset /notes.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-05-16 17:14:36 +0100
+Served asset /days.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-05-16 17:14:36 +0100
+Served asset /tracks.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-16 17:14:36 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (10ms)
+
+
+Started GET "/rooms.json" for 127.0.0.1 at 2013-05-16 17:14:41 +0100
+Processing by RoomsController#index as JSON
+  [1m[35mRoom Load (0.4ms)[0m  SELECT "rooms".* FROM "rooms" 
+  [1m[36mFloor Load (0.3ms)[0m  [1mSELECT "floors".* FROM "floors" WHERE "floors"."id" = 1 LIMIT 1[0m
+  [1m[35mBuilding Load (0.4ms)[0m  SELECT "buildings".* FROM "buildings" WHERE "buildings"."id" = 1 LIMIT 1
+Completed 200 OK in 10ms (Views: 6.7ms | ActiveRecord: 1.1ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (4.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (127.8ms)[0m  DROP TABLE "buildings"
+  [1m[36m (110.7ms)[0m  [1mCREATE TABLE "buildings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (120.1ms)[0m  DROP TABLE "days"
+  [1m[36m (110.9ms)[0m  [1mCREATE TABLE "days" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "date" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (120.1ms)[0m  DROP TABLE "documents"
+  [1m[36m (121.9ms)[0m  [1mCREATE TABLE "documents" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "link" varchar(255)) [0m
+  [1m[35m (152.5ms)[0m  DROP TABLE "events"
+  [1m[36m (143.4ms)[0m  [1mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "time" time, "description" text, "schedule_id" integer, "track_id" integer, "room_id" integer, "day_id" integer, "user_id" integer, "document_id" integer, "session" boolean, "duration" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "type" varchar(255)) [0m
+  [1m[35m (121.4ms)[0m  DROP TABLE "favourites"
+  [1m[36m (110.7ms)[0m  [1mCREATE TABLE "favourites" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "title" varchar(255), "document_id" integer, "user_id" integer) [0m
+  [1m[35m (120.2ms)[0m  DROP TABLE "floors"
+  [1m[36m (110.8ms)[0m  [1mCREATE TABLE "floors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "building_id" integer, "plan_photo" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (120.1ms)[0m  DROP TABLE "meetings"
+  [1m[36m (166.6ms)[0m  [1mCREATE TABLE "meetings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "time" datetime, "local" varchar(255), "message" text, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (187.0ms)[0m  DROP TABLE "notes"
+  [1m[36m (144.1ms)[0m  [1mCREATE TABLE "notes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "shared" boolean, "text" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (153.0ms)[0m  DROP TABLE "pis"
+  [1m[36m (132.8ms)[0m  [1mCREATE TABLE "pis" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "coordX" integer, "coordY" integer, "typePI" varchar(255), "name" varchar(255), "address" varchar(255), "contact" integer, "description" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (121.4ms)[0m  DROP TABLE "rooms"
+  [1m[36m (110.6ms)[0m  [1mCREATE TABLE "rooms" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "coordX" integer, "coordY" integer, "event_id" integer, "floor_id" integer, "capacity" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (120.3ms)[0m  DROP TABLE "schedules"
+  [1m[36m (110.8ms)[0m  [1mCREATE TABLE "schedules" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "day_id" integer, "event_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (120.1ms)[0m  DROP TABLE "tracks"
+  [1m[36m (122.1ms)[0m  [1mCREATE TABLE "tracks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (129.9ms)[0m  DROP TABLE "users"
+  [1m[36m (120.3ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "password" varchar(255), "sex" varchar(255), "image" blob, "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "note_id" integer, "document_id" integer, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.6ms)[0m  SELECT version FROM "schema_migrations"
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to ChangeUser (20130516165634)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  CREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "password_digest" varchar(255), "sex" varchar(255), "image" blob, "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "note_id" integer, "document_id" integer, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.4ms)[0m  [1mSELECT * FROM "users"[0m
+  [1m[35m (0.6ms)[0m  DROP TABLE "users"
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "password_digest" varchar(255), "sex" varchar(255), "image" blob, "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "note_id" integer, "document_id" integer, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  SELECT * FROM "altered_users"
+  [1m[36m (0.6ms)[0m  [1mDROP TABLE "altered_users"[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "users" ADD "password_confirmation" varchar(255)
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130516165634')[0m
+  [1m[35m (134.1ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (3.7ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (125.1ms)[0m  DROP TABLE "buildings"
+  [1m[36m (111.1ms)[0m  [1mCREATE TABLE "buildings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (121.0ms)[0m  DROP TABLE "days"
+  [1m[36m (111.0ms)[0m  [1mCREATE TABLE "days" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "date" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (143.6ms)[0m  DROP TABLE "documents"
+  [1m[36m (133.0ms)[0m  [1mCREATE TABLE "documents" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "link" varchar(255)) [0m
+  [1m[35m (130.3ms)[0m  DROP TABLE "events"
+  [1m[36m (110.1ms)[0m  [1mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "time" time, "description" text, "schedule_id" integer, "track_id" integer, "room_id" integer, "day_id" integer, "user_id" integer, "document_id" integer, "session" boolean, "duration" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "type" varchar(255)) [0m
+  [1m[35m (120.2ms)[0m  DROP TABLE "favourites"
+  [1m[36m (110.6ms)[0m  [1mCREATE TABLE "favourites" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "title" varchar(255), "document_id" integer, "user_id" integer) [0m
+  [1m[35m (120.2ms)[0m  DROP TABLE "floors"
+  [1m[36m (110.8ms)[0m  [1mCREATE TABLE "floors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "building_id" integer, "plan_photo" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (131.3ms)[0m  DROP TABLE "meetings"
+  [1m[36m (121.9ms)[0m  [1mCREATE TABLE "meetings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "time" datetime, "local" varchar(255), "message" text, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (141.9ms)[0m  DROP TABLE "notes"
+  [1m[36m (422.7ms)[0m  [1mCREATE TABLE "notes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "shared" boolean, "text" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (119.8ms)[0m  DROP TABLE "pis"
+  [1m[36m (110.6ms)[0m  [1mCREATE TABLE "pis" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "coordX" integer, "coordY" integer, "typePI" varchar(255), "name" varchar(255), "address" varchar(255), "contact" integer, "description" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (120.0ms)[0m  DROP TABLE "rooms"
+  [1m[36m (110.6ms)[0m  [1mCREATE TABLE "rooms" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "coordX" integer, "coordY" integer, "event_id" integer, "floor_id" integer, "capacity" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (120.4ms)[0m  DROP TABLE "schedules"
+  [1m[36m (110.8ms)[0m  [1mCREATE TABLE "schedules" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "day_id" integer, "event_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (120.4ms)[0m  DROP TABLE "tracks"
+  [1m[36m (122.0ms)[0m  [1mCREATE TABLE "tracks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (130.2ms)[0m  DROP TABLE "users"
+  [1m[36m (130.2ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "password_digest" varchar(255), "sex" varchar(255), "image" blob, "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "document_id" integer, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "password_confirmation" varchar(255)) [0m
+  [1m[35m (0.5ms)[0m  SELECT version FROM "schema_migrations"
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to AltU (20130517105755)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  CREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "password_digest" varchar(255), "sex" varchar(255), "image" blob, "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "document_id" integer, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "password_confirmation" varchar(255)) 
+  [1m[36m (0.2ms)[0m  [1mSELECT * FROM "users"[0m
+  [1m[35m (0.6ms)[0m  DROP TABLE "users"
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "sex" varchar(255), "image" blob, "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "document_id" integer, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "password_confirmation" varchar(255)) [0m
+  [1m[35m (0.2ms)[0m  SELECT * FROM "altered_users"
+  [1m[36m (17.9ms)[0m  [1mDROP TABLE "altered_users"[0m
+  [1m[35m (0.7ms)[0m  CREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "sex" varchar(255), "image" blob, "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "document_id" integer, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "password_confirmation" varchar(255)) 
+  [1m[36m (0.2ms)[0m  [1mSELECT * FROM "users"[0m
+  [1m[35m (0.5ms)[0m  DROP TABLE "users"
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "sex" varchar(255), "image" blob, "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "document_id" integer, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  SELECT * FROM "altered_users"
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "altered_users"[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "users" ADD "encrypted_password" varchar(255)
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "users" ADD "salt" varchar(255)[0m
+  [1m[35m (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130517105755')
+  [1m[36m (128.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to AltU (20130517111418)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  ALTER TABLE "users" ADD "password" varchar(255)
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130517111418')[0m
+  [1m[35m (126.5ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to AltU (20130517111946)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  CREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "sex" varchar(255), "image" blob, "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "document_id" integer, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "encrypted_password" varchar(255), "salt" varchar(255), "password" varchar(255)) 
+  [1m[36m (0.3ms)[0m  [1mSELECT * FROM "users"[0m
+  [1m[35m (0.6ms)[0m  DROP TABLE "users"
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "sex" varchar(255), "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "document_id" integer, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "encrypted_password" varchar(255), "salt" varchar(255), "password" varchar(255)) [0m
+  [1m[35m (0.2ms)[0m  SELECT * FROM "altered_users"
+  [1m[36m (0.4ms)[0m  [1mDROP TABLE "altered_users"[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "users" ADD "user_photo" varchar(255)
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130517111946')[0m
+  [1m[35m (129.4ms)[0m  commit transaction
+  [1m[36m (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (3.8ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (141.6ms)[0m  DROP TABLE "buildings"
+  [1m[36m (121.9ms)[0m  [1mCREATE TABLE "buildings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (119.7ms)[0m  DROP TABLE "days"
+  [1m[36m (111.1ms)[0m  [1mCREATE TABLE "days" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "date" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (120.0ms)[0m  DROP TABLE "documents"
+  [1m[36m (110.9ms)[0m  [1mCREATE TABLE "documents" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "link" varchar(255)) [0m
+  [1m[35m (142.8ms)[0m  DROP TABLE "events"
+  [1m[36m (132.4ms)[0m  [1mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "time" time, "description" text, "schedule_id" integer, "track_id" integer, "room_id" integer, "day_id" integer, "user_id" integer, "document_id" integer, "session" boolean, "duration" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "type" varchar(255)) [0m
+  [1m[35m (130.9ms)[0m  DROP TABLE "favourites"
+  [1m[36m (121.8ms)[0m  [1mCREATE TABLE "favourites" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "title" varchar(255), "document_id" integer, "user_id" integer) [0m
+  [1m[35m (131.1ms)[0m  DROP TABLE "floors"
+  [1m[36m (121.8ms)[0m  [1mCREATE TABLE "floors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "building_id" integer, "plan_photo" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (119.7ms)[0m  DROP TABLE "meetings"
+  [1m[36m (111.2ms)[0m  [1mCREATE TABLE "meetings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "time" datetime, "local" varchar(255), "message" text, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (120.1ms)[0m  DROP TABLE "notes"
+  [1m[36m (110.8ms)[0m  [1mCREATE TABLE "notes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "shared" boolean, "text" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (130.8ms)[0m  DROP TABLE "pis"
+  [1m[36m (145.1ms)[0m  [1mCREATE TABLE "pis" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "coordX" integer, "coordY" integer, "typePI" varchar(255), "name" varchar(255), "address" varchar(255), "contact" integer, "description" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (141.8ms)[0m  DROP TABLE "rooms"
+  [1m[36m (121.5ms)[0m  [1mCREATE TABLE "rooms" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "coordX" integer, "coordY" integer, "event_id" integer, "floor_id" integer, "capacity" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (131.3ms)[0m  DROP TABLE "schedules"
+  [1m[36m (110.7ms)[0m  [1mCREATE TABLE "schedules" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "day_id" integer, "event_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (120.1ms)[0m  DROP TABLE "tracks"
+  [1m[36m (110.9ms)[0m  [1mCREATE TABLE "tracks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (118.6ms)[0m  DROP TABLE "users"
+  [1m[36m (110.8ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "sex" varchar(255), "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "document_id" integer, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "encrypted_password" varchar(255), "salt" varchar(255), "password" varchar(255), "user_photo" varchar(255)) [0m
+  [1m[35m (0.5ms)[0m  SELECT version FROM "schema_migrations"
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to AltU (20130517121129)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  CREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "sex" varchar(255), "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "document_id" integer, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "encrypted_password" varchar(255), "salt" varchar(255), "password" varchar(255), "user_photo" varchar(255)) 
+  [1m[36m (0.3ms)[0m  [1mSELECT * FROM "users"[0m
+  [1m[35m (0.5ms)[0m  DROP TABLE "users"
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "sex" varchar(255), "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "encrypted_password" varchar(255), "salt" varchar(255), "password" varchar(255), "user_photo" varchar(255)) [0m
+  [1m[35m (0.2ms)[0m  SELECT * FROM "altered_users"
+  [1m[36m (0.4ms)[0m  [1mDROP TABLE "altered_users"[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130517121129')
+  [1m[36m (127.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.6ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to AltDoc (20130517121828)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  CREATE TEMPORARY TABLE "altered_documents" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "link" varchar(255)) 
+  [1m[36m (0.2ms)[0m  [1mSELECT * FROM "documents"[0m
+  [1m[35m (0.5ms)[0m  DROP TABLE "documents"
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "documents" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "link" varchar(255)) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "altered_documents"
+  [1m[36m (0.5ms)[0m  [1mDROP TABLE "altered_documents"[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130517121828')
+  [1m[36m (156.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to Create (20130517123319)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "documents_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "document_id" integer) 
+  [1m[36m (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130517123319')[0m
+  [1m[35m (130.9ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to UDOc (20130517125203)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130517125203')
+  [1m[36m (118.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (3.8ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (139.4ms)[0m  DROP TABLE "buildings"
+  [1m[36m (111.1ms)[0m  [1mCREATE TABLE "buildings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (120.1ms)[0m  DROP TABLE "days"
+  [1m[36m (111.0ms)[0m  [1mCREATE TABLE "days" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "date" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (142.3ms)[0m  DROP TABLE "documents"
+  [1m[36m (134.3ms)[0m  [1mCREATE TABLE "documents" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "link" varchar(255)) [0m
+  [1m[35m (130.4ms)[0m  DROP TABLE "events"
+  [1m[36m (121.3ms)[0m  [1mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "time" time, "description" text, "schedule_id" integer, "track_id" integer, "room_id" integer, "day_id" integer, "user_id" integer, "document_id" integer, "session" boolean, "duration" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "type" varchar(255)) [0m
+  [1m[35m (131.4ms)[0m  DROP TABLE "favourites"
+  [1m[36m (121.8ms)[0m  [1mCREATE TABLE "favourites" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "title" varchar(255), "document_id" integer, "user_id" integer) [0m
+  [1m[35m (120.3ms)[0m  DROP TABLE "floors"
+  [1m[36m (110.7ms)[0m  [1mCREATE TABLE "floors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "building_id" integer, "plan_photo" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (120.0ms)[0m  DROP TABLE "meetings"
+  [1m[36m (110.7ms)[0m  [1mCREATE TABLE "meetings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "time" datetime, "local" varchar(255), "message" text, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (120.4ms)[0m  DROP TABLE "notes"
+  [1m[36m (134.4ms)[0m  [1mCREATE TABLE "notes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "shared" boolean, "text" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (130.9ms)[0m  DROP TABLE "pis"
+  [1m[36m (121.6ms)[0m  [1mCREATE TABLE "pis" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "coordX" integer, "coordY" integer, "typePI" varchar(255), "name" varchar(255), "address" varchar(255), "contact" integer, "description" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (141.8ms)[0m  DROP TABLE "rooms"
+  [1m[36m (110.5ms)[0m  [1mCREATE TABLE "rooms" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "coordX" integer, "coordY" integer, "event_id" integer, "floor_id" integer, "capacity" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (106.4ms)[0m  DROP TABLE "schedules"
+  [1m[36m (110.7ms)[0m  [1mCREATE TABLE "schedules" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "day_id" integer, "event_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (120.2ms)[0m  DROP TABLE "tracks"
+  [1m[36m (110.9ms)[0m  [1mCREATE TABLE "tracks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (141.2ms)[0m  DROP TABLE "users"
+  [1m[36m (132.1ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "sex" varchar(255), "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "encrypted_password" varchar(255), "salt" varchar(255), "password" varchar(255), "user_photo" varchar(255)) [0m
+  [1m[35m (0.6ms)[0m  SELECT version FROM "schema_migrations"
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to UDOc (20130517125203)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to UDOc (20130517125203)
+Migrating to NewT (20130517125934)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130517125934')
+  [1m[36m (124.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to NewT (20130517130044)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "users_documents" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "document_id" integer) 
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130517130044')[0m
+  [1m[35m (141.6ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsersMeetings (20130518180842)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "users_meetings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130518180842')[0m
+  [1m[35m (167.4ms)[0m  commit transaction
+  [1m[36m (0.6ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsersMeetings (20130518180842)
+Migrating to ChangUd (20130518181509)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  ALTER TABLE "users_documents" ADD "created_at" datetime
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "users_documents" ADD "updated_at" datetime[0m
+  [1m[35m (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130518181509')
+  [1m[36m (132.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.6ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateSchedulesEvents (20130518182644)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  CREATE TABLE "schedules_events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "schedule_id" integer, "event_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130518182644')[0m
+  [1m[35m (149.9ms)[0m  commit transaction
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to ChSched (20130519203501)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  CREATE TEMPORARY TABLE "altered_schedules" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "day_id" integer, "event_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mSELECT * FROM "schedules"[0m
+  [1m[35m (0.6ms)[0m  DROP TABLE "schedules"
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "schedules" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "event_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  SELECT * FROM "altered_schedules"
+  [1m[36m (0.5ms)[0m  [1mDROP TABLE "altered_schedules"[0m
+  [1m[35m (0.3ms)[0m  CREATE TEMPORARY TABLE "altered_schedules" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "event_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "schedules"[0m
+  [1m[35m (0.4ms)[0m  DROP TABLE "schedules"
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "schedules" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "altered_schedules"
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "altered_schedules"[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "schedules" ADD "user_id" integer
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130519203501')[0m
+  [1m[35m (167.7ms)[0m  commit transaction
+  [1m[36m (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to AltU (20130520141044)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  CREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "sex" varchar(255), "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "encrypted_password" varchar(255), "salt" varchar(255), "password" varchar(255), "user_photo" varchar(255)) 
+  [1m[36m (0.3ms)[0m  [1mSELECT * FROM "users"[0m
+  [1m[35m (13.1ms)[0m  DROP TABLE "users"
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "sex" varchar(255), "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "encrypted_password" varchar(255), "salt" varchar(255), "user_photo" varchar(255)) [0m
+  [1m[35m (0.2ms)[0m  SELECT * FROM "altered_users"
+  [1m[36m (0.4ms)[0m  [1mDROP TABLE "altered_users"[0m
+  [1m[35m (0.5ms)[0m  CREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "sex" varchar(255), "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "encrypted_password" varchar(255), "salt" varchar(255), "user_photo" varchar(255)) 
+  [1m[36m (0.2ms)[0m  [1mSELECT * FROM "users"[0m
+  [1m[35m (0.5ms)[0m  DROP TABLE "users"
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "sex" varchar(255), "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "encrypted_password" varchar(255), "user_photo" varchar(255)) [0m
+  [1m[35m (0.2ms)[0m  SELECT * FROM "altered_users"
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "altered_users"[0m
+  [1m[35m (0.4ms)[0m  CREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "sex" varchar(255), "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "encrypted_password" varchar(255), "user_photo" varchar(255)) 
+  [1m[36m (0.2ms)[0m  [1mSELECT * FROM "users"[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "users"
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "sex" varchar(255), "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_photo" varchar(255)) [0m
+  [1m[35m (0.2ms)[0m  SELECT * FROM "altered_users"
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "altered_users"[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130520141044')
+  [1m[36m (144.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to AddDeviseToUsers (20130520143229)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "users" ADD "email" varchar(255) DEFAULT '' NOT NULL
+SQLite3::SQLException: duplicate column name: email: ALTER TABLE "users" ADD "email" varchar(255) DEFAULT '' NOT NULL
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to AddDeviseToUsers (20130520143229)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "users" ADD "email" varchar(255) DEFAULT '' NOT NULL
+SQLite3::SQLException: duplicate column name: email: ALTER TABLE "users" ADD "email" varchar(255) DEFAULT '' NOT NULL
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to AltU (20130520143537)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  CREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "sex" varchar(255), "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_photo" varchar(255)) 
+  [1m[36m (0.3ms)[0m  [1mSELECT * FROM "users"[0m
+  [1m[35m (0.5ms)[0m  DROP TABLE "users"
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "sex" varchar(255), "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_photo" varchar(255)) [0m
+  [1m[35m (0.2ms)[0m  SELECT * FROM "altered_users"
+  [1m[36m (0.4ms)[0m  [1mDROP TABLE "altered_users"[0m
+  [1m[35m (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130520143537')
+  [1m[36m (162.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to AddDeviseToUsers (20130520143708)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  ALTER TABLE "users" ADD "email" varchar(255) DEFAULT '' NOT NULL
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "users" ADD "encrypted_password" varchar(255) DEFAULT '' NOT NULL[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "users" ADD "reset_password_token" varchar(255)
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "users" ADD "reset_password_sent_at" datetime[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "users" ADD "remember_created_at" datetime
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "users" ADD "sign_in_count" integer DEFAULT 0[0m
+  [1m[35m (0.5ms)[0m  ALTER TABLE "users" ADD "current_sign_in_at" datetime
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "users" ADD "last_sign_in_at" datetime[0m
+  [1m[35m (0.5ms)[0m  ALTER TABLE "users" ADD "current_sign_in_ip" varchar(255)
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "users" ADD "last_sign_in_ip" varchar(255)[0m
+  [1m[35m (0.6ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.5ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130520143708')
+  [1m[36m (145.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.6ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-20 15:39:54 +0100
+Processing by AdminController#inipage as HTML
+  Rendered admin/inipage.html.erb within layouts/application (23.6ms)
+Compiled schedules_events.css  (86ms)  (pid 3969)
+Compiled users_documents.css  (2ms)  (pid 3969)
+Compiled users_meetings.css  (2ms)  (pid 3969)
+Compiled application.css  (153ms)  (pid 3969)
+Compiled schedules_events.js  (547ms)  (pid 3969)
+Compiled users_documents.js  (275ms)  (pid 3969)
+Compiled users_meetings.js  (223ms)  (pid 3969)
+Compiled application.js  (1103ms)  (pid 3969)
+Completed 200 OK in 2295ms (Views: 2293.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/schedules_events.css?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /schedules_events.css - 200 OK (3ms)
+
+
+Started GET "/assets/users_documents.css?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /users_documents.css - 200 OK (5ms)
+
+
+Started GET "/assets/users_meetings.css?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /users_meetings.css - 200 OK (2ms)
+
+
+Started GET "/assets/schedules_events.js?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /schedules_events.js - 200 OK (2ms)
+
+
+Started GET "/assets/users_documents.js?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /users_documents.js - 200 OK (2ms)
+
+
+Started GET "/assets/users_meetings.js?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /users_meetings.js - 200 OK (2ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /meetings.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /notes.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /application.css - 304 Not Modified (38ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /days.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /favourites.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /schedules.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /rooms.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /buildings.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /p_is.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /floors.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /documents.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /events.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /tracks.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /users.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /days.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /floors.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /notes.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /favourites.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /schedules.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /documents.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /meetings.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /events.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /rooms.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /p_is.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /tracks.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /buildings.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 15:39:57 +0100
+Served asset /application.js - 304 Not Modified (29ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-05-20 15:40:10 +0100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 305ms (Views: 52.7ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /days.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /buildings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /documents.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /favourites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /floors.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /notes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /meetings.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /p_is.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /schedules.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /buildings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /days.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /events.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /favourites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /meetings.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /floors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /notes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /p_is.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /rooms.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /schedules.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:11 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/signup" for 127.0.0.1 at 2013-05-20 15:40:22 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"signup"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "signup"]]
+Completed 404 Not Found in 6ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with id=signup):
+  app/controllers/users_controller.rb:16:in `show'
+
+
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.6ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (100.7ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-05-20 15:40:26 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/devise-2.2.4/app/views/devise/shared/_links.erb (3.6ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/devise-2.2.4/app/views/devise/registrations/new.html.erb within layouts/application (519.3ms)
+Completed 200 OK in 727ms (Views: 623.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /days.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /buildings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /events.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /favourites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /floors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /notes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /p_is.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /meetings.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /schedules.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /tracks.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /jquery.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /buildings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /days.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /documents.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /favourites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /floors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /p_is.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /notes.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /meetings.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /users.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /schedules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 15:40:27 +0100
+Served asset /application.js - 304 Not Modified (64ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P0Wj2crmorS5kCUea6ONcvbZAW7bPxCEiCO1qGRxObY=", "user"=>{"email"=>"teste@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'teste@gmail.com' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'teste@gmail.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/devise-2.2.4/app/views/devise/shared/_links.erb (1.1ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/devise-2.2.4/app/views/devise/registrations/new.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 355ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /buildings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /documents.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /days.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /floors.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /events.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /favourites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /notes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /p_is.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /schedules.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /days.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /buildings.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /favourites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /floors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /notes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /schedules.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /p_is.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-20 15:41:44 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-05-20 15:42:23 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/devise-2.2.4/app/views/devise/shared/_links.erb (1.7ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/devise-2.2.4/app/views/devise/sessions/new.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 42ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:23 +0100
+Served asset /application.css - 304 Not Modified (85ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:23 +0100
+Served asset /buildings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:23 +0100
+Served asset /documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:23 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:23 +0100
+Served asset /days.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /favourites.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /floors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /meetings.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /p_is.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /rooms.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /notes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /schedules.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /buildings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /days.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /events.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /floors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /favourites.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /notes.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /p_is.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /schedules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:24 +0100
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/users/password/new" for 127.0.0.1 at 2013-05-20 15:42:28 +0100
+Processing by Devise::PasswordsController#new as HTML
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/devise-2.2.4/app/views/devise/shared/_links.erb (0.9ms)
+  Rendered /usr/lib/ruby/gems/1.9.1/gems/devise-2.2.4/app/views/devise/passwords/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 102ms (Views: 99.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:28 +0100
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:28 +0100
+Served asset /buildings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:28 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:28 +0100
+Served asset /documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:28 +0100
+Served asset /days.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:28 +0100
+Served asset /favourites.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:28 +0100
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:28 +0100
+Served asset /p_is.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:28 +0100
+Served asset /notes.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:28 +0100
+Served asset /meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:28 +0100
+Served asset /floors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:28 +0100
+Served asset /schedules.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:28 +0100
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:28 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-20 15:42:28 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:28 +0100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:28 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:28 +0100
+Served asset /buildings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:29 +0100
+Served asset /days.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:29 +0100
+Served asset /events.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:29 +0100
+Served asset /documents.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:29 +0100
+Served asset /favourites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:29 +0100
+Served asset /floors.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:29 +0100
+Served asset /meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:29 +0100
+Served asset /notes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:29 +0100
+Served asset /p_is.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:29 +0100
+Served asset /schedules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:29 +0100
+Served asset /rooms.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:29 +0100
+Served asset /tracks.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:29 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 15:42:29 +0100
+Served asset /application.js - 304 Not Modified (4ms)

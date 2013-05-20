@@ -1,4 +1,15 @@
 Iconfs::Application.routes.draw do
+  devise_for :users
+
+  resources :schedules_events
+
+
+  resources :users_meetings
+
+
+  resources :users_documents
+
+
   resources :days
 
 
@@ -28,7 +39,7 @@ Iconfs::Application.routes.draw do
   resources :rooms
 
 
-  resources :sessions
+  resources :events
 
 
   resources :events

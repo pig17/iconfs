@@ -1,9 +1,12 @@
 class Schedule < ActiveRecord::Base
-  #attr_accessible :title, :body
+  attr_accessible :user_id
 
   belongs_to :user
-  has_and_belongs_to_many :events
-  #has_many :days, :through => :events
+  has_many :events, :through => :schedules_events
+
+
+  validates :user_id, :presence => true, :uniqueness => true
+
 
 
 end

@@ -17,7 +17,7 @@ class Room < ActiveRecord::Base
 
   def as_json(options)
     {
-        :sala => name,
+        :room => name,
         :building => {:name => nome_do_ed}
     }
   end
@@ -25,6 +25,5 @@ class Room < ActiveRecord::Base
   def nome_do_ed
     self.floor.building.name
   end
-
 
 end

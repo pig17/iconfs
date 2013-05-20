@@ -5,4 +5,10 @@ class Building < ActiveRecord::Base
 
   validates :name, :presence => true, :uniqueness => true
 
+  def as_json(options)
+    {
+        :name => name
+    }
+  end
+
 end

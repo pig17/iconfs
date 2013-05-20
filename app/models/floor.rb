@@ -10,5 +10,16 @@ class Floor < ActiveRecord::Base
   # Each floor name appears only one time per building
   validates_uniqueness_of :name, :scope => :building_id
 
+  def as_json(options)
+    {
+        :floor => name,
+        :building => {:name => name_building},
+        :plan_photo => plan_photo
+    }
+  end
+
+  def name_building
+    self.building.name
+  end
 
 end
