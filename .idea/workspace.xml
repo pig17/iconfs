@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccba1e2c-b80f-4938-8024-f68222cee28c" name="Default" comment="ligações base de dados">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/document.rb" afterPath="$PROJECT_DIR$/app/models/document.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/event.rb" afterPath="$PROJECT_DIR$/app/models/event.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/iconfs.iml" afterPath="$PROJECT_DIR$/.idea/iconfs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/meeting.rb" afterPath="$PROJECT_DIR$/app/models/meeting.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/schedule.rb" afterPath="$PROJECT_DIR$/app/models/schedule.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+    <list default="true" id="ccba1e2c-b80f-4938-8024-f68222cee28c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="iconfs.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1369067770390" ignored="false" />
+    <file path="/Dummy.txt" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1369068050986" ignored="false" />
     <file path="/user.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1369067925918" ignored="false" />
     <file path="/20130509214322_create_users.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368195234738" ignored="false" />
     <file path="/session.rb" changelist="ccba1e2c-b80f-4938-8024-f68222cee28c" time="1368284541517" ignored="false" />
@@ -702,7 +694,11 @@
       <created>1368203599077</created>
       <updated>1368203599077</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="resolução do bug das tabelas intermédias">
+      <created>1369068052817</created>
+      <updated>1369068052817</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -729,6 +725,7 @@
     <frame x="54" y="-8" width="1320" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2753846" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32594937" sideWeight="0.49313962" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.49959645" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14308426" sideWeight="0.67145133" order="3" side_tool="false" content_ui="tabs" />
@@ -744,7 +741,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2753846" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292978" sideWeight="0.6710311" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -791,7 +787,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="ligações base de dados" />
+    <option name="LAST_COMMIT_MESSAGE" value="resolução do bug das tabelas intermédias" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -806,6 +802,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="scaffold Note" />
     <MESSAGE value="ligações base de dados" />
+    <MESSAGE value="resolução do bug das tabelas intermédias" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
