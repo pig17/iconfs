@@ -1,5 +1,8 @@
 <h1>Listing notes</h1>
 
+<%= link_to 'New Note', new_note_path %>  || <%= link_to 'Home', "/" %>
+<br />
+
 <table>
   <tr>
     <th>Title</th>
@@ -21,7 +24,3 @@
   </tr>
 <% end %>
 </table>
-
-<br />
-
-<%= link_to 'New Note', new_note_path %>
