@@ -6,7 +6,7 @@ class Document < ActiveRecord::Base
   has_many :users_documents
   has_many :users, :through => :users_documents
 
-  validates :link, :presence => true,
+  validates :link, :presence => true
   validates :title, :presence => true, :uniqueness => true
   #validates :user_id, :presence => true      ALTERAR CASO NAO HAJA DOCUMENTOS SOCIAIS(docs sem autores)
 
@@ -18,12 +18,12 @@ class Document < ActiveRecord::Base
   end
 
   def self.save(upload)
-    name =  upload['datafile'].original_filename
+    name =  upload['document'].original_filename
     directory = "public/data"
     # create the file path
     path = File.join(directory, name)
     # write the file
-    File.open(path, "wb") { |f| f.write(upload['datafile'].read) }
+    File.open(path, "wb") { |f| f.write(upload['document'].read) }
   end
 
 

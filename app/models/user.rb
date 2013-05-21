@@ -64,5 +64,8 @@ end
     self.users_documents.document.link
   end
 
+  def confirmation ()
+
+  end
   
 end
