@@ -7,7 +7,7 @@ class User < ActiveRecord::Base
 
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :password, :password_confirmation, :remember_me
-  attr_accessible :aboutme, :available, :contact, :email, :facebook, :homepage,
+  attr_accessible :aboutme, :available, :contact, :facebook, :homepage,
                   :institution, :linkedin, :name, :sex, :twitter, :user_photo
 
   has_one :schedule
@@ -29,10 +29,8 @@ class User < ActiveRecord::Base
 def as_json(options)
     {
         :name => name,
-        :password => password,
         :sex => sex,
-        :image => image,
-
+        :image => user_photo,
         :available => available,
         :email => email,
         :facebook => facebook,
@@ -41,13 +39,30 @@ def as_json(options)
         :homepage => homepage,
         :institution => institution,
         :contact =>  contact,
-        :aboutme => aboutme,
-        :notes => { :title => notes.title,
-                    :shared => notes.shared},
-        :documents => { :title => documents.title,
-                        :link => documents.link}
+        :aboutme => about_me,
+        :notes => { :title => notes_title,
+                    :shared => notes_shared},
+        :documents => { :title => documents_title,
+                        :link => documents_link }
 
     }
+end
+
+  def notes_title
+    self.notes.title
   end
+
+  def notes_shared
+    self.notes.shared
+  end
+
+  def documents_title
+    self.users_documents.document.title
+  end
+
+  def documents_link
+    self.users_documents.document.link
+  end
+
   
 end
