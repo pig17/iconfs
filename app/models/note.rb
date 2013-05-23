@@ -8,12 +8,4 @@ class Note < ActiveRecord::Base
   validates :shared, :presence=>true
   validates :text, :presence=>true
 
-    def as_json(options)
-    {
-        :title => title,
-        :shared => shared,
-        :text  => text
-    }
-  end
-
 end

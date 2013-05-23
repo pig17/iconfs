@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+
+
   # GET /users
   # GET /users.json
   def index
@@ -6,7 +8,6 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       format.html # index.html.erb
-      format.js { render json: @users }
       format.json { render json: @users }
     end
   end
@@ -18,7 +19,6 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       format.html # show.html.erb
-      format.js { render json: @user }
       format.json { render json: @user }
     end
   end
@@ -30,7 +30,6 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       format.html # new.html.erb
-      format.js { render json: @user }
       format.json { render json: @user }
     end
   end
@@ -44,15 +43,12 @@ class UsersController < ApplicationController
   # POST /users.json
   def create
     @user = User.new(params[:user])
-
     respond_to do |format|
       if @user.save
         format.html { redirect_to @user, notice: 'User was successfully created.' }
-        format.js { render json: @user, status: :created, location: @user }
         format.json { render json: @user, status: :created, location: @user }
       else
         format.html { render action: "new" }
-        format.js { render json: @user.errors, status: :unprocessable_entity }
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
     end
@@ -67,10 +63,8 @@ class UsersController < ApplicationController
       if @user.update_attributes(params[:user])
         format.html { redirect_to @user, notice: 'User was successfully updated.' }
         format.json { head :no_content }
-        format.js { head :no_content }
       else
         format.html { render action: "edit" }
-        format.js { render json: @user.errors, status: :unprocessable_entity }
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
     end
@@ -84,7 +78,6 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       format.html { redirect_to users_url }
-      format.js { head :no_content }
       format.json { head :no_content }
     end
   end

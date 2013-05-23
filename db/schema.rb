@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(:version => 20130520143708) do
     t.string   "title"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-    t.binary   "link"
+    t.string   "link"
   end
 
   create_table "events", :force => true do |t|
