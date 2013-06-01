@@ -10,11 +10,10 @@ class Document < ActiveRecord::Base
   validates :title, :presence => true, :uniqueness => true
   #validates :user_id, :presence => true      ALTERAR CASO NAO HAJA DOCUMENTOS SOCIAIS(docs sem autores)
 
-    def as_json(options)
-    {
-        :Title => title,
-        :link => link
-    }
+  def to_json(options)
+    super(
+        :only => [:title, :link]
+    )
   end
 
   def self.save(upload)

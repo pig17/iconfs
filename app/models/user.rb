@@ -14,6 +14,8 @@ class User < ActiveRecord::Base
   has_many :notes
   has_many :favourites
   has_many :events
+  has_many :users_documents
+  has_many :users_meetings
   has_many :documents, :through => :users_documents
   has_many :meetings, :through => :users_meetings
 
@@ -24,9 +26,13 @@ class User < ActiveRecord::Base
   validates :name, :presence => true
   validates :sex, :presence => true
 
-
-
-
-
+  def to_json(options={})
+    super(
+        include:{ notes: {:except => [:created_at, :user_id]} ,
+                  users_documents:{:except => [:created_at, :updated_at, :id]},
+                  users_meetings:{:except => [:created_at, :updated_at, :id]}},
+        :except => [:created_at, :updated_at, :meeting_id, :id]
+    )
+  end
 
 end

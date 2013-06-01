@@ -20,7 +20,7 @@
   </div>
   <div class="field">
     <%= f.label :day_id %><br />
-    <%= f.select :date_id, Day.all.map{|d| [d.date, d.day_id]} %>
+    <%= f.select :date_id, Day.all.map{|d| [d.date, d.id]} %>
   </div>
   <div class="field">
     <%= f.label :time %><br />
@@ -28,19 +28,19 @@
   </div>
   <div class="field">
     <%= f.label :track_id %><br />
-    <%= f.select :track_id, Track.all.map{|t| [t.name, t.track_id]} %>
+    <%= f.select :track_id, Track.all.map{|t| [t.name, t.id]} %>
   </div>
   <div class="field">
     <%= f.label :room_id %><br />
-    <%= f.select :room_id, Room.all.map{|r| [r.local, r.room_id]} %>
+    <%= f.select :room_id, Room.all.map{|r| [r.local, r.id]} %>
   </div>
   <div class="field">
     <%= f.label :user_id %><br />
-    <%= f.select :user_id, User.all.map{|u| [u.name, u.user_id]} %>
+    <%= f.select :user_id, User.all.map{|u| [u.name, u.id]} %>
   </div>
   <div class="field">
     <%= f.label :document_id %><br />
-    <%= f.select :document_id, Document.all.map{|d| [d.title, d.document_id]} %>
+    <%= f.select :document_id, Document.all.map{|d| [d.title, d.id]} %>
   </div>
   <div class="field">
     <%= f.label :description %><br />

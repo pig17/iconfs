@@ -26965,3 +26965,4061 @@ Served asset /users_meetings.js - 304 Not Modified (1ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 16:00:30 +0100
 Served asset /application.js - 304 Not Modified (2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 15:59:06 +0100
+Processing by AdminController#inipage as HTML
+  Rendered admin/inipage.html.erb within layouts/application (33.0ms)
+Compiled application.css  (31ms)  (pid 17548)
+Compiled application.js  (368ms)  (pid 17548)
+Completed 200 OK in 1806ms (Views: 1806.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-05-31 15:59:08 +0100
+Served asset /days.css - 200 OK (10ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /buildings.css - 200 OK (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /application.css - 200 OK (70ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /documents.css - 200 OK (3ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /events.css - 200 OK (5ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /notes.css - 200 OK (4ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /floors.css - 200 OK (4ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /p_is.css - 200 OK (3ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /registrations.css - 200 OK (6ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /favourites.css - 200 OK (8ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /meetings.css - 200 OK (7ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /rooms.css - 200 OK (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /scaffolds.css - 200 OK (9ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /schedules.css - 200 OK (9ms)
+
+
+Started GET "/assets/schedules_events.css?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /schedules_events.css - 200 OK (3ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /tracks.css - 200 OK (4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /users.css - 200 OK (5ms)
+
+
+Started GET "/assets/users_documents.css?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /users_documents.css - 200 OK (6ms)
+
+
+Started GET "/assets/users_meetings.css?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /users_meetings.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /jquery.js - 200 OK (35ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /jquery_ujs.js - 200 OK (6ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /buildings.js - 200 OK (3ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /documents.js - 200 OK (39ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /days.js - 200 OK (3ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /events.js - 200 OK (2ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /favourites.js - 200 OK (3ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /floors.js - 200 OK (7ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /meetings.js - 200 OK (8ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /notes.js - 200 OK (3ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-05-31 15:59:09 +0100
+Served asset /p_is.js - 200 OK (33ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2013-05-31 15:59:10 +0100
+Served asset /registrations.js - 200 OK (4ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-05-31 15:59:10 +0100
+Served asset /rooms.js - 200 OK (3ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-05-31 15:59:10 +0100
+Served asset /schedules.js - 200 OK (7ms)
+
+
+Started GET "/assets/schedules_events.js?body=1" for 127.0.0.1 at 2013-05-31 15:59:10 +0100
+Served asset /schedules_events.js - 200 OK (3ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-05-31 15:59:10 +0100
+Served asset /tracks.js - 200 OK (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-31 15:59:10 +0100
+Served asset /users.js - 200 OK (2ms)
+
+
+Started GET "/assets/users_documents.js?body=1" for 127.0.0.1 at 2013-05-31 15:59:10 +0100
+Served asset /users_documents.js - 200 OK (3ms)
+
+
+Started GET "/assets/users_meetings.js?body=1" for 127.0.0.1 at 2013-05-31 15:59:10 +0100
+Served asset /users_meetings.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-31 15:59:10 +0100
+Served asset /application.js - 200 OK (42ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-05-31 15:59:14 +0100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 307ms (Views: 108.0ms | ActiveRecord: 45.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-05-31 15:59:16 +0100
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (944.1ms)
+  Rendered users/new.html.erb within layouts/application (1175.1ms)
+Completed 200 OK in 1321ms (Views: 1280.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-05-31 15:59:50 +0100
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qBRR2Dk/72RGBW2ONUIs7/VwrWjiT0JDBAZluWQXEQ0=", "user"=>{"name"=>"teste1", "email"=>"teste@gmail.com", "password"=>"[FILTERED]", "sex"=>"female", "facebook"=>"", "twitter"=>"", "linkedin"=>"", "institution"=>"", "contact"=>"", "available"=>"1", "homepage"=>"", "aboutme"=>""}, "commit"=>"Create User"}
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'teste@gmail.com' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'teste@gmail.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO "users" ("aboutme", "available", "contact", "created_at", "current_sign_in_at", "current_sign_in_ip", "email", "encrypted_password", "facebook", "homepage", "institution", "last_sign_in_at", "last_sign_in_ip", "linkedin", "meeting_id", "name", "remember_created_at", "reset_password_sent_at", "reset_password_token", "sex", "sign_in_count", "twitter", "updated_at", "user_photo") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["aboutme", ""], ["available", true], ["contact", nil], ["created_at", Fri, 31 May 2013 14:59:50 UTC +00:00], ["current_sign_in_at", nil], ["current_sign_in_ip", nil], ["email", "teste@gmail.com"], ["encrypted_password", "$2a$10$7MmxwrTxJ3Z35POOUTRNT.sGXhTCb3qY76UGQj7KLhQobrZ4G5IJq"], ["facebook", ""], ["homepage", ""], ["institution", ""], ["last_sign_in_at", nil], ["last_sign_in_ip", nil], ["linkedin", ""], ["meeting_id", nil], ["name", "teste1"], ["remember_created_at", nil], ["reset_password_sent_at", nil], ["reset_password_token", nil], ["sex", "female"], ["sign_in_count", 0], ["twitter", ""], ["updated_at", Fri, 31 May 2013 14:59:50 UTC +00:00], ["user_photo", nil]]
+  [1m[35m (149.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  UPDATE "users" SET "last_sign_in_at" = '2013-05-31 14:59:50.760326', "current_sign_in_at" = '2013-05-31 14:59:50.760326', "last_sign_in_ip" = '127.0.0.1', "current_sign_in_ip" = '127.0.0.1', "sign_in_count" = 1, "updated_at" = '2013-05-31 14:59:50.762326' WHERE "users"."id" = 2
+  [1m[36m (110.0ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 613ms (Views: 0.0ms | ActiveRecord: 269.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2013-05-31 16:00:00 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 404 Not Found in 4ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with id=1):
+  app/controllers/users_controller.rb:18:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (130.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-05-31 16:00:05 +0100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 49ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2013-05-31 16:00:09 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered users/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 89ms (Views: 88.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/2.json" for 127.0.0.1 at 2013-05-31 16:00:16 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 2
+SQLite3::SQLException: no such column: notes.user_id: SELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 2
+Completed 500 Internal Server Error in 327ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: notes.user_id: SELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 2):
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.0ms)
+
+
+Started GET "/users/2.as_json" for 127.0.0.1 at 2013-05-31 16:00:27 +0100
+Processing by UsersController#show as 
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "2"]]
+Completed 406 Not Acceptable in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/2.json" for 127.0.0.1 at 2013-05-31 16:00:35 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mNote Load (1.0ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 2[0m
+SQLite3::SQLException: no such column: notes.user_id: SELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 2
+Completed 500 Internal Server Error in 3ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: notes.user_id: SELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 2):
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/notes" for 127.0.0.1 at 2013-05-31 16:00:51 +0100
+Processing by NotesController#index as HTML
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" 
+  Rendered notes/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 89ms (Views: 85.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:52 +0100
+Served asset /days.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:52 +0100
+Served asset /buildings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:52 +0100
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:52 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:52 +0100
+Served asset /documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:52 +0100
+Served asset /favourites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:52 +0100
+Served asset /floors.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:52 +0100
+Served asset /meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:52 +0100
+Served asset /notes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:52 +0100
+Served asset /p_is.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:52 +0100
+Served asset /registrations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:52 +0100
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:52 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:52 +0100
+Served asset /schedules.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:52 +0100
+Served asset /schedules_events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:52 +0100
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:52 +0100
+Served asset /users_documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:53 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:53 +0100
+Served asset /users_meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:53 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:53 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:53 +0100
+Served asset /buildings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:53 +0100
+Served asset /days.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:53 +0100
+Served asset /documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:53 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:53 +0100
+Served asset /favourites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:53 +0100
+Served asset /floors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:53 +0100
+Served asset /meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:53 +0100
+Served asset /notes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:53 +0100
+Served asset /p_is.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:53 +0100
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:53 +0100
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:53 +0100
+Served asset /schedules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:54 +0100
+Served asset /schedules_events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:54 +0100
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:54 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:54 +0100
+Served asset /users_documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:54 +0100
+Served asset /users_meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:54 +0100
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2013-05-31 16:00:56 +0100
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (10.0ms)
+  Rendered notes/new.html.erb within layouts/application (54.0ms)
+Completed 200 OK in 104ms (Views: 94.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:56 +0100
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:56 +0100
+Served asset /buildings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:57 +0100
+Served asset /days.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:57 +0100
+Served asset /documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:57 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:57 +0100
+Served asset /favourites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:57 +0100
+Served asset /floors.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:57 +0100
+Served asset /meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:57 +0100
+Served asset /notes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:57 +0100
+Served asset /registrations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:57 +0100
+Served asset /p_is.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:57 +0100
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:57 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:57 +0100
+Served asset /schedules.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:57 +0100
+Served asset /schedules_events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:57 +0100
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:57 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:57 +0100
+Served asset /users_documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.css?body=1" for 127.0.0.1 at 2013-05-31 16:00:58 +0100
+Served asset /users_meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:58 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:58 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:58 +0100
+Served asset /buildings.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:58 +0100
+Served asset /days.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:58 +0100
+Served asset /documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:58 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:58 +0100
+Served asset /favourites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:58 +0100
+Served asset /floors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:58 +0100
+Served asset /meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:58 +0100
+Served asset /notes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:58 +0100
+Served asset /p_is.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:58 +0100
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:58 +0100
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:58 +0100
+Served asset /schedules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:58 +0100
+Served asset /schedules_events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:58 +0100
+Served asset /tracks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:59 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:59 +0100
+Served asset /users_documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:59 +0100
+Served asset /users_meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-31 16:00:59 +0100
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/users/2/notes/new" for 127.0.0.1 at 2013-05-31 16:01:19 +0100
+
+ActionController::RoutingError (No route matches [GET] "/users/2/notes/new"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started POST "/notes" for 127.0.0.1 at 2013-05-31 16:01:45 +0100
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qBRR2Dk/72RGBW2ONUIs7/VwrWjiT0JDBAZluWQXEQ0=", "note"=>{"title"=>"2343", "shared"=>"1", "text"=>"asgdhshdbshbhdbhdbhdhbhbdshdhshdh"}, "commit"=>"Create Note"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNote Exists (1.0ms)[0m  SELECT 1 AS one FROM "notes" WHERE "notes"."title" = '2343' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `user_id' for #<Note:0x3ee3fc8>):
+  app/controllers/notes_controller.rb:46:in `block in create'
+  app/controllers/notes_controller.rb:45:in `create'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.0ms)
+
+
+Started GET "/notes" for 127.0.0.1 at 2013-05-31 16:05:20 +0100
+Processing by NotesController#index as HTML
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" 
+  Rendered notes/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 49ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-05-31 16:05:20 +0100
+Served asset /documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-05-31 16:05:20 +0100
+Served asset /buildings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-31 16:05:20 +0100
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-05-31 16:05:20 +0100
+Served asset /days.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-05-31 16:05:20 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-05-31 16:05:21 +0100
+Served asset /favourites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-05-31 16:05:21 +0100
+Served asset /floors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-05-31 16:05:21 +0100
+Served asset /meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-05-31 16:05:21 +0100
+Served asset /notes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-05-31 16:05:21 +0100
+Served asset /p_is.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2013-05-31 16:05:21 +0100
+Served asset /registrations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-05-31 16:05:21 +0100
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-31 16:05:21 +0100
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-05-31 16:05:21 +0100
+Served asset /schedules.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.css?body=1" for 127.0.0.1 at 2013-05-31 16:05:21 +0100
+Served asset /schedules_events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-05-31 16:05:21 +0100
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-31 16:05:21 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.css?body=1" for 127.0.0.1 at 2013-05-31 16:05:21 +0100
+Served asset /users_documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.css?body=1" for 127.0.0.1 at 2013-05-31 16:05:21 +0100
+Served asset /users_meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-31 16:05:21 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-31 16:05:21 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-05-31 16:05:21 +0100
+Served asset /buildings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-05-31 16:05:22 +0100
+Served asset /days.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-05-31 16:05:22 +0100
+Served asset /documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-05-31 16:05:22 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-05-31 16:05:22 +0100
+Served asset /favourites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-05-31 16:05:22 +0100
+Served asset /floors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-05-31 16:05:22 +0100
+Served asset /meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-05-31 16:05:22 +0100
+Served asset /notes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-05-31 16:05:22 +0100
+Served asset /p_is.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2013-05-31 16:05:22 +0100
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-05-31 16:05:22 +0100
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-05-31 16:05:22 +0100
+Served asset /schedules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.js?body=1" for 127.0.0.1 at 2013-05-31 16:05:22 +0100
+Served asset /schedules_events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-05-31 16:05:22 +0100
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-31 16:05:22 +0100
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users_documents.js?body=1" for 127.0.0.1 at 2013-05-31 16:05:22 +0100
+Served asset /users_documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.js?body=1" for 127.0.0.1 at 2013-05-31 16:05:23 +0100
+Served asset /users_meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-31 16:05:23 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2013-05-31 16:05:24 +0100
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered notes/_form.html.erb (49.0ms)
+  Rendered notes/new.html.erb within layouts/application (52.0ms)
+Completed 500 Internal Server Error in 59ms
+
+ActionView::Template::Error (undefined method `user_id' for #<Note:0x34c1538>):
+    12:   <% end %>
+    13:     <div class="field">
+    14:       <%= f.label :user_id %><br />
+    15:       <%= f.select :user_id, User.all.map{|u| [u.name, u.id]} %> %>
+    16:     </div>
+    17:   <div class="field">
+    18:     <%= f.label :title %><br />
+  app/views/notes/_form.html.erb:15:in `block in _app_views_notes__form_html_erb__677057504_28771428'
+  app/views/notes/_form.html.erb:1:in `_app_views_notes__form_html_erb__677057504_28771428'
+  app/views/notes/new.html.erb:3:in `_app_views_notes_new_html_erb__19953652_45740016'
+  app/controllers/notes_controller.rb:29:in `new'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (24.0ms)
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2013-05-31 16:06:57 +0100
+Processing by NotesController#new as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" 
+  Rendered notes/_form.html.erb (7.0ms)
+  Rendered notes/new.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1)):
+    12:   <% end %>
+    13:     <div class="field">
+    14:       <%= f.label :user_id %><br />
+    15:       <%= f.collection_select :user_id, User.all, u.name, u.id  %> %>
+    16:     </div>
+    17:   <div class="field">
+    18:     <%= f.label :title %><br />
+  app/views/notes/_form.html.erb:15:in `block in _app_views_notes__form_html_erb__677057504_32953932'
+  app/views/notes/_form.html.erb:1:in `_app_views_notes__form_html_erb__677057504_32953932'
+  app/views/notes/new.html.erb:3:in `_app_views_notes_new_html_erb__19953652_45740016'
+  app/controllers/notes_controller.rb:29:in `new'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (22.0ms)
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2013-05-31 16:07:43 +0100
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered notes/_form.html.erb (8.0ms)
+  Rendered notes/new.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined method `user_id' for #<Note:0x3e483b8>):
+    12:   <% end %>
+    13:     <div class="field">
+    14:       <%= f.label :user_id %><br />
+    15:       <%= f.collection_select :user_id, User.all, :name, :id  %> %>
+    16:     </div>
+    17:   <div class="field">
+    18:     <%= f.label :title %><br />
+  app/views/notes/_form.html.erb:15:in `block in _app_views_notes__form_html_erb__677057504_33016896'
+  app/views/notes/_form.html.erb:1:in `_app_views_notes__form_html_erb__677057504_33016896'
+  app/views/notes/new.html.erb:3:in `_app_views_notes_new_html_erb__19953652_45740016'
+  app/controllers/notes_controller.rb:29:in `new'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (23.0ms)
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2013-05-31 16:08:05 +0100
+Processing by NotesController#new as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" 
+  Rendered notes/_form.html.erb (8.0ms)
+  Rendered notes/new.html.erb within layouts/application (11.0ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (undefined method `user_id' for #<Note:0x3e1aa88>):
+    12:   <% end %>
+    13:     <div class="field">
+    14:       <%= f.label :user_id %><br />
+    15:       <%= f.collection_select :user_id, User.all, :id , :name %>
+    16:     </div>
+    17:   <div class="field">
+    18:     <%= f.label :title %><br />
+  app/views/notes/_form.html.erb:15:in `block in _app_views_notes__form_html_erb__677057504_32973576'
+  app/views/notes/_form.html.erb:1:in `_app_views_notes__form_html_erb__677057504_32973576'
+  app/views/notes/new.html.erb:3:in `_app_views_notes_new_html_erb__19953652_45740016'
+  app/controllers/notes_controller.rb:29:in `new'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (24.0ms)
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2013-05-31 16:08:10 +0100
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered notes/_form.html.erb (7.0ms)
+  Rendered notes/new.html.erb within layouts/application (8.0ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (undefined method `user_id' for #<Note:0x44400c0>):
+    12:   <% end %>
+    13:     <div class="field">
+    14:       <%= f.label :user_id %><br />
+    15:       <%= f.collection_select :user_id, User.all, :id , :name %>
+    16:     </div>
+    17:   <div class="field">
+    18:     <%= f.label :title %><br />
+  app/views/notes/_form.html.erb:15:in `block in _app_views_notes__form_html_erb__677057504_32973576'
+  app/views/notes/_form.html.erb:1:in `_app_views_notes__form_html_erb__677057504_32973576'
+  app/views/notes/new.html.erb:3:in `_app_views_notes_new_html_erb__19953652_45740016'
+  app/controllers/notes_controller.rb:29:in `new'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (24.0ms)
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2013-05-31 16:12:07 +0100
+Processing by NotesController#new as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" 
+  Rendered notes/_form.html.erb (105.0ms)
+  Rendered notes/new.html.erb within layouts/application (108.0ms)
+Completed 500 Internal Server Error in 134ms
+
+ActionView::Template::Error (undefined method `user_id' for #<Note:0x5914d70>):
+    12:   <% end %>
+    13:     <div class="field">
+    14:       <%= f.label :user_id %><br />
+    15:       <%= f.collection_select :user_id, User.all, :id , :name %>
+    16:     </div>
+    17:   <div class="field">
+    18:     <%= f.label :title %><br />
+  app/views/notes/_form.html.erb:15:in `block in _app_views_notes__form_html_erb__677057504_32973576'
+  app/views/notes/_form.html.erb:1:in `_app_views_notes__form_html_erb__677057504_32973576'
+  app/views/notes/new.html.erb:3:in `_app_views_notes_new_html_erb__19953652_45740016'
+  app/controllers/notes_controller.rb:29:in `new'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (25.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (1.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (12.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (124.0ms)[0m  DROP TABLE "buildings"
+  [1m[36m (188.0ms)[0m  [1mCREATE TABLE "buildings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (88.0ms)[0m  DROP TABLE "days"
+  [1m[36m (99.0ms)[0m  [1mCREATE TABLE "days" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "date" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (98.0ms)[0m  DROP TABLE "documents"
+  [1m[36m (106.0ms)[0m  [1mCREATE TABLE "documents" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "link" varchar(255)) [0m
+  [1m[35m (413.0ms)[0m  DROP TABLE "events"
+  [1m[36m (249.0ms)[0m  [1mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "time" time, "description" text, "schedule_id" integer, "track_id" integer, "room_id" integer, "day_id" integer, "user_id" integer, "document_id" integer, "session" boolean, "duration" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "type" varchar(255)) [0m
+  [1m[35m (187.0ms)[0m  DROP TABLE "favourites"
+  [1m[36m (174.0ms)[0m  [1mCREATE TABLE "favourites" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "title" varchar(255), "document_id" integer, "user_id" integer) [0m
+  [1m[35m (166.0ms)[0m  DROP TABLE "floors"
+  [1m[36m (88.0ms)[0m  [1mCREATE TABLE "floors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "building_id" integer, "plan_photo" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (109.0ms)[0m  DROP TABLE "meetings"
+  [1m[36m (96.0ms)[0m  [1mCREATE TABLE "meetings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "time" datetime, "local" varchar(255), "message" text, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (145.0ms)[0m  DROP TABLE "notes"
+  [1m[36m (322.0ms)[0m  [1mCREATE TABLE "notes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "shared" boolean, "text" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (481.0ms)[0m  DROP TABLE "pis"
+  [1m[36m (253.0ms)[0m  [1mCREATE TABLE "pis" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "coordX" integer, "coordY" integer, "typePI" varchar(255), "name" varchar(255), "address" varchar(255), "contact" integer, "description" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (119.0ms)[0m  DROP TABLE "rooms"
+  [1m[36m (258.0ms)[0m  [1mCREATE TABLE "rooms" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "coordX" integer, "coordY" integer, "event_id" integer, "floor_id" integer, "capacity" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (175.0ms)[0m  DROP TABLE "schedules"
+  [1m[36m (176.0ms)[0m  [1mCREATE TABLE "schedules" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_id" integer) [0m
+  [1m[35m (292.0ms)[0m  DROP TABLE "schedules_events"
+  [1m[36m (125.0ms)[0m  [1mCREATE TABLE "schedules_events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "schedule_id" integer, "event_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (107.0ms)[0m  DROP TABLE "tracks"
+  [1m[36m (107.0ms)[0m  [1mCREATE TABLE "tracks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (427.0ms)[0m  DROP TABLE "users"
+  [1m[36m (88.0ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "sex" varchar(255), "facebook" varchar(255), "twitter" varchar(255), "linkedin" varchar(255), "institution" varchar(255), "contact" integer, "available" boolean, "homepage" varchar(255), "aboutme" text, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_photo" varchar(255), "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255)) [0m
+  [1m[35m (83.0ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (96.0ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35m (159.0ms)[0m  DROP TABLE "users_documents"
+  [1m[36m (338.0ms)[0m  [1mCREATE TABLE "users_documents" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "document_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (75.0ms)[0m  DROP TABLE "users_meetings"
+  [1m[36m (86.0ms)[0m  [1mCREATE TABLE "users_meetings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "meeting_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  SELECT version FROM "schema_migrations"
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/users/2" for 127.0.0.1 at 2013-06-01 16:33:44 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "2"]]
+Completed 404 Not Found in 176ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with id=2):
+  app/controllers/users_controller.rb:18:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (58.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-06-01 16:33:51 +0100
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" 
+  Rendered users/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 1203ms (Views: 1200.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-06-01 16:33:53 +0100
+Served asset /buildings.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-01 16:33:53 +0100
+Served asset /application.css - 304 Not Modified (46ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-06-01 16:33:53 +0100
+Served asset /days.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-06-01 16:33:53 +0100
+Served asset /events.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-06-01 16:33:53 +0100
+Served asset /documents.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-06-01 16:33:53 +0100
+Served asset /favourites.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-06-01 16:33:53 +0100
+Served asset /floors.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-06-01 16:33:53 +0100
+Served asset /meetings.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-06-01 16:33:53 +0100
+Served asset /notes.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-06-01 16:33:54 +0100
+Served asset /p_is.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2013-06-01 16:33:54 +0100
+Served asset /registrations.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-06-01 16:33:54 +0100
+Served asset /rooms.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-01 16:33:54 +0100
+Served asset /scaffolds.css - 304 Not Modified (27ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-06-01 16:33:54 +0100
+Served asset /schedules.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/schedules_events.css?body=1" for 127.0.0.1 at 2013-06-01 16:33:54 +0100
+Served asset /schedules_events.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-06-01 16:33:54 +0100
+Served asset /tracks.css - 304 Not Modified (29ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-01 16:33:54 +0100
+Served asset /users.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users_documents.css?body=1" for 127.0.0.1 at 2013-06-01 16:33:54 +0100
+Served asset /users_documents.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users_meetings.css?body=1" for 127.0.0.1 at 2013-06-01 16:33:54 +0100
+Served asset /users_meetings.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-01 16:33:54 +0100
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-01 16:33:54 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (34ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-06-01 16:33:54 +0100
+Served asset /buildings.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-06-01 16:33:54 +0100
+Served asset /days.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-06-01 16:33:54 +0100
+Served asset /documents.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-06-01 16:33:54 +0100
+Served asset /events.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-06-01 16:33:54 +0100
+Served asset /favourites.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-06-01 16:33:55 +0100
+Served asset /floors.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-06-01 16:33:55 +0100
+Served asset /meetings.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-06-01 16:33:55 +0100
+Served asset /notes.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-06-01 16:33:55 +0100
+Served asset /p_is.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2013-06-01 16:33:55 +0100
+Served asset /registrations.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-06-01 16:33:55 +0100
+Served asset /rooms.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-06-01 16:33:55 +0100
+Served asset /schedules.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/schedules_events.js?body=1" for 127.0.0.1 at 2013-06-01 16:33:55 +0100
+Served asset /schedules_events.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-06-01 16:33:55 +0100
+Served asset /tracks.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-01 16:33:55 +0100
+Served asset /users.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users_documents.js?body=1" for 127.0.0.1 at 2013-06-01 16:33:55 +0100
+Served asset /users_documents.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users_meetings.js?body=1" for 127.0.0.1 at 2013-06-01 16:33:55 +0100
+Served asset /users_meetings.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-01 16:33:55 +0100
+Served asset /application.js - 304 Not Modified (35ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-06-01 16:33:58 +0100
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (564.0ms)
+  Rendered users/new.html.erb within layouts/application (616.0ms)
+Completed 200 OK in 680ms (Views: 646.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-06-01 16:33:59 +0100
+Served asset /buildings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-01 16:33:59 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:00 +0100
+Served asset /days.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:00 +0100
+Served asset /favourites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:00 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:00 +0100
+Served asset /documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:00 +0100
+Served asset /meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:00 +0100
+Served asset /floors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:00 +0100
+Served asset /notes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:00 +0100
+Served asset /p_is.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:00 +0100
+Served asset /registrations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:00 +0100
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:00 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:00 +0100
+Served asset /schedules.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:00 +0100
+Served asset /schedules_events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:00 +0100
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:00 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:00 +0100
+Served asset /users_documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:00 +0100
+Served asset /users_meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:00 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:01 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:01 +0100
+Served asset /buildings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:01 +0100
+Served asset /days.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:01 +0100
+Served asset /documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:01 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:01 +0100
+Served asset /favourites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:01 +0100
+Served asset /floors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:01 +0100
+Served asset /meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:01 +0100
+Served asset /notes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:01 +0100
+Served asset /p_is.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:01 +0100
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:01 +0100
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:01 +0100
+Served asset /schedules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:01 +0100
+Served asset /schedules_events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:01 +0100
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:01 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:01 +0100
+Served asset /users_documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:01 +0100
+Served asset /users_meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:02 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-06-01 16:34:23 +0100
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qBRR2Dk/72RGBW2ONUIs7/VwrWjiT0JDBAZluWQXEQ0=", "user"=>{"name"=>"teste", "email"=>"teste@gmail.com", "password"=>"[FILTERED]", "sex"=>"female", "facebook"=>"", "twitter"=>"", "linkedin"=>"", "institution"=>"", "contact"=>"", "available"=>"1", "homepage"=>"", "aboutme"=>""}, "commit"=>"Create User"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'teste@gmail.com' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'teste@gmail.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (24.0ms)[0m  [1mINSERT INTO "users" ("aboutme", "available", "contact", "created_at", "current_sign_in_at", "current_sign_in_ip", "email", "encrypted_password", "facebook", "homepage", "institution", "last_sign_in_at", "last_sign_in_ip", "linkedin", "meeting_id", "name", "remember_created_at", "reset_password_sent_at", "reset_password_token", "sex", "sign_in_count", "twitter", "updated_at", "user_photo") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["aboutme", ""], ["available", true], ["contact", nil], ["created_at", Sat, 01 Jun 2013 15:34:23 UTC +00:00], ["current_sign_in_at", nil], ["current_sign_in_ip", nil], ["email", "teste@gmail.com"], ["encrypted_password", "$2a$10$fimCjMpCFcVYyavPPf56E.HeLd4CleyUWJXodsJ8.QBn3AQbBAkXi"], ["facebook", ""], ["homepage", ""], ["institution", ""], ["last_sign_in_at", nil], ["last_sign_in_ip", nil], ["linkedin", ""], ["meeting_id", nil], ["name", "teste"], ["remember_created_at", nil], ["reset_password_sent_at", nil], ["reset_password_token", nil], ["sex", "female"], ["sign_in_count", 0], ["twitter", ""], ["updated_at", Sat, 01 Jun 2013 15:34:23 UTC +00:00], ["user_photo", nil]]
+  [1m[35m (79.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (2.0ms)[0m  UPDATE "users" SET "last_sign_in_at" = '2013-06-01 15:34:23.950204', "current_sign_in_at" = '2013-06-01 15:34:23.950204', "last_sign_in_ip" = '127.0.0.1', "current_sign_in_ip" = '127.0.0.1', "sign_in_count" = 1, "updated_at" = '2013-06-01 15:34:23.953204' WHERE "users"."id" = 1
+  [1m[36m (78.0ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 552ms (Views: 0.0ms | ActiveRecord: 184.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-06-01 16:34:33 +0100
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" 
+  Rendered users/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 40ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:33 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:33 +0100
+Served asset /buildings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:33 +0100
+Served asset /days.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:33 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:33 +0100
+Served asset /documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:33 +0100
+Served asset /favourites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:34 +0100
+Served asset /floors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:34 +0100
+Served asset /meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:34 +0100
+Served asset /notes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:34 +0100
+Served asset /registrations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:34 +0100
+Served asset /p_is.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:34 +0100
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:34 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:34 +0100
+Served asset /schedules.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:34 +0100
+Served asset /schedules_events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:34 +0100
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:34 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:34 +0100
+Served asset /users_documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:34 +0100
+Served asset /users_meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:34 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:34 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:34 +0100
+Served asset /buildings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:35 +0100
+Served asset /days.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:35 +0100
+Served asset /documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:35 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:35 +0100
+Served asset /favourites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:35 +0100
+Served asset /floors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:35 +0100
+Served asset /meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:35 +0100
+Served asset /notes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:35 +0100
+Served asset /p_is.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:35 +0100
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:35 +0100
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:35 +0100
+Served asset /schedules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:35 +0100
+Served asset /schedules_events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:35 +0100
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:35 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:35 +0100
+Served asset /users_documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:35 +0100
+Served asset /users_meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:35 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2013-06-01 16:34:39 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 76ms (Views: 73.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:40 +0100
+Served asset /buildings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:40 +0100
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:40 +0100
+Served asset /documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:40 +0100
+Served asset /favourites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:40 +0100
+Served asset /days.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:40 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:40 +0100
+Served asset /floors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:40 +0100
+Served asset /meetings.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:40 +0100
+Served asset /notes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:40 +0100
+Served asset /p_is.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:40 +0100
+Served asset /registrations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:40 +0100
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:41 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:41 +0100
+Served asset /schedules.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:41 +0100
+Served asset /schedules_events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:41 +0100
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:41 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:41 +0100
+Served asset /users_documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.css?body=1" for 127.0.0.1 at 2013-06-01 16:34:41 +0100
+Served asset /users_meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:41 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:41 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:41 +0100
+Served asset /buildings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:41 +0100
+Served asset /days.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:41 +0100
+Served asset /documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:41 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:41 +0100
+Served asset /favourites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:41 +0100
+Served asset /floors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:41 +0100
+Served asset /meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:42 +0100
+Served asset /notes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:42 +0100
+Served asset /p_is.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:42 +0100
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:42 +0100
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:42 +0100
+Served asset /schedules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:42 +0100
+Served asset /schedules_events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:42 +0100
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:42 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:42 +0100
+Served asset /users_documents.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users_meetings.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:42 +0100
+Served asset /users_meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-01 16:34:42 +0100
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 16:34:47 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mNote Load (0.0ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1[0m
+SQLite3::SQLException: no such column: notes.user_id: SELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 101ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: notes.user_id: SELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 1):
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (29.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (47.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2013-06-01 16:50:23 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 50ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-06-01 16:50:23 +0100
+Served asset /days.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-01 16:50:23 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-06-01 16:50:23 +0100
+Served asset /buildings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-06-01 16:50:23 +0100
+Served asset /documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-06-01 16:50:24 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-06-01 16:50:24 +0100
+Served asset /favourites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-06-01 16:50:24 +0100
+Served asset /floors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-06-01 16:50:24 +0100
+Served asset /notes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-06-01 16:50:24 +0100
+Served asset /meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-06-01 16:50:24 +0100
+Served asset /p_is.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2013-06-01 16:50:24 +0100
+Served asset /registrations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-06-01 16:50:24 +0100
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-01 16:50:24 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-06-01 16:50:24 +0100
+Served asset /schedules.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.css?body=1" for 127.0.0.1 at 2013-06-01 16:50:24 +0100
+Served asset /schedules_events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-01 16:50:24 +0100
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-06-01 16:50:24 +0100
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.css?body=1" for 127.0.0.1 at 2013-06-01 16:50:24 +0100
+Served asset /users_documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.css?body=1" for 127.0.0.1 at 2013-06-01 16:50:24 +0100
+Served asset /users_meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-01 16:50:25 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-01 16:50:25 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-06-01 16:50:25 +0100
+Served asset /buildings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-06-01 16:50:25 +0100
+Served asset /days.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-06-01 16:50:25 +0100
+Served asset /documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-06-01 16:50:25 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-06-01 16:50:25 +0100
+Served asset /favourites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-06-01 16:50:25 +0100
+Served asset /floors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-06-01 16:50:25 +0100
+Served asset /meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-06-01 16:50:25 +0100
+Served asset /notes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-06-01 16:50:25 +0100
+Served asset /p_is.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2013-06-01 16:50:25 +0100
+Served asset /registrations.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-06-01 16:50:25 +0100
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-06-01 16:50:25 +0100
+Served asset /schedules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.js?body=1" for 127.0.0.1 at 2013-06-01 16:50:25 +0100
+Served asset /schedules_events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-06-01 16:50:25 +0100
+Served asset /tracks.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-01 16:50:25 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.js?body=1" for 127.0.0.1 at 2013-06-01 16:50:25 +0100
+Served asset /users_documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.js?body=1" for 127.0.0.1 at 2013-06-01 16:50:26 +0100
+Served asset /users_meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-01 16:50:26 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 16:50:55 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (1.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+SQLite3::SQLException: no such column: notes.user_id: SELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 5ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: notes.user_id: SELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 1):
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.0ms)
+
+
+Started GET "/users/2.jsonp" for 127.0.0.1 at 2013-06-01 16:57:29 +0100
+Processing by UsersController#show as 
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "2"]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with id=2):
+  app/controllers/users_controller.rb:18:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.0ms)
+
+
+Started GET "/users/1.jsonp" for 127.0.0.1 at 2013-06-01 16:57:34 +0100
+Processing by UsersController#show as 
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 406 Not Acceptable in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 17:02:24 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (1.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+SQLite3::SQLException: no such column: notes.user_id: SELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 3ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: notes.user_id: SELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 1):
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to AlterNotes (20130531151559)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 17:23:58 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (1.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+SQLite3::SQLException: no such column: notes.user_id: SELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 6ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: notes.user_id: SELECT "notes".* FROM "notes"  WHERE "notes"."user_id" = 1):
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to AlterNotes (20130531151559)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  ALTER TABLE "notes" ADD "user_id" integer
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130531151559')[0m
+  [1m[35m (159.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 17:25:00 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+  [1m[36mUsersDocument Load (1.0ms)[0m  [1mSELECT "users_documents".* FROM "users_documents" WHERE "users_documents"."user_id" = 1[0m
+Completed 200 OK in 68ms (Views: 22.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2013-06-01 17:25:29 +0100
+Processing by NotesController#new as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" 
+  Rendered notes/_form.html.erb (8.0ms)
+  Rendered notes/new.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 76ms (Views: 65.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-06-01 17:25:29 +0100
+Served asset /days.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-06-01 17:25:29 +0100
+Served asset /buildings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-01 17:25:29 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-06-01 17:25:29 +0100
+Served asset /documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-06-01 17:25:29 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-06-01 17:25:29 +0100
+Served asset /favourites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-06-01 17:25:29 +0100
+Served asset /floors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-06-01 17:25:29 +0100
+Served asset /meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-06-01 17:25:29 +0100
+Served asset /notes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-06-01 17:25:30 +0100
+Served asset /p_is.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2013-06-01 17:25:30 +0100
+Served asset /registrations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-06-01 17:25:30 +0100
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-01 17:25:30 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-06-01 17:25:30 +0100
+Served asset /schedules.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.css?body=1" for 127.0.0.1 at 2013-06-01 17:25:30 +0100
+Served asset /schedules_events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-06-01 17:25:30 +0100
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-01 17:25:30 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.css?body=1" for 127.0.0.1 at 2013-06-01 17:25:30 +0100
+Served asset /users_documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.css?body=1" for 127.0.0.1 at 2013-06-01 17:25:30 +0100
+Served asset /users_meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-01 17:25:30 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-01 17:25:30 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-06-01 17:25:30 +0100
+Served asset /buildings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-06-01 17:25:30 +0100
+Served asset /days.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-06-01 17:25:30 +0100
+Served asset /documents.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-06-01 17:25:30 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-06-01 17:25:30 +0100
+Served asset /favourites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-06-01 17:25:31 +0100
+Served asset /floors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-06-01 17:25:31 +0100
+Served asset /meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-06-01 17:25:31 +0100
+Served asset /notes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-06-01 17:25:31 +0100
+Served asset /p_is.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2013-06-01 17:25:31 +0100
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-06-01 17:25:31 +0100
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-06-01 17:25:31 +0100
+Served asset /schedules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.js?body=1" for 127.0.0.1 at 2013-06-01 17:25:31 +0100
+Served asset /schedules_events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-06-01 17:25:31 +0100
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-01 17:25:31 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.js?body=1" for 127.0.0.1 at 2013-06-01 17:25:31 +0100
+Served asset /users_documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.js?body=1" for 127.0.0.1 at 2013-06-01 17:25:31 +0100
+Served asset /users_meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-01 17:25:31 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/notes" for 127.0.0.1 at 2013-06-01 17:25:42 +0100
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qBRR2Dk/72RGBW2ONUIs7/VwrWjiT0JDBAZluWQXEQ0=", "note"=>{"user_id"=>"1", "title"=>"dhfbdh", "shared"=>"1", "text"=>"ddfnjfnjnsfnj"}, "commit"=>"Create Note"}
+Completed 500 Internal Server Error in 1ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: user_id):
+  app/controllers/notes_controller.rb:43:in `new'
+  app/controllers/notes_controller.rb:43:in `create'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.0ms)
+
+
+Started POST "/notes" for 127.0.0.1 at 2013-06-01 17:27:03 +0100
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qBRR2Dk/72RGBW2ONUIs7/VwrWjiT0JDBAZluWQXEQ0=", "note"=>{"user_id"=>"1", "title"=>"dhfbdh", "shared"=>"1", "text"=>"ddfnjfnjnsfnj"}, "commit"=>"Create Note"}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mNote Exists (1.0ms)[0m  SELECT 1 AS one FROM "notes" WHERE "notes"."title" = 'dhfbdh' LIMIT 1
+  [1m[36mNote Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "notes" WHERE "notes"."user_id" = 1 LIMIT 1[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "notes" ("created_at", "shared", "text", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Sat, 01 Jun 2013 16:27:03 UTC +00:00], ["shared", true], ["text", "ddfnjfnjnsfnj"], ["title", "dhfbdh"], ["updated_at", Sat, 01 Jun 2013 16:27:03 UTC +00:00], ["user_id", 1]]
+  [1m[36m (64.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/notes/1
+Completed 302 Found in 90ms (ActiveRecord: 69.0ms)
+
+
+Started GET "/notes/1" for 127.0.0.1 at 2013-06-01 17:27:04 +0100
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered notes/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 36ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-06-01 17:27:04 +0100
+Served asset /buildings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-01 17:27:04 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-06-01 17:27:04 +0100
+Served asset /documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-06-01 17:27:04 +0100
+Served asset /days.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-06-01 17:27:04 +0100
+Served asset /favourites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-06-01 17:27:04 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-06-01 17:27:04 +0100
+Served asset /floors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-06-01 17:27:04 +0100
+Served asset /meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-06-01 17:27:04 +0100
+Served asset /notes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-06-01 17:27:04 +0100
+Served asset /p_is.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2013-06-01 17:27:04 +0100
+Served asset /registrations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-06-01 17:27:04 +0100
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-01 17:27:05 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-06-01 17:27:05 +0100
+Served asset /schedules.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.css?body=1" for 127.0.0.1 at 2013-06-01 17:27:05 +0100
+Served asset /schedules_events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-06-01 17:27:05 +0100
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-01 17:27:05 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.css?body=1" for 127.0.0.1 at 2013-06-01 17:27:05 +0100
+Served asset /users_documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.css?body=1" for 127.0.0.1 at 2013-06-01 17:27:05 +0100
+Served asset /users_meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-01 17:27:05 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-01 17:27:05 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-06-01 17:27:05 +0100
+Served asset /buildings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-06-01 17:27:05 +0100
+Served asset /days.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-06-01 17:27:05 +0100
+Served asset /documents.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-06-01 17:27:05 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-06-01 17:27:05 +0100
+Served asset /favourites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-06-01 17:27:05 +0100
+Served asset /floors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-06-01 17:27:06 +0100
+Served asset /meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-06-01 17:27:06 +0100
+Served asset /notes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-06-01 17:27:06 +0100
+Served asset /p_is.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2013-06-01 17:27:06 +0100
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-06-01 17:27:06 +0100
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-06-01 17:27:06 +0100
+Served asset /schedules.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/schedules_events.js?body=1" for 127.0.0.1 at 2013-06-01 17:27:06 +0100
+Served asset /schedules_events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-06-01 17:27:06 +0100
+Served asset /tracks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-01 17:27:06 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.js?body=1" for 127.0.0.1 at 2013-06-01 17:27:06 +0100
+Served asset /users_documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.js?body=1" for 127.0.0.1 at 2013-06-01 17:27:06 +0100
+Served asset /users_meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-01 17:27:06 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 17:27:12 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 73ms
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/models/note.rb:11:in `as_json'
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 17:27:23 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (1.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 4ms
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/models/note.rb:11:in `as_json'
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/users/1.jsonp" for 127.0.0.1 at 2013-06-01 17:27:34 +0100
+Processing by UsersController#show as 
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 406 Not Acceptable in 3ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 17:27:38 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mNote Load (0.0ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1[0m
+Completed 500 Internal Server Error in 4ms
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/models/note.rb:11:in `as_json'
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 17:29:19 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 42ms
+
+NameError (undefined local variable or method `user_id' for #<User:0x5bcae98>):
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 17:33:00 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 67ms
+
+NoMethodError (undefined method `title' for #<ActiveRecord::Relation:0x5ca3a50>):
+  app/models/user.rb:52:in `notes_title'
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 17:33:38 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 6ms
+
+NoMethodError (undefined method `title' for #<ActiveRecord::Relation:0x3e90b50>):
+  app/models/user.rb:52:in `notes_title'
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 17:33:43 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `title' for #<ActiveRecord::Relation:0x5b018e0>):
+  app/models/user.rb:52:in `notes_title'
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (29.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (49.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 17:34:54 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 65ms
+
+NoMethodError (undefined method `title' for #<ActiveRecord::Relation:0x5c5e5b8>):
+  app/models/user.rb:52:in `notes_title'
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 17:35:14 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (1.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 230ms
+
+NoMethodError (undefined method `title' for #<ActiveRecord::Relation:0x2abb470>):
+  app/models/user.rb:52:in `notes_title'
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2013-06-01 17:35:18 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 239ms (Views: 238.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-01 17:35:19 +0100
+Served asset /application.css - 304 Not Modified (180ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-06-01 17:35:19 +0100
+Served asset /buildings.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-06-01 17:35:19 +0100
+Served asset /documents.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-06-01 17:35:19 +0100
+Served asset /favourites.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-06-01 17:35:19 +0100
+Served asset /days.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-06-01 17:35:19 +0100
+Served asset /events.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-06-01 17:35:19 +0100
+Served asset /floors.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-06-01 17:35:19 +0100
+Served asset /meetings.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-06-01 17:35:19 +0100
+Served asset /notes.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-06-01 17:35:19 +0100
+Served asset /p_is.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2013-06-01 17:35:19 +0100
+Served asset /registrations.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-06-01 17:35:19 +0100
+Served asset /rooms.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-01 17:35:19 +0100
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-06-01 17:35:20 +0100
+Served asset /schedules.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/schedules_events.css?body=1" for 127.0.0.1 at 2013-06-01 17:35:20 +0100
+Served asset /schedules_events.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-06-01 17:35:20 +0100
+Served asset /tracks.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-01 17:35:20 +0100
+Served asset /users.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users_documents.css?body=1" for 127.0.0.1 at 2013-06-01 17:35:20 +0100
+Served asset /users_documents.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/users_meetings.css?body=1" for 127.0.0.1 at 2013-06-01 17:35:20 +0100
+Served asset /users_meetings.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-01 17:35:20 +0100
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-01 17:35:20 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (33ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-06-01 17:35:20 +0100
+Served asset /buildings.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-06-01 17:35:20 +0100
+Served asset /days.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-06-01 17:35:20 +0100
+Served asset /documents.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-06-01 17:35:20 +0100
+Served asset /events.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-06-01 17:35:20 +0100
+Served asset /favourites.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-06-01 17:35:20 +0100
+Served asset /floors.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-06-01 17:35:20 +0100
+Served asset /meetings.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-06-01 17:35:20 +0100
+Served asset /p_is.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-06-01 17:35:21 +0100
+Served asset /notes.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2013-06-01 17:35:21 +0100
+Served asset /registrations.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-06-01 17:35:21 +0100
+Served asset /rooms.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-06-01 17:35:21 +0100
+Served asset /schedules.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/schedules_events.js?body=1" for 127.0.0.1 at 2013-06-01 17:35:21 +0100
+Served asset /schedules_events.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-06-01 17:35:21 +0100
+Served asset /tracks.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-01 17:35:21 +0100
+Served asset /users.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users_documents.js?body=1" for 127.0.0.1 at 2013-06-01 17:35:21 +0100
+Served asset /users_documents.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users_meetings.js?body=1" for 127.0.0.1 at 2013-06-01 17:35:21 +0100
+Served asset /users_meetings.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-01 17:35:21 +0100
+Served asset /application.js - 304 Not Modified (31ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 17:35:27 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mNote Load (0.0ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1[0m
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `title' for #<ActiveRecord::Relation:0x3fcd380>):
+  app/models/user.rb:52:in `notes_title'
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:06:06 +0100
+
+SyntaxError (C:/Users/Anabela/RubymineProjects/iconfs/app/models/user.rb:50: syntax error, unexpected '}'
+C:/Users/Anabela/RubymineProjects/iconfs/app/models/user.rb:72: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:06:44 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mNote Load (1.0ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1[0m
+Completed 500 Internal Server Error in 62ms
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/models/note.rb:11:in `as_json'
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:07:10 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mNote Load (0.0ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1[0m
+Completed 500 Internal Server Error in 63ms
+
+NoMethodError (undefined method `title' for #<ActiveRecord::Relation:0x64854f0>):
+  app/models/user.rb:54:in `notes_title'
+  app/models/user.rb:44:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:08:34 +0100
+
+SyntaxError (C:/Users/Anabela/RubymineProjects/iconfs/app/models/user.rb:44: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+      each :notes => { :title => notes_title,
+            ^
+C:/Users/Anabela/RubymineProjects/iconfs/app/models/user.rb:50: syntax error, unexpected '}', expecting keyword_end
+C:/Users/Anabela/RubymineProjects/iconfs/app/models/user.rb:72: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:14:38 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 200 OK in 41ms (Views: 1.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:17:29 +0100
+
+SyntaxError (C:/Users/Anabela/RubymineProjects/iconfs/app/models/user.rb:44: syntax error, unexpected '}', expecting tASSOC
+C:/Users/Anabela/RubymineProjects/iconfs/app/models/user.rb:74: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:18:31 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 98ms (Views: 1.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:19:05 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mNote Load (0.0ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1[0m
+Completed 500 Internal Server Error in 134ms
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/models/note.rb:11:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (38.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:19:29 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mNote Load (1.0ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1[0m
+Completed 500 Internal Server Error in 68ms
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/models/note.rb:11:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:20:21 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 200 OK in 77ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:21:32 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 41ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:23:05 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mNote Load (0.0ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1[0m
+Completed 500 Internal Server Error in 71ms
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/models/note.rb:11:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:23:47 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mNote Load (0.0ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1[0m
+Completed 500 Internal Server Error in 67ms
+
+NoMethodError (undefined method `title' for #<ActiveRecord::Relation:0x6527bb0>):
+  app/models/user.rb:56:in `notes_title'
+  app/models/user.rb:44:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:24:42 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 200 OK in 61ms (Views: 0.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:25:16 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 46ms (Views: 0.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users.json" for 127.0.0.1 at 2013-06-01 18:25:58 +0100
+Processing by UsersController#index as JSON
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" 
+Completed 200 OK in 13ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users.json" for 127.0.0.1 at 2013-06-01 18:26:57 +0100
+Processing by UsersController#index as JSON
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  [1m[35mNote Load (1.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 66ms
+
+NoMethodError (undefined method `title' for #<ActiveRecord::Relation:0x6522468>):
+  app/models/user.rb:55:in `notes_title'
+  app/models/user.rb:44:in `as_json'
+  app/controllers/users_controller.rb:11:in `block (2 levels) in index'
+  app/controllers/users_controller.rb:9:in `index'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:27:06 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `title' for #<ActiveRecord::Relation:0x46e7de8>):
+  app/models/user.rb:55:in `notes_title'
+  app/models/user.rb:44:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:33:41 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 63ms
+
+NoMethodError (undefined method `title' for #<ActiveRecord::Relation:0x64d6a30>):
+  app/models/user.rb:58:in `notes_title'
+  app/models/user.rb:45:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (34.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (55.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:34:28 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 65ms
+
+NoMethodError (undefined method `title' for #<ActiveRecord::Relation:0x5b7f6b8>):
+  app/models/user.rb:52:in `notes_title'
+  app/models/user.rb:44:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:36:13 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 500 Internal Server Error in 133ms
+
+SyntaxError (C:/Users/Anabela/RubymineProjects/iconfs/app/models/document.rb:10: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+  validates :title, :presence => true, :uniqueness => true
+             ^
+C:/Users/Anabela/RubymineProjects/iconfs/app/models/document.rb:10: Can't assign to true
+  validates :title, :presence => true, :uniqueness => true
+                                      ^
+C:/Users/Anabela/RubymineProjects/iconfs/app/models/document.rb:10: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+  validates :title, :presence => true, :uniqueness => true
+                                                     ^):
+  app/models/user.rb:64:in `documents_title'
+  app/models/user.rb:45:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:36:34 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 200 OK in 51ms (Views: 1.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:40:00 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 97ms
+
+NoMethodError (undefined method `title' for #<ActiveRecord::Relation:0x43ed068>):
+  app/models/user.rb:44:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:41:10 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 66ms
+
+NoMethodError (undefined method `title' for #<ActiveRecord::Relation:0x5e6f2c0>):
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:41:29 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 64ms
+
+NoMethodError (undefined method `title' for #<ActiveRecord::Relation:0x6499d70>):
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:42:03 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (1.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 61ms
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/models/note.rb:11:in `as_json'
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:42:31 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 93ms
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/models/note.rb:11:in `as_json'
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:43:54 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 68ms
+
+NoMethodError (undefined method `title' for #<ActiveRecord::Relation:0x647f820>):
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:44:25 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (1.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 96ms
+
+NoMethodError (undefined method `title' for #<ActiveRecord::Relation:0x650b650>):
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:44:27 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `title' for #<ActiveRecord::Relation:0x5aff840>):
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:44:28 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `title' for #<ActiveRecord::Relation:0x38161e0>):
+  app/models/user.rb:43:in `as_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:45:39 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (1.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+Completed 200 OK in 70ms (Views: 24.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:46:38 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+Completed 500 Internal Server Error in 111ms
+
+SyntaxError (C:/Users/Anabela/RubymineProjects/iconfs/app/models/document.rb:10: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+  validates :title, :presence => true, :uniqueness => true
+             ^
+C:/Users/Anabela/RubymineProjects/iconfs/app/models/document.rb:10: Can't assign to true
+  validates :title, :presence => true, :uniqueness => true
+                                      ^
+C:/Users/Anabela/RubymineProjects/iconfs/app/models/document.rb:10: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+  validates :title, :presence => true, :uniqueness => true
+                                                     ^):
+  app/models/user.rb:33:in `to_json'
+  app/controllers/users_controller.rb:22:in `block (2 levels) in show'
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:47:02 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+  [1m[36mUsersDocument Load (0.0ms)[0m  [1mSELECT "users_documents".* FROM "users_documents" WHERE "users_documents"."user_id" = 1[0m
+Completed 200 OK in 107ms (Views: 36.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:47:55 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mNote Load (0.0ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1[0m
+  [1m[35mUsersDocument Load (0.0ms)[0m  SELECT "users_documents".* FROM "users_documents" WHERE "users_documents"."user_id" = 1
+Completed 200 OK in 76ms (Views: 35.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:47:56 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (0.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+  [1m[36mUsersDocument Load (1.0ms)[0m  [1mSELECT "users_documents".* FROM "users_documents" WHERE "users_documents"."user_id" = 1[0m
+Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:47:58 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mNote Load (0.0ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1[0m
+  [1m[35mUsersDocument Load (0.0ms)[0m  SELECT "users_documents".* FROM "users_documents" WHERE "users_documents"."user_id" = 1
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:50:22 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mNote Load (1.0ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1
+  [1m[36mUsersDocument Load (0.0ms)[0m  [1mSELECT "users_documents".* FROM "users_documents" WHERE "users_documents"."user_id" = 1[0m
+Completed 200 OK in 80ms (Views: 35.0ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 18:50:47 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mNote Load (1.0ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1[0m
+  [1m[35mUsersDocument Load (1.0ms)[0m  SELECT "users_documents".* FROM "users_documents" WHERE "users_documents"."user_id" = 1
+Completed 200 OK in 79ms (Views: 34.0ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/pis.json?callback=jQuery1830702141938265413_1370109161682&_=1370109162073" for 127.0.0.1 at 2013-06-01 18:52:42 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery1830702141938265413_1370109161682", "_"=>"1370109162073"}
+  [1m[36mPi Load (0.0ms)[0m  [1mSELECT "pis".* FROM "pis" [0m
+Completed 200 OK in 7ms (Views: 0.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/pis.json?callback=jQuery183018855306855402887_1370109591218&_=1370109591693" for 127.0.0.1 at 2013-06-01 18:59:52 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery183018855306855402887_1370109591218", "_"=>"1370109591693"}
+  [1m[35mPi Load (0.0ms)[0m  SELECT "pis".* FROM "pis" 
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pis.json?callback=jQuery18308504213078413159_1370109661812&_=1370109662360" for 127.0.0.1 at 2013-06-01 19:01:02 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery18308504213078413159_1370109661812", "_"=>"1370109662360"}
+  [1m[36mPi Load (0.0ms)[0m  [1mSELECT "pis".* FROM "pis" [0m
+Completed 200 OK in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pis.json?callback=jQuery183045199381140992045_1370109740197&_=1370109740573" for 127.0.0.1 at 2013-06-01 19:02:20 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery183045199381140992045_1370109740197", "_"=>"1370109740573"}
+  [1m[35mPi Load (0.0ms)[0m  SELECT "pis".* FROM "pis" 
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pis.json?callback=jQuery18309618320821318775_1370109799735&_=1370109800128" for 127.0.0.1 at 2013-06-01 19:03:20 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery18309618320821318775_1370109799735", "_"=>"1370109800128"}
+  [1m[36mPi Load (1.0ms)[0m  [1mSELECT "pis".* FROM "pis" [0m
+Completed 200 OK in 1ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pis.json?callback=jQuery183038816240313462913_1370109874402&_=1370109874909" for 127.0.0.1 at 2013-06-01 19:04:35 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery183038816240313462913_1370109874402", "_"=>"1370109874909"}
+  [1m[35mPi Load (0.0ms)[0m  SELECT "pis".* FROM "pis" 
+Completed 200 OK in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pis.json?callback=jQuery183008615166181698442_1370109896095&_=1370109896497" for 127.0.0.1 at 2013-06-01 19:04:56 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery183008615166181698442_1370109896095", "_"=>"1370109896497"}
+  [1m[36mPi Load (0.0ms)[0m  [1mSELECT "pis".* FROM "pis" [0m
+Completed 200 OK in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pis.json?callback=jQuery183049436438200064003_1370109922935&_=1370109923326" for 127.0.0.1 at 2013-06-01 19:05:23 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery183049436438200064003_1370109922935", "_"=>"1370109923326"}
+  [1m[35mPi Load (0.0ms)[0m  SELECT "pis".* FROM "pis" 
+Completed 200 OK in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pis.json?callback=jQuery18301402007646393031_1370109970302&_=1370109970714" for 127.0.0.1 at 2013-06-01 19:06:11 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery18301402007646393031_1370109970302", "_"=>"1370109970714"}
+  [1m[36mPi Load (1.0ms)[0m  [1mSELECT "pis".* FROM "pis" [0m
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pis.json?callback=jQuery183043342533614486456_1370109997308&_=1370109997679" for 127.0.0.1 at 2013-06-01 19:06:37 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery183043342533614486456_1370109997308", "_"=>"1370109997679"}
+  [1m[35mPi Load (0.0ms)[0m  SELECT "pis".* FROM "pis" 
+Completed 200 OK in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pis.json?callback=jQuery1830009494990343227983_1370110017366&_=1370110017739" for 127.0.0.1 at 2013-06-01 19:06:57 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery1830009494990343227983_1370110017366", "_"=>"1370110017739"}
+  [1m[36mPi Load (0.0ms)[0m  [1mSELECT "pis".* FROM "pis" [0m
+Completed 200 OK in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pis.json?callback=jQuery18306641664875205606_1370110029720&_=1370110030108" for 127.0.0.1 at 2013-06-01 19:07:10 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery18306641664875205606_1370110029720", "_"=>"1370110030108"}
+  [1m[35mPi Load (0.0ms)[0m  SELECT "pis".* FROM "pis" 
+Completed 200 OK in 1ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pis.json?callback=jQuery1830901261162944138_1370110043935&_=1370110044277" for 127.0.0.1 at 2013-06-01 19:07:24 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery1830901261162944138_1370110043935", "_"=>"1370110044277"}
+  [1m[36mPi Load (1.0ms)[0m  [1mSELECT "pis".* FROM "pis" [0m
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pis.json?callback=jQuery183048544983472675085_1370110057772&_=1370110058177" for 127.0.0.1 at 2013-06-01 19:07:38 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery183048544983472675085_1370110057772", "_"=>"1370110058177"}
+  [1m[35mPi Load (0.0ms)[0m  SELECT "pis".* FROM "pis" 
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pis.json?callback=jQuery18307750947661697865_1370110074702&_=1370110075097" for 127.0.0.1 at 2013-06-01 19:07:55 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery18307750947661697865_1370110074702", "_"=>"1370110075097"}
+  [1m[36mPi Load (1.0ms)[0m  [1mSELECT "pis".* FROM "pis" [0m
+Completed 200 OK in 2ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pis.json?callback=jQuery18305829657427966595_1370110113352&_=1370110113694" for 127.0.0.1 at 2013-06-01 19:08:34 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery18305829657427966595_1370110113352", "_"=>"1370110113694"}
+  [1m[35mPi Load (1.0ms)[0m  SELECT "pis".* FROM "pis" 
+Completed 200 OK in 2ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pis.json?callback=jQuery18305485300545115024_1370110126774&_=1370110127091" for 127.0.0.1 at 2013-06-01 19:08:47 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery18305485300545115024_1370110126774", "_"=>"1370110127091"}
+  [1m[36mPi Load (1.0ms)[0m  [1mSELECT "pis".* FROM "pis" [0m
+Completed 200 OK in 1ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pis.json?callback=jQuery18308700197250582278_1370110142167&_=1370110142554" for 127.0.0.1 at 2013-06-01 19:09:02 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery18308700197250582278_1370110142167", "_"=>"1370110142554"}
+  [1m[35mPi Load (0.0ms)[0m  SELECT "pis".* FROM "pis" 
+Completed 200 OK in 16ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pis.json?callback=jQuery183036468611494638026_1370110148833&_=1370110149219" for 127.0.0.1 at 2013-06-01 19:09:09 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery183036468611494638026_1370110148833", "_"=>"1370110149219"}
+  [1m[36mPi Load (1.0ms)[0m  [1mSELECT "pis".* FROM "pis" [0m
+Completed 200 OK in 2ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pis.json?callback=jQuery18302332240967079997_1370110161897&_=1370110162265" for 127.0.0.1 at 2013-06-01 19:09:22 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery18302332240967079997_1370110161897", "_"=>"1370110162265"}
+  [1m[35mPi Load (1.0ms)[0m  SELECT "pis".* FROM "pis" 
+Completed 200 OK in 1ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pis.json?callback=jQuery1830458800949389115_1370110215077&_=1370110215472" for 127.0.0.1 at 2013-06-01 19:10:15 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery1830458800949389115_1370110215077", "_"=>"1370110215472"}
+  [1m[36mPi Load (1.0ms)[0m  [1mSELECT "pis".* FROM "pis" [0m
+Completed 200 OK in 1ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pis.json?callback=jQuery18303576463726349175_1370110279300&_=1370110279679" for 127.0.0.1 at 2013-06-01 19:11:20 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery18303576463726349175_1370110279300", "_"=>"1370110279679"}
+  [1m[35mPi Load (0.0ms)[0m  SELECT "pis".* FROM "pis" 
+Completed 200 OK in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pis.json?callback=jQuery18306999317165464163_1370110298072&_=1370110298412" for 127.0.0.1 at 2013-06-01 19:11:38 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery18306999317165464163_1370110298072", "_"=>"1370110298412"}
+  [1m[36mPi Load (1.0ms)[0m  [1mSELECT "pis".* FROM "pis" [0m
+Completed 200 OK in 2ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pis.json?callback=jQuery18303226198321208358_1370110326737&_=1370110327131" for 127.0.0.1 at 2013-06-01 19:12:07 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery18303226198321208358_1370110326737", "_"=>"1370110327131"}
+  [1m[35mPi Load (0.0ms)[0m  SELECT "pis".* FROM "pis" 
+Completed 200 OK in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pis.json?callback=jQuery18305320532636251301_1370110355966&_=1370110356346" for 127.0.0.1 at 2013-06-01 19:12:36 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery18305320532636251301_1370110355966", "_"=>"1370110356346"}
+  [1m[36mPi Load (0.0ms)[0m  [1mSELECT "pis".* FROM "pis" [0m
+Completed 200 OK in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pis.json?callback=jQuery18308874000194482505_1370110365107&_=1370110365573" for 127.0.0.1 at 2013-06-01 19:12:45 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery18308874000194482505_1370110365107", "_"=>"1370110365573"}
+  [1m[35mPi Load (1.0ms)[0m  SELECT "pis".* FROM "pis" 
+Completed 200 OK in 1ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pis.json?callback=jQuery18306015867730602622_1370110376976&_=1370110377376" for 127.0.0.1 at 2013-06-01 19:12:57 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery18306015867730602622_1370110376976", "_"=>"1370110377376"}
+  [1m[36mPi Load (0.0ms)[0m  [1mSELECT "pis".* FROM "pis" [0m
+Completed 200 OK in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pis.json?callback=jQuery183017012760764919221_1370110387418&_=1370110387826" for 127.0.0.1 at 2013-06-01 19:13:07 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery183017012760764919221_1370110387418", "_"=>"1370110387826"}
+  [1m[35mPi Load (1.0ms)[0m  SELECT "pis".* FROM "pis" 
+Completed 200 OK in 4ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pis.json?callback=jQuery18303195713253226131_1370110416849&_=1370110417234" for 127.0.0.1 at 2013-06-01 19:13:37 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery18303195713253226131_1370110416849", "_"=>"1370110417234"}
+  [1m[36mPi Load (0.0ms)[0m  [1mSELECT "pis".* FROM "pis" [0m
+Completed 200 OK in 3ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pis.json?callback=jQuery18304620526332873851_1370110500840&_=1370110501080" for 127.0.0.1 at 2013-06-01 19:15:01 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery18304620526332873851_1370110500840", "_"=>"1370110501080"}
+  [1m[35mPi Load (0.0ms)[0m  SELECT "pis".* FROM "pis" 
+Completed 200 OK in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pis.json?callback=jQuery1830883245708188042_1370110887869&_=1370110888354" for 127.0.0.1 at 2013-06-01 19:21:28 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery1830883245708188042_1370110887869", "_"=>"1370110888354"}
+  [1m[36mPi Load (1.0ms)[0m  [1mSELECT "pis".* FROM "pis" [0m
+Completed 200 OK in 1ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pis.json?callback=jQuery18305357852042652667_1370110931457&_=1370110931880" for 127.0.0.1 at 2013-06-01 19:22:12 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery18305357852042652667_1370110931457", "_"=>"1370110931880"}
+  [1m[35mPi Load (1.0ms)[0m  SELECT "pis".* FROM "pis" 
+Completed 200 OK in 1ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pis.json?callback=jQuery183046941756014712155_1370110949947&_=1370110950358" for 127.0.0.1 at 2013-06-01 19:22:30 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery183046941756014712155_1370110949947", "_"=>"1370110950358"}
+  [1m[36mPi Load (0.0ms)[0m  [1mSELECT "pis".* FROM "pis" [0m
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pis.json?callback=jQuery183008912177849560976_1370111216948&_=1370111217471" for 127.0.0.1 at 2013-06-01 19:26:57 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery183008912177849560976_1370111216948", "_"=>"1370111217471"}
+  [1m[35mPi Load (1.0ms)[0m  SELECT "pis".* FROM "pis" 
+Completed 200 OK in 1ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pis.json?callback=jQuery18305892627344001085_1370111228094&_=1370111228547" for 127.0.0.1 at 2013-06-01 19:27:08 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery18305892627344001085_1370111228094", "_"=>"1370111228547"}
+  [1m[36mPi Load (1.0ms)[0m  [1mSELECT "pis".* FROM "pis" [0m
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pis.json?callback=jQuery18308277985190507025_1370111240969&_=1370111241399" for 127.0.0.1 at 2013-06-01 19:27:21 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery18308277985190507025_1370111240969", "_"=>"1370111241399"}
+  [1m[35mPi Load (0.0ms)[0m  SELECT "pis".* FROM "pis" 
+Completed 200 OK in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pis.json?callback=jQuery183048229600046761334_1370111255257&_=1370111255717" for 127.0.0.1 at 2013-06-01 19:27:35 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery183048229600046761334_1370111255257", "_"=>"1370111255717"}
+  [1m[36mPi Load (0.0ms)[0m  [1mSELECT "pis".* FROM "pis" [0m
+Completed 200 OK in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pis.json?callback=jQuery18305424023314844817_1370111271005&_=1370111271426" for 127.0.0.1 at 2013-06-01 19:27:51 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery18305424023314844817_1370111271005", "_"=>"1370111271426"}
+  [1m[35mPi Load (0.0ms)[0m  SELECT "pis".* FROM "pis" 
+Completed 200 OK in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pis.json?callback=jQuery1830136425286764279_1370111318322&_=1370111318746" for 127.0.0.1 at 2013-06-01 19:28:39 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery1830136425286764279_1370111318322", "_"=>"1370111318746"}
+  [1m[36mPi Load (1.0ms)[0m  [1mSELECT "pis".* FROM "pis" [0m
+Completed 200 OK in 1ms (Views: 0.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 19:32:10 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mNote Load (0.0ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1[0m
+  [1m[35mUsersDocument Load (0.0ms)[0m  SELECT "users_documents".* FROM "users_documents" WHERE "users_documents"."user_id" = 1
+  [1m[36mUsersMeeting Load (0.0ms)[0m  [1mSELECT "users_meetings".* FROM "users_meetings" WHERE "users_meetings"."user_id" = 1[0m
+Completed 200 OK in 95ms (Views: 52.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 19:45:02 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mNote Load (0.0ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1[0m
+  [1m[35mUsersDocument Load (0.0ms)[0m  SELECT "users_documents".* FROM "users_documents" WHERE "users_documents"."user_id" = 1
+  [1m[36mUsersMeeting Load (1.0ms)[0m  [1mSELECT "users_meetings".* FROM "users_meetings" WHERE "users_meetings"."user_id" = 1[0m
+Completed 200 OK in 91ms (Views: 46.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/pis.json?callback=jQuery18308118381244130433_1370112489106&_=1370112492876" for 127.0.0.1 at 2013-06-01 19:48:13 +0100
+Processing by PisController#index as JSON
+  Parameters: {"callback"=>"jQuery18308118381244130433_1370112489106", "_"=>"1370112492876"}
+  [1m[35mPi Load (0.0ms)[0m  SELECT "pis".* FROM "pis" 
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2013-06-01 20:59:08 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 187ms (Views: 108.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:08 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:09 +0100
+Served asset /buildings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:09 +0100
+Served asset /days.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:09 +0100
+Served asset /documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:09 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:09 +0100
+Served asset /floors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:09 +0100
+Served asset /favourites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:09 +0100
+Served asset /meetings.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:09 +0100
+Served asset /notes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:09 +0100
+Served asset /p_is.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:09 +0100
+Served asset /registrations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:09 +0100
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:09 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:09 +0100
+Served asset /schedules.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:09 +0100
+Served asset /schedules_events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:10 +0100
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:10 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:10 +0100
+Served asset /users_documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:10 +0100
+Served asset /users_meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:10 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:10 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:10 +0100
+Served asset /buildings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:10 +0100
+Served asset /days.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:10 +0100
+Served asset /documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:10 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:10 +0100
+Served asset /favourites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:10 +0100
+Served asset /floors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:10 +0100
+Served asset /meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:10 +0100
+Served asset /notes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:10 +0100
+Served asset /p_is.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:10 +0100
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:10 +0100
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:11 +0100
+Served asset /schedules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:11 +0100
+Served asset /schedules_events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:11 +0100
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:11 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:11 +0100
+Served asset /users_documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:11 +0100
+Served asset /users_meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:11 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2013-06-01 20:59:13 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/_form.html.erb (663.0ms)
+  Rendered users/edit.html.erb within layouts/application (728.0ms)
+Completed 200 OK in 763ms (Views: 761.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:14 +0100
+Served asset /buildings.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:14 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:15 +0100
+Served asset /days.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:15 +0100
+Served asset /documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:15 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:15 +0100
+Served asset /favourites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:15 +0100
+Served asset /floors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:15 +0100
+Served asset /meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:15 +0100
+Served asset /notes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:15 +0100
+Served asset /p_is.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:15 +0100
+Served asset /registrations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:15 +0100
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:15 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:15 +0100
+Served asset /schedules.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:15 +0100
+Served asset /schedules_events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:15 +0100
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:15 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:16 +0100
+Served asset /users_documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.css?body=1" for 127.0.0.1 at 2013-06-01 20:59:16 +0100
+Served asset /users_meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:16 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:16 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:16 +0100
+Served asset /buildings.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:16 +0100
+Served asset /days.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:16 +0100
+Served asset /documents.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:16 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:16 +0100
+Served asset /favourites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:16 +0100
+Served asset /floors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:16 +0100
+Served asset /meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:16 +0100
+Served asset /notes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:16 +0100
+Served asset /p_is.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:16 +0100
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:16 +0100
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:16 +0100
+Served asset /schedules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:17 +0100
+Served asset /schedules_events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:17 +0100
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:17 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:17 +0100
+Served asset /users_documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:17 +0100
+Served asset /users_meetings.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-01 20:59:17 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2013-06-01 21:24:14 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 43ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/buildings.css?body=1" for 127.0.0.1 at 2013-06-01 21:24:15 +0100
+Served asset /buildings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-01 21:24:15 +0100
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/documents.css?body=1" for 127.0.0.1 at 2013-06-01 21:24:15 +0100
+Served asset /documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.css?body=1" for 127.0.0.1 at 2013-06-01 21:24:15 +0100
+Served asset /days.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2013-06-01 21:24:15 +0100
+Served asset /events.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.css?body=1" for 127.0.0.1 at 2013-06-01 21:24:15 +0100
+Served asset /favourites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.css?body=1" for 127.0.0.1 at 2013-06-01 21:24:15 +0100
+Served asset /floors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.css?body=1" for 127.0.0.1 at 2013-06-01 21:24:15 +0100
+Served asset /meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-06-01 21:24:15 +0100
+Served asset /notes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.css?body=1" for 127.0.0.1 at 2013-06-01 21:24:15 +0100
+Served asset /p_is.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2013-06-01 21:24:15 +0100
+Served asset /registrations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-06-01 21:24:15 +0100
+Served asset /rooms.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-01 21:24:15 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2013-06-01 21:24:15 +0100
+Served asset /schedules.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.css?body=1" for 127.0.0.1 at 2013-06-01 21:24:15 +0100
+Served asset /schedules_events.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tracks.css?body=1" for 127.0.0.1 at 2013-06-01 21:24:15 +0100
+Served asset /tracks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-01 21:24:15 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.css?body=1" for 127.0.0.1 at 2013-06-01 21:24:16 +0100
+Served asset /users_documents.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.css?body=1" for 127.0.0.1 at 2013-06-01 21:24:16 +0100
+Served asset /users_meetings.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-01 21:24:16 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-01 21:24:16 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/buildings.js?body=1" for 127.0.0.1 at 2013-06-01 21:24:16 +0100
+Served asset /buildings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/days.js?body=1" for 127.0.0.1 at 2013-06-01 21:24:16 +0100
+Served asset /days.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/documents.js?body=1" for 127.0.0.1 at 2013-06-01 21:24:16 +0100
+Served asset /documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2013-06-01 21:24:16 +0100
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/favourites.js?body=1" for 127.0.0.1 at 2013-06-01 21:24:16 +0100
+Served asset /favourites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/floors.js?body=1" for 127.0.0.1 at 2013-06-01 21:24:16 +0100
+Served asset /floors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/meetings.js?body=1" for 127.0.0.1 at 2013-06-01 21:24:16 +0100
+Served asset /meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-06-01 21:24:16 +0100
+Served asset /notes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p_is.js?body=1" for 127.0.0.1 at 2013-06-01 21:24:16 +0100
+Served asset /p_is.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2013-06-01 21:24:16 +0100
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-06-01 21:24:16 +0100
+Served asset /rooms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules.js?body=1" for 127.0.0.1 at 2013-06-01 21:24:16 +0100
+Served asset /schedules.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/schedules_events.js?body=1" for 127.0.0.1 at 2013-06-01 21:24:16 +0100
+Served asset /schedules_events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tracks.js?body=1" for 127.0.0.1 at 2013-06-01 21:24:16 +0100
+Served asset /tracks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-01 21:24:17 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_documents.js?body=1" for 127.0.0.1 at 2013-06-01 21:24:17 +0100
+Served asset /users_documents.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users_meetings.js?body=1" for 127.0.0.1 at 2013-06-01 21:24:17 +0100
+Served asset /users_meetings.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-01 21:24:17 +0100
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 21:24:17 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mNote Load (1.0ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1[0m
+  [1m[35mUsersDocument Load (0.0ms)[0m  SELECT "users_documents".* FROM "users_documents" WHERE "users_documents"."user_id" = 1
+  [1m[36mUsersMeeting Load (1.0ms)[0m  [1mSELECT "users_meetings".* FROM "users_meetings" WHERE "users_meetings"."user_id" = 1[0m
+Completed 200 OK in 49ms (Views: 43.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/users/1.json" for 127.0.0.1 at 2013-06-01 21:24:43 +0100
+Processing by UsersController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mNote Load (0.0ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = 1[0m
+  [1m[35mUsersDocument Load (0.0ms)[0m  SELECT "users_documents".* FROM "users_documents" WHERE "users_documents"."user_id" = 1
+  [1m[36mUsersMeeting Load (1.0ms)[0m  [1mSELECT "users_meetings".* FROM "users_meetings" WHERE "users_meetings"."user_id" = 1[0m
+Completed 200 OK in 124ms (Views: 81.0ms | ActiveRecord: 4.0ms)
