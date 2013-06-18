@@ -44,8 +44,8 @@ class MeetingsController < ApplicationController
 
     respond_to do |format|
       if @meeting.save
-        format.html { redirect_to @meeting, notice: 'Meeting was successfully created.' }
-        format.json { render json: @meeting, status: :created, location: @meeting }
+        format.html { redirect_to [@user,@meeting], notice: 'Meeting was successfully created.' }
+        format.json { render json: @meeting, status: :created, location: [@user,@meeting] }
       else
         format.html { render action: "new" }
         format.json { render json: @meeting.errors, status: :unprocessable_entity }
@@ -60,7 +60,7 @@ class MeetingsController < ApplicationController
 
     respond_to do |format|
       if @meeting.update_attributes(params[:meeting])
-        format.html { redirect_to @meeting, notice: 'Meeting was successfully updated.' }
+        format.html { redirect_to [@user,@meeting], notice: 'Meeting was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }
@@ -76,7 +76,7 @@ class MeetingsController < ApplicationController
     @meeting.destroy
 
     respond_to do |format|
-      format.html { redirect_to meetings_url }
+      format.html { redirect_to user_meetings_path(@user) }
       format.json { head :no_content }
     end
   end

@@ -1,0 +1,2 @@
+module SchedulesEventsHelper
+end

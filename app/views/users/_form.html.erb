@@ -16,7 +16,8 @@
   </div>
   <div class="field">
     <%= f.label "Picture" %><br />
-    <%= f.file_field :image %>
+    <%= image_tag(@user.user_photo) if @user.user_photo? %>
+    <%= f.file_field :user_photo %>
   </div>
   <div class="field">
     <%= f.label :email %><br />

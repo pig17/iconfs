@@ -1,31 +1,23 @@
 class Document < ActiveRecord::Base
-  attr_accessible :link, :title
+  attr_accessible :link, :title, :data
 
   has_one :event
   has_many :favourites
   has_many :users_documents
   has_many :users, :through => :users_documents
 
-  validates :link, :presence => true,
+  mount_uploader :data, DocsUploader, mount_on: :link
+
+  # validates :link, :presence => true  #http://res.cloudinary.com/iconfs/docs/ + original_filename
+  validates :data, :presence => true
   validates :title, :presence => true, :uniqueness => true
   #validates :user_id, :presence => true      ALTERAR CASO NAO HAJA DOCUMENTOS SOCIAIS(docs sem autores)
 
-  def to_json(options)
+
+  def as_json(options={})
     super(
-        :only => [:title, :link]
+        :except => [:created_at,:updated_at]
     )
   end
-
-  def self.save(upload)
-    name =  upload['datafile'].original_filename
-    directory = "public/data"
-    # create the file path
-    path = File.join(directory, name)
-    # write the file
-    File.open(path, "wb") { |f| f.write(upload['datafile'].read) }
-  end
-
-
-
 
 end

@@ -11,13 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130531151559) do
-
-  create_table "buildings", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
+ActiveRecord::Schema.define(:version => 20130615154246) do
 
   create_table "days", :force => true do |t|
     t.date     "date"
@@ -30,6 +24,7 @@ ActiveRecord::Schema.define(:version => 20130531151559) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
     t.string   "link"
+    t.binary   "data"
   end
 
   create_table "events", :force => true do |t|
@@ -46,7 +41,7 @@ ActiveRecord::Schema.define(:version => 20130531151559) do
     t.integer  "duration"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
-    t.string   "type"
+    t.string   "eventType"
   end
 
   create_table "favourites", :force => true do |t|
@@ -55,14 +50,6 @@ ActiveRecord::Schema.define(:version => 20130531151559) do
     t.string   "title"
     t.integer  "document_id"
     t.integer  "user_id"
-  end
-
-  create_table "floors", :force => true do |t|
-    t.string   "name"
-    t.integer  "building_id"
-    t.string   "plan_photo"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
   end
 
   create_table "meetings", :force => true do |t|
@@ -84,8 +71,6 @@ ActiveRecord::Schema.define(:version => 20130531151559) do
   end
 
   create_table "pis", :force => true do |t|
-    t.integer  "coordX"
-    t.integer  "coordY"
     t.string   "typePI"
     t.string   "name"
     t.string   "address"
@@ -93,14 +78,14 @@ ActiveRecord::Schema.define(:version => 20130531151559) do
     t.text     "description"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+    t.float    "lat"
+    t.float    "lng"
   end
 
   create_table "rooms", :force => true do |t|
     t.string   "name"
     t.integer  "coordX"
     t.integer  "coordY"
-    t.integer  "event_id"
-    t.integer  "floor_id"
     t.integer  "capacity"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
@@ -123,6 +108,7 @@ ActiveRecord::Schema.define(:version => 20130531151559) do
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "acronym"
   end
 
   create_table "users", :force => true do |t|
@@ -137,21 +123,28 @@ ActiveRecord::Schema.define(:version => 20130531151559) do
     t.string   "homepage"
     t.text     "aboutme"
     t.integer  "meeting_id"
-    t.datetime "created_at",                             :null => false
-    t.datetime "updated_at",                             :null => false
+    t.datetime "created_at",                              :null => false
+    t.datetime "updated_at",                              :null => false
     t.string   "user_photo"
-    t.string   "email",                  :default => "", :null => false
-    t.string   "encrypted_password",     :default => "", :null => false
+    t.string   "email",                   :default => "", :null => false
+    t.string   "encrypted_password",      :default => "", :null => false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
-    t.integer  "sign_in_count",          :default => 0
+    t.integer  "sign_in_count",           :default => 0
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
+    t.string   "authentication_token"
+    t.string   "user_photo_file_name"
+    t.string   "user_photo_content_type"
+    t.integer  "user_photo_file_size"
+    t.datetime "user_photo_updated_at"
+    t.string   "photo_link"
   end
 
+  add_index "users", ["authentication_token"], :name => "index_users_on_authentication_token", :unique => true
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token", :unique => true
 
@@ -167,6 +160,7 @@ ActiveRecord::Schema.define(:version => 20130531151559) do
     t.integer  "meeting_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "status"
   end
 
 end

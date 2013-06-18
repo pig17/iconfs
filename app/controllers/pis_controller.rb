@@ -1,12 +1,14 @@
 class PisController < ApplicationController
+
+  #before_filter :authenticate_user!
   # GET /pis
   # GET /pis.json
   def index
     @pis = Pi.all
-
+    # @user = User.find_by_authentication_token(params[:auth_token])
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render json: @pis }
+      format.json { render json: @pis}
     end
   end
 

@@ -2,17 +2,21 @@ class User < ActiveRecord::Base
   # Include default devise modules. Others available are:
   # :token_authenticatable, :confirmable,
   # :lockable, :timeoutable and :omniauthable
-  devise :database_authenticatable, :registerable,
+  devise :database_authenticatable, :registerable, :token_authenticatable,
          :recoverable, :rememberable, :trackable, :validatable
 
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :password, :password_confirmation, :remember_me
   attr_accessible :aboutme, :available, :contact, :email, :facebook, :homepage,
-                  :institution, :linkedin, :name, :sex, :twitter, :user_photo
+                  :institution, :linkedin, :name, :sex, :twitter, :user_photo, :photo_link
+
+  before_save :ensure_authentication_token
+
+  mount_uploader :user_photo, PhotoUploader, mount_on: :photo_link
 
   has_one :schedule
-  has_many :notes
-  has_many :favourites
+  has_many :notes, :order => "updated_at DESC"
+  has_many :favourites, :order => "updated_at DESC"
   has_many :events
   has_many :users_documents
   has_many :users_meetings
@@ -26,11 +30,8 @@ class User < ActiveRecord::Base
   validates :name, :presence => true
   validates :sex, :presence => true
 
-  def to_json(options={})
+  def as_json(options={})
     super(
-        include:{ notes: {:except => [:created_at, :user_id]} ,
-                  users_documents:{:except => [:created_at, :updated_at, :id]},
-                  users_meetings:{:except => [:created_at, :updated_at, :id]}},
         :except => [:created_at, :updated_at, :meeting_id, :id]
     )
   end

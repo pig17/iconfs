@@ -1,17 +1,14 @@
 class Note < ActiveRecord::Base
-  attr_accessible :shared, :text, :title, :user_id
+  attr_accessible :shared, :text, :title, :user_id, :updated_at
 
-  belongs_to :user, :foreign_key => :user_id
+  belongs_to :user
 
-  validates :title, :presence=>true, :uniqueness=>true
-  validates :user_id, :presence=>true, :uniqueness=>true
-  validates :shared, :presence=>true
-  validates :text, :presence=>true
+  validates :title, :user_id, :presence=>true
+  validates_uniqueness_of :user_id, :scope => :title
 
-  def to_json(options)
-    super(
-        :only => [:title, :shared, :text]
-    )
-   end
-
+  def as_json(options={})
+  super(
+     :except => [:created_at]
+  )
+  end
 end

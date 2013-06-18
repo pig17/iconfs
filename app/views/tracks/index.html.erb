@@ -7,6 +7,7 @@
 <table>
   <tr>
     <th>Name</th>
+    <th>Acronym</th>
     <th></th>
     <th></th>
     <th></th>
@@ -15,6 +16,7 @@
 <% @tracks.each do |track| %>
   <tr>
     <td><%= track.name %></td>
+    <td><%= track.acronym %></td>
     <td><%= link_to 'Show', track %></td>
     <td><%= link_to 'Edit', edit_track_path(track) %></td>
     <td><%= link_to 'Destroy', track, method: :delete, data: { confirm: 'Are you sure?' } %></td>

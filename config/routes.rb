@@ -1,65 +1,37 @@
 Iconfs::Application.routes.draw do
 
-  devise_for :users, :controllers => {registrations: 'registrations'}
+
+  devise_for :users, :controllers => {registrations: 'registrations', sessions: 'sessions'}
 
   resources :schedules_events
 
-
-  resources :users_meetings
-
-
-  resources :users_documents
-
-
   resources :days
-
 
   resources :tracks
 
-
-  resources :buildings
-
-
-  resources :floors
-
-
-  resources :meetings
-
-
-  resources :favourites
-
-
-  resources :schedules
-
+  resources :rooms
 
   get 'admin/inipage'
 
   resources :pis
 
-
-  resources :rooms
-
-
   resources :events
 
-
-  resources :events
-
+  resources :users do
+    resources :notes, :controller => "notes"
+    resources :favourites, :controller =>"favourites"
+    resources :users_meetings, :controller => "users_meetings"
+  end
 
   resources :documents
+  resources :users_documents
+  resources :schedules
+  resources :meetings
 
-
-  resources :users
-
-
-  resources :notes
-
-
-  resources :events
-
-
-  resources :users
-
+  #resources :notes
+  #resources :documents
+  #resources :favourites
+  #resources :schedules
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

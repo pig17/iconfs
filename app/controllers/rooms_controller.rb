@@ -6,7 +6,7 @@ class RoomsController < ApplicationController
 
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render json: @rooms}#.to_json(:include => { :floor => { :include => :building } })  }
+      format.json { render json: @rooms}
     end
   end
 

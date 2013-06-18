@@ -1,6 +1,13 @@
 <p id="notice"><%= notice %></p>
 
 <p>
+  <%= link_to 'Notes', user_notes_path(@user) %>
+</p>
+<p>
+  <%= link_to 'Favourites', user_favourites_path(@user) %>
+</p>
+
+<p>
   <b>Name:</b>
   <%= @user.name %>
 </p>

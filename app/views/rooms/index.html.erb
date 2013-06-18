@@ -9,8 +9,6 @@
     <th>Coordx</th>
     <th>Coordy</th>
     <th>Capacity</th>
-    <th>Floor</th>
-    <th>Building</th>
     <th></th>
     <th></th>
   </tr>
@@ -21,8 +19,6 @@
     <td><%= room.coordX %></td>
     <td><%= room.coordY %></td>
     <td><%= room.capacity %></td>
-    <td><%= room.floor.name %></td>
-    <td><%= room.floor.building.name %></td>
     <td><%= link_to 'Show', room %></td>
     <td><%= link_to 'Edit', edit_room_path(room) %></td>
     <td><%= link_to 'Destroy', room, method: :delete, data: { confirm: 'Are you sure?' } %></td>

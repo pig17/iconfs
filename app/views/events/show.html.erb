@@ -7,17 +7,17 @@
 
 <p>
   <b>Time:</b>
-  <%= @event.time %>
+  <%= @event.day_date%> -- <%= @event.time.hour %>:<%= @event.time.min %>
 </p>
 
 <p>
-  <% track = Track.find(@event.track_id)%>
+  <% track = @event.track_name%>
   <b>Track:</b>
   <%= track %>
 </p>
 
 <p>
-  <% room = Room.find(@event.room_id)%>
+  <% room = @event.room.name%>
   <b>Room:</b>
   <%= room %>
 </p>

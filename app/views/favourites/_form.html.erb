@@ -1,4 +1,4 @@
-<%= form_for(@favourite) do |f| %>
+<%= form_for([@user,@favourite]) do |f| %>
   <% if @favourite.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@favourite.errors.count, "error") %> prohibited this favourite from being saved:</h2>
@@ -10,6 +10,16 @@
       </ul>
     </div>
   <% end %>
+
+   <div class="field">
+      <%= f.label :title %><br />
+      <%= f.text_field :title %>
+   </div>
+
+  <div class="field">
+    <%= f.label :document_id %><br />
+    <%= f.collection_select :document_id, Document.all, :id, :title %>
+  </div>
 
   <div class="actions">
     <%= f.submit %>

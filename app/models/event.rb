@@ -1,5 +1,5 @@
 class Event < ActiveRecord::Base
-  attr_accessible :time, :title, :duration, :type
+  attr_accessible :time, :title, :duration, :eventType, :description, :user_id, :day_id, :track_id, :room_id, :document_id
 
   belongs_to :room
   belongs_to :document
@@ -12,13 +12,10 @@ class Event < ActiveRecord::Base
   validates :time, :presence => true
   validates :title, :presence => true
   validates :duration, :presence => true
-  validates :type, :presence => true
+  validates :eventType, :presence => true
   validates :room_id, :presence => true
   #validates :document_id, :presence => true, :if => type != "social"  ALTERAR CASO NAO SE PERMITA QUE EV SOCIAIS TENHAM DOCUMENTOS
   validates :day_id, :presence => true
-
-  # User is always one of the authors
-  validate :speaker_is_an_author
 
   # Type must be one of the default set
   validate :correct_type
@@ -30,38 +27,51 @@ class Event < ActiveRecord::Base
   validates_uniqueness_of :title, :scope => :track_id
 
 
-  def speaker_is_an_author
-    unless self.document.users.all.include? self.user
-      errors.add(:user_id, "speaker must be an author")
-    end
-  end
-
   def correct_type
-    unless ["keynote","workshop","paper presentation","poster presentation","social"].include? self.type
+    unless ["Keynote","Workshop","General","Social"].include? self.eventType
       errors.add(:type, "incorrect type")
     end
   end
 
-def as_json(options)
+
+def as_json(options={})
     {
-        :event => name,
-        :duration => duration,
-        :track  => {:name => nome_da_track},
-        :day => day,
-        :time => time,
-        :users => {:name => authors_name},
-        :description => description,
-        :document => { :link => document.link }
+        :title => self.title,
+        :duration => self.duration,
+        :time => self.time,
+        #:users => {:name => speaker_name},
+        :description => self.description,
+        #:document => { :link => document_link }
 
     }
+end
+
+  def track_name
+    if self.track.blank? then
+      "none"
+    else
+      Track.find(track_id).name
+    end
   end
 
-  def nome_da_track
-    self.track.name
+  def day_date
+    self.day.date
   end
 
-  def authors_name
-    self.document.users.name
+  def speaker_name
+    if self.user.blank? then
+         "none"
+    else
+         self.user.name
+    end
+  end
+
+  def document_link
+    if self.document.blank? then
+      "none"
+    else
+      self.document.link
+    end
   end
 
 end

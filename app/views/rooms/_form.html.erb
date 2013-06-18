@@ -27,11 +27,6 @@
      <%= f.label :capacity %><br />
      <%= f.number_field :capacity %>
   </div>
-
-  <div class="field">
-    <%= f.label :floor_id %><br />
-    <%= f.collection_select :floor_id, Floor.all, :id, :name %>
-  </div>
   <div class="actions">
     <%= f.submit %>
   </div>

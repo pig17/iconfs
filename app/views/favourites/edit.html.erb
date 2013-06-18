@@ -2,5 +2,5 @@
 
 <%= render 'form' %>
 
-<%= link_to 'Show', @favourite %> |
-<%= link_to 'Back', favourites_path %>
+<%= link_to 'Show', user_favourite_path(@user, @favourite) %> |
+<%= link_to 'Back', user_favourites_path %>

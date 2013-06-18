@@ -1,6 +1,6 @@
 <h1>Listing favourites</h1>
 
-<%= link_to 'New Favourite', new_favourite_path %> || <%= link_to 'Home', "/" %>
+<%= link_to 'New Favourite', new_user_favourite_path(@user) %> || <%= link_to 'Back', user_path(@user) %>
 
 <br />
 
@@ -13,9 +13,9 @@
 
 <% @favourites.each do |favourite| %>
   <tr>
-    <td><%= link_to 'Show', favourite %></td>
-    <td><%= link_to 'Edit', edit_favourite_path(favourite) %></td>
-    <td><%= link_to 'Destroy', favourite, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Show', user_favourite_path(@user, favourite) %></td>
+    <td><%= link_to 'Edit', edit_user_favourite_path(@user, favourite) %></td>
+    <td><%= link_to 'Destroy', [@user,favourite], method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>

@@ -15,32 +15,36 @@
     <%= f.text_field :title %>
   </div>
   <div class="field">
-    <%= f.label :session %><br />
-    <%= f.check_box :session %>
+    <%= f.label :evenType %><br />
+    <%= f.select :eventType, ["Keynote","Workshop","General","Social"] %>
   </div>
   <div class="field">
     <%= f.label :day_id %><br />
-    <%= f.select :date_id, Day.all.map{|d| [d.date, d.id]} %>
+    <%= f.collection_select :day_id, Day.all, :id, :date %>
   </div>
   <div class="field">
     <%= f.label :time %><br />
     <%= f.time_select :time %>
   </div>
   <div class="field">
+    <%= f.label :duration %><br />
+    <%= f.text_field :duration %>
+  </div>
+  <div class="field">
     <%= f.label :track_id %><br />
-    <%= f.select :track_id, Track.all.map{|t| [t.name, t.id]} %>
+    <%= f.collection_select :track_id, Track.all, :id, :name ,{:include_blank => ''}%>
   </div>
   <div class="field">
     <%= f.label :room_id %><br />
-    <%= f.select :room_id, Room.all.map{|r| [r.local, r.id]} %>
+    <%= f.collection_select :room_id, Room.all, :id, :name  %>
   </div>
   <div class="field">
     <%= f.label :user_id %><br />
-    <%= f.select :user_id, User.all.map{|u| [u.name, u.id]} %>
+    <%= f.collection_select :user_id, User.all, :id, :name, {:include_blank => ''} %>
   </div>
   <div class="field">
     <%= f.label :document_id %><br />
-    <%= f.select :document_id, Document.all.map{|d| [d.title, d.id]} %>
+    <%= f.collection_select :document_id, Document.all, :id, :title, {:include_blank => ''}  %>
   </div>
   <div class="field">
     <%= f.label :description %><br />

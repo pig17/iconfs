@@ -12,16 +12,16 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :coordX %><br />
-    <%= f.number_field :coordX %>
+    <%= f.label :lat %><br />
+    <%= f.text_field :lat %>
   </div>
   <div class="field">
-    <%= f.label :coordY %><br />
-    <%= f.number_field :coordY %>
+    <%= f.label :lng %><br />
+    <%= f.text_field :lng %>
   </div>
   <div class="field">
     <%= f.label :typePI %><br />
-    <%= f.text_field :typePI %>
+    <%= f.select :typePI, ["Restaurant","Hotel","Bar","Transport","Parking","Conference","Historic Site"]%>
   </div>
   <div class="field">
     <%= f.label :name %><br />

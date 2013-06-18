@@ -1,0 +1,21 @@
+<h1>Listing users_documents</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @users_documents.each do |users_document| %>
+  <tr>
+    <td><%= link_to 'Show', users_document %></td>
+    <td><%= link_to 'Edit', edit_users_document_path(users_document) %></td>
+    <td><%= link_to 'Destroy', users_document, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Users document', new_users_document_path %>

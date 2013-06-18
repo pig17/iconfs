@@ -1,6 +1,6 @@
 <h1>Listing notes</h1>
 
-<%= link_to 'New Note', new_note_path %>  || <%= link_to 'Home', "/" %>
+<%= link_to 'New Note', new_user_note_path(@user) %>  || <%= link_to 'Back', user_path(@user) %>
 <br />
 
 <table>
@@ -18,9 +18,9 @@
     <td><%= note.title %></td>
     <td><%= note.shared %></td>
     <td><%= note.text %></td>
-    <td><%= link_to 'Show', note %></td>
-    <td><%= link_to 'Edit', edit_note_path(note) %></td>
-    <td><%= link_to 'Destroy', note, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Show', user_note_path(@user, note) %></td>
+    <td><%= link_to 'Edit', edit_user_note_path(@user, note) %></td>
+    <td><%= link_to 'Destroy', [@user, note], method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>

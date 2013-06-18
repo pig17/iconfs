@@ -7,8 +7,8 @@
 
 <table>
   <tr>
-    <th>Coordx</th>
-    <th>Coordy</th>
+    <th>Latitude</th>
+    <th>Longitude</th>
     <th>Type</th>
     <th>Name</th>
     <th>Address</th>
@@ -21,8 +21,8 @@
 
 <% @pis.each do |pi| %>
   <tr>
-    <td><%= pi.coordX %></td>
-    <td><%= pi.coordY %></td>
+    <td><%= pi.lat %></td>
+    <td><%= pi.lng %></td>
     <td><%= pi.typePI %></td>
     <td><%= pi.name %></td>
     <td><%= pi.address %></td>
